@@ -1,0 +1,19 @@
+name: Deploy on Github Pages
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+
+jobs:
+  deploy:
+
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Deploy Content
+      run: publish deploy
