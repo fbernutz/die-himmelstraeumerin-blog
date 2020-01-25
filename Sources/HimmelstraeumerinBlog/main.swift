@@ -27,7 +27,6 @@ try HimmelstraeumerinBlog().publish(
         .addMarkdownFiles(),
         .copyResources(),
         .generateHTML(withTheme: .himmelstraeumerin, indentation: .tabs(2)),
-        .generateSiteMap(),
-        .deploy(using: .gitHub("fbernutz/fbernutz.github.io"))
+        .generateSiteMap()
     ]
 )
