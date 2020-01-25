@@ -28,6 +28,6 @@ try HimmelstraeumerinBlog().publish(
         .copyResources(),
         .generateHTML(withTheme: .himmelstraeumerin, indentation: .tabs(2)),
         .generateSiteMap(),
-        .deploy(using: .gitHub("fbernutz/publish-deploy-test"))
+        .deploy(using: .gitHub("fbernutz/fbernutz.github.io"))
     ]
 )
