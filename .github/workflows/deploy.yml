@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-18.04
 
     steps:
     - name: Checkout
