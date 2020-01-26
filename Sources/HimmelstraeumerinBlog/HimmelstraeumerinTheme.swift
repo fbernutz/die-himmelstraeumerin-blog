@@ -66,6 +66,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .header(for: context, selectedSection: item.sectionID),
                     .wrapper(
                         .article(
+                            .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
                             .div(
                                 .class("content"),
                                 .contentBody(item.body)
@@ -176,7 +177,7 @@ private extension Node where Context == HTML.BodyContext {
             .class("item-list"),
             .forEach(items) { item in
                 .li(.article(
-                    .p(.class("release-date"), .text("\(item.date.formatted)")),
+                    .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
                     .h1(.a(
                         .href(item.path),
                         .text(item.title)

@@ -47,6 +47,15 @@
         }
       },
       {
+        "package": "ReadingTimePublishPlugin",
+        "repositoryURL": "https://github.com/alexito4/ReadingTimePublishPlugin",
+        "state": {
+          "branch": null,
+          "revision": "573995d5c4eba96eafe1fe0cb70e55a82d946eb8",
+          "version": "0.1.0"
+        }
+      },
+      {
         "package": "ShellOut",
         "repositoryURL": "https://github.com/johnsundell/shellout.git",
         "state": {

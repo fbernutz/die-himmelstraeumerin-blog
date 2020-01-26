@@ -2,6 +2,7 @@ import Foundation
 import Publish
 import Plot
 import SplashPublishPlugin
+import ReadingTimePublishPlugin
 
 // This type acts as the configuration for your website.
 struct HimmelstraeumerinBlog: Website {
@@ -25,6 +26,7 @@ try HimmelstraeumerinBlog().publish(
     using: [
         .installPlugin(.splash(withClassPrefix: "splash")),
         .addMarkdownFiles(),
+        .installPlugin(.readingTime()),
         .copyResources(),
         .generateHTML(withTheme: .himmelstraeumerin, indentation: .tabs(2)),
         .generateSiteMap()
