@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/johnsundell/ink.git",
         "state": {
           "branch": null,
-          "revision": "c88bbce588a1ebfde2cf4d61eb9865a3edaa27d4",
-          "version": "0.2.0"
+          "revision": "a9a1a0190aaacc9058a2bfbdcd831785eac26f43",
+          "version": "0.3.0"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/johnsundell/publish.git",
         "state": {
           "branch": null,
-          "revision": "c1bde99ec71f992cbe7dec6310759b14258567a8",
-          "version": "0.3.0"
+          "revision": "ff50bdcc154efd89a16eb7006182e7d70ef38aff",
+          "version": "0.4.0"
         }
       },
       {
