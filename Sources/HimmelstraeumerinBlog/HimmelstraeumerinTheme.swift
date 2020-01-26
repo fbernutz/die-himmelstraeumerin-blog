@@ -203,13 +203,15 @@ private extension Node where Context == HTML.BodyContext {
                 .a(
                     .text("Publish"),
                     .href("https://github.com/johnsundell/publish"),
-                    .target(.blank)
+                    .target(.blank),
+                    .rel(.noreferrer)
                 ),
                 .text(". This site is "),
                 .a(
                     .text("open source"),
                     .href("https://github.com/fbernutz/fbernutz.github.io"),
-                    .target(.blank)
+                    .target(.blank),
+                    .rel(.noreferrer)
                 ),
                 .text(".")
             ),
@@ -217,26 +219,29 @@ private extension Node where Context == HTML.BodyContext {
                 .a(
                     .text("Twitter"),
                     .href("https://twitter.com/felibe444"),
-                    .target(.blank)
+                    .target(.blank),
+                    .rel(.noreferrer)
                 ),
                 .text(" | "),
                 .a(
                     .text("GitHub"),
                     .href("https://github.com/fbernutz"),
-                    .target(.blank)
+                    .target(.blank),
+                    .rel(.noreferrer)
                 ),
                 .text(" | "),
                 .a(
                     .text("Instagram"),
                     .href("https://www.instagram.com/diehimmelstraeumerin/"),
                     .target(.blank),
-                    .rel(.nofollow)
+                    .rel(.noreferrer)
                 ),
                 .text(" | "),
                 .a(
                     .text("Flickr"),
                     .href("https://www.flickr.com/photos/feli_93/"),
-                    .target(.blank)
+                    .target(.blank),
+                    .rel(.noreferrer)
                 )
             )
         )
