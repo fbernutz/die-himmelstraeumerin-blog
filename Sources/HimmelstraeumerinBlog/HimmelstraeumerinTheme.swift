@@ -209,7 +209,7 @@ private extension Node where Context == HTML.BodyContext {
                 .text(". This site is "),
                 .a(
                     .text("open source"),
-                    .href("https://github.com/fbernutz/fbernutz.github.io"),
+                    .href("https://github.com/fbernutz/die-himmelstraeumerin-blog"),
                     .target(.blank),
                     .rel(.noreferrer)
                 ),
