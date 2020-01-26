@@ -46,11 +46,11 @@ There are two steps for this:
 
 To migrate this to GitHub Actions, I started with tapping on the "Actions" tap in the repository. 
 
-<img src="../../images/github-actions/github-actions-tab.png" alt="A screenshot of the tabs in a repository of GitHub, where "Actions" is highlighted." />
+<img src="../../images/github-actions/github-actions-tab.jpg" alt="A screenshot of the tabs in a repository of GitHub, where "Actions" is highlighted." />
 
 It will create a new file for you `.github/workflows/<name>.yml` with a editor. On the left there is a preview of the most important documentations to understand the syntax and a link to featured marketplace actions. 
 
-<img src="../../images/github-actions/github-actions-editor.png" alt="A screenshot of the GitHub Actions editor." />
+<img src="../../images/github-actions/github-actions-editor.jpg" alt="A screenshot of the GitHub Actions editor." />
 
 This editor is helpful (sometimes), because it checks for valid syntax, but it can also be a pain. When you want to add a new line between existing code there are some autocompletion actions and it adds some syntax for you. I'm always suprised when this happens. 
 
@@ -115,7 +115,7 @@ And when you have added the jobs in the new file, you can delete your `.travis.y
 
 When you add a new pull request for the migration, you'll see, that all jobs are directly displayed in the pull request.
 
-<img src="../../images/github-actions/checks.png" alt="Two screenshots, one where you can only see one check (from Travis CI) and one where you can see three checks which ran with GitHub Actions." /> 
+<img src="../../images/github-actions/checks.jpg" alt="Two screenshots, one where you can only see one check (from Travis CI) and one where you can see three checks which ran with GitHub Actions." /> 
 
 #### Speed
 

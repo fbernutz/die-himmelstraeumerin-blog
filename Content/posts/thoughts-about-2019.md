@@ -212,4 +212,4 @@ Top 3 words in commit messages (ignoring words up to three letters)
 
 That's it! See you in 2020 and happy new year 🙂
 
-<p><img src="../../images/thoughts-about-2019/2020-fireworks.JPG" alt="Exploding fireworks through a half opened window" /></p>
+<p><img src="../../images/thoughts-about-2019/2020-fireworks.jpg" alt="Exploding fireworks through a half opened window" /></p>

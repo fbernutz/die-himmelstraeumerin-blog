@@ -20,26 +20,10 @@ I observed closely how she interacted with her new phone. It was nearly impossib
 
 The first thing we did, was to scale up the system font size, and we realized that even the Android system itself is not fully optimized for accessibility.
 
-<table>
-    <tr>
-        <figure>
-            <td>
-                <figure>
-                    <img 
-                    src="../../images/building-apps-for-everyone/example1.JPG" 
-                    alt="Screenshot of an Android Smartphone where the font size is enlarged and half of the text is not readable because it's trimmed">
-                </figure>
-            </td>
-            <td>
-                <figure>
-                    <img src="../../images/building-apps-for-everyone/example2.JPG" 
-                    alt="Another screenshot of an Android Smartphone where the font size is enlarged and half of the text is not readable because it's trimmed">
-                </figure>
-            </td>
-            <figcaption>It’s impossible to understand what’s going on when some of the text is not visible.</figcaption>
-        </figure>
-    </tr>
-</table>
+<figure>
+    <img  src="../../images/building-apps-for-everyone/example.jpg"  alt="Screenshot of an Android Smartphone where the font size is enlarged and half of the text is not readable because it's trimmed">
+    <figcaption>Screenshot of an Android Smartphone where the font size is enlarged and half of the text is not readable because it's trimmed</figcaption>
+</figure>
 
 One might think that increasing the system font size that much is a rare use case. And some people might even say, that this would only be relevant for less than about 5% of their product’s target group. It would not be worth the money to build something only for these few people, so they can be ignored! Right?
 
@@ -56,7 +40,7 @@ People move in different environments. So, there are also **situational** disabi
 > “Accessibility is not just about making information available to users with disabilities — it’s about making information available to everyone, regardless of their capabilities or situation.” — Apple
 
 <figure>
-    <img src="../../images/building-apps-for-everyone/inclusive-toolkit.png" alt="A diagram with Permanent, Temporary and Situational columns and examples for Touch, See and Hear." />
+    <img src="../../images/building-apps-for-everyone/inclusive-toolkit.jpg" alt="A diagram with Permanent, Temporary and Situational columns and examples for Touch, See and Hear." />
     <figcaption>Microsoft uses the "<a href="https://www.microsoft.com/design/inclusive/">Persona Spectrum</a>" to help foster empathy.</figcaption>
 </figure>
 
@@ -71,7 +55,7 @@ Apple is really good in supporting users with accessibility features. But Androi
 [Voice Over](https://www.apple.com/de/accessibility/iphone/vision/) is a gesture-based screen reader. You can navigate through elements on the screen by swiping to the right to focus the next element.
 
 <figure>
-    <img src="../../images/building-apps-for-everyone/voice-over.png" alt="A screenshot of an app where a cell is selected by voice over and a speech bubble with the text which is read by voice over." />
+    <img src="../../images/building-apps-for-everyone/voice-over.jpg" alt="A screenshot of an app where a cell is selected by voice over and a speech bubble with the text which is read by voice over." />
     <figcaption>Voice Over reads content aloud, like “The Hustle, 6.5 of 10, released on May 10, 2019”.</figcaption>
 </figure>
 
@@ -86,7 +70,7 @@ Turn on [Speak Screen](https://www.apple.com/accessibility/iphone/learning/) and
 You can also select text to be read aloud for you with a “Speak” button. This is extremely useful for people who find it easier to listen to a voice rather than read a text.
 
 <figure>
-    <img src="../../images/building-apps-for-everyone/speak.jpeg" alt="A screenshot of the popover which appears when you select text and where you can activate "Speak" to read out aloud the selected text." />
+    <img src="../../images/building-apps-for-everyone/speak.jpg" alt="A screenshot of the popover which appears when you select text and where you can activate "Speak" to read out aloud the selected text." />
     <figcaption>With Reading Support, text can be read aloud for you.</figcaption>
 </figure>
 
@@ -128,7 +112,7 @@ Some people suffer from motion sickness, therefore it is important to reduce ani
 Even if you can’t move from the neck down, you can fully control your phone.
 
 <figure>
-    <img src="../../images/building-apps-for-everyone/accessibility-settings.png" alt="The list of accessibility settings in iOS 12" />
+    <img src="../../images/building-apps-for-everyone/accessibility-settings.jpg" alt="The list of accessibility settings in iOS 12" />
     <figcaption>The list of accessibility settings in iOS 12 — it’s long.</figcaption>
 </figure>
 
