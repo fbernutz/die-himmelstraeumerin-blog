@@ -16,7 +16,7 @@ struct HimmelstraeumerinBlog: Website {
 
     // Update these properties to configure your website:
     var url = URL(string: "https://fbernutz.github.io")!
-    var name = "Die Himmels&shy;traeumerin"
+    var name = "#diehimmels&shy;traeumerin"
     var description = "iOS dev • sketchnoting • photography • accessibility • pineapple on pizza • lioness • she/her"
     var language: Language { .english }
     var imagePath: Path? { nil }
