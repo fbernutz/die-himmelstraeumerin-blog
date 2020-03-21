@@ -39,7 +39,6 @@ header {
 header .wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
     color: white;
 }
 
@@ -48,8 +47,9 @@ header a {
 }
 
 header p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 1.2em;
+    line-height: 1.5em;
     text-shadow: 0.08em 0.08em #1a1a1a9e;
     color: #fcfdff;
 }
