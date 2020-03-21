@@ -139,7 +139,7 @@ a {
 
 article p {
     font-size: 1.05em;
-    line-height: 1.5;
+    line-height: 1.5em;
     margin-bottom: 0.7em;
 }
 
@@ -154,7 +154,7 @@ article hr {
 article li {
     margin: 10px 0px 10px 10px;
     font-size: 1.05em;
-    line-height: 1;
+    line-height: 1.5em;
 }
 
 article ul, ol {
