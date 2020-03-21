@@ -64,7 +64,7 @@ header nav {
     display: inline-block;
     margin-top: 20px;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -76,23 +76,20 @@ header nav ul {
 
 header nav li {
     display: inline-block;
-    border-right: .15em solid #cb1818;
 }
 
-header nav li:last-child {
-    border-right:none;
-}
-
-header nav a {
+header nav li a {
     display: block;
-    color: #cb1818;
-    padding: 0 15px;
-    line-height: 35px;
+    color: #122869;
+    padding: 0 10px;
+    line-height: 30px;
+    border-bottom: .15em solid transparent;
+    margin: .5em;
 }
 
-header nav li.selected a {
-    color: #fff;
-    background-color: #9C9E9E;
+header nav a:hover,
+header nav li a.selected {
+    border-color: #122869;
 }
 
 h1 {
@@ -120,6 +117,19 @@ a {
     margin-bottom: 40px;
 }
 
+.grid {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.grid.posts {
+    grid-template-columns: repeat(1, 2fr);
+}
+
+.grid.sketchnotes {
+    grid-template-columns: repeat(4, 2fr);
+}
+
 .item-list > li {
     display: block;
     padding: 20px;
@@ -128,9 +138,9 @@ a {
     background-color: #eee;
 }
 
-.item-list > li:last-child {
-    margin-bottom: 0;
-}
+/*.item-list > li:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 .item-list h1 {
     margin-bottom: 15px;
