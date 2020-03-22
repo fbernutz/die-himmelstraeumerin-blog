@@ -187,6 +187,7 @@ article img {
     margin: 1em 0;
     width: 100%;
     height: auto;
+    border: .05em solid #eee;
 }
 
 article blockquote {
