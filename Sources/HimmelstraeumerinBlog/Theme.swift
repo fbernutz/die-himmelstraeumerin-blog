@@ -61,7 +61,14 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .header(for: context, selectedSection: section.id),
                     .wrapper(
                         .h1(.text(section.title)),
-                        .itemList(for: section.items, on: context.site)
+                        .itemList(
+                            for: Array(
+                                context.allItems(
+                                    sortedBy: \.date,
+                                    order: .descending
+                                ).filter { $0.sectionID == section.id }
+                            ),
+                            on: context.site)
                     ),
                     .footer(for: context.site)
                 )
