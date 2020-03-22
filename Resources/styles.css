@@ -130,17 +130,29 @@ a {
     grid-template-columns: repeat(4, 2fr);
 }
 
-.item-list > li {
+.item-list-item {
     display: block;
-    padding: 20px;
     margin-bottom: 20px;
+}
+
+.item-list-item.sketchnotes:hover {
+    opacity: 0.3;
+}
+
+.sketchnote-item > img {
+    border: .15em solid #eee;
+    padding: 5px;
+}
+
+.item-list-item.posts {
+    padding: 20px;
     border-radius: 20px;
     background-color: #eee;
 }
 
-/*.item-list > li:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
+.item-list.posts > li:last-child {
+    margin-bottom: 0;
+}
 
 .item-list h1 {
     margin-bottom: 15px;

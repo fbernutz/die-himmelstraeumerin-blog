@@ -19,6 +19,7 @@ extension Node where Context == HTML.BodyContext {
                     .class("item-list grid posts"),
                     .forEach(postItems) { item in
                         .li(
+                            .class("item-list-item posts"),
                             .blogPostItem(item)
                         )
                     }
@@ -29,6 +30,7 @@ extension Node where Context == HTML.BodyContext {
                     .class("item-list grid sketchnotes"),
                     .forEach(sketchnoteItems) { item in
                         .li(
+                            .class("item-list-item sketchnotes"),
                             .sketchnoteItem(item)
                         )
                     }
@@ -41,7 +43,8 @@ extension Node where Context == HTML.BodyContext {
 private extension Node where Context == HTML.BodyContext {
     static func blogPostItem(_ item: Item<HimmelstraeumerinBlog>) -> Self {
         return .article(
-            .p(.class("release-date"),
+            .p(
+                .class("release-date"),
                .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")
             ),
             .h1(
@@ -58,13 +61,15 @@ private extension Node where Context == HTML.BodyContext {
         return .article(
             .if(item.imagePath != nil,
                 .a(
+                    .class("sketchnote-item"),
                     .href(item.path),
                     .img(.src(item.imagePath!))
                 ),
                 //TODO: ensure that a sketchnote item has an imagePath
                 else: .a(
+                    .class("sketchnote-item"),
                     .href(item.path),
-                    .text(item.title)
+                    .p(.text(item.title))
                 )
             )
         )
