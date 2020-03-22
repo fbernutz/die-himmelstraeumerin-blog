@@ -1,9 +1,14 @@
 ---
 date: 2019-12-30 22:10
-description: ![sketchnote about visual design accessibility](../images/wwdc19-visual-design-accessibility.jpg)
+description: sketchnote about visual design accessibility
 tags: sketchnote, wwdc-19, accessibility, iOS
-image: ../../images/sketchnotes/wwdc19-visual-design-accessibility.jpg
+image: ../../images/sketchnotes/wwdc19-visual-design-accessibility-small.jpg
 ---
+
 # WWDC 2019 - Visual Design Accessibility
 
-<p><img src="../../images/sketchnotes/wwdc19-visual-design-accessibility.jpg"/></a></p>
+<p>
+  <a href="../../images/sketchnotes/wwdc19-visual-design-accessibility.jpg"  target="_blank">
+    <img src="../../images/sketchnotes/wwdc19-visual-design-accessibility.jpg"/>
+  </a>
+</p>
