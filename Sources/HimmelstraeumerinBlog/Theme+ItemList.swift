@@ -74,8 +74,7 @@ private extension Node where Context == HTML.BodyContext {
                 .href(item.path),
                 .img(
                     .src(item.imagePath!),
-                    //TODO: add alt text in .md
-                    .alt("")
+                    .alt(item.description)
                 )
             ),
             .i(.style("padding-bottom:\(calculatedPaddingBottom)%")),
