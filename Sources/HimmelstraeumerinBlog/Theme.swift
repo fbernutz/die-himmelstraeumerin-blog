@@ -97,7 +97,17 @@ extension Theme where Site == HimmelstraeumerinBlog {
                             else: .article(
                                 .div(
                                     .class("content"),
-                                    .contentBody(item.body)
+                                    .contentBody(item.body),
+                                    .p(
+                                        .a(
+                                            .href(item.imagePath?.absoluteString.originalImagePath ?? ""),
+                                            .target(.blank),
+                                            .img(
+                                                .src(item.imagePath?.absoluteString.originalImagePath ?? ""),
+                                                .alt(item.description)
+                                            )
+                                        )
+                                    )
                                 ),
                                 .span("Tagged with: "),
                                 .tagList(for: item, on: context.site)
