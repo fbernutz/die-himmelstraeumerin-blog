@@ -62,7 +62,7 @@ private extension Node where Context == HTML.BodyContext {
     static func sketchnoteItem(_ item: Item<HimmelstraeumerinBlog>) -> Self {
         //TODO: ensure that a sketchnote item has an imagePath
         let imagePath = item.imagePath!.absoluteString
-        let absolutePath = imagePath.replacingOccurrences(of: "/../..", with: "Resources")
+        let absolutePath = imagePath.resolvedRelativePath
 
         let imageDimension = try! shellOut(to: .identifyImageDimension(imagePath: absolutePath))
         let image = Image(with: imageDimension)
