@@ -5,8 +5,10 @@
 //  Created by Felizia Bernutz on 22.03.20.
 //
 
+import Foundation
 import Publish
 import Plot
+import ShellOut
 
 extension Node where Context == HTML.BodyContext {
     static func itemList(for items: [Item<HimmelstraeumerinBlog>], on site: HimmelstraeumerinBlog) -> Node {
@@ -58,18 +60,23 @@ private extension Node where Context == HTML.BodyContext {
     }
 
     static func sketchnoteItem(_ item: Item<HimmelstraeumerinBlog>) -> Self {
+        //TODO: ensure that a sketchnote item has an imagePath
+        let imagePath = item.imagePath!.absoluteString
+        let absolutePath = imagePath.replacingOccurrences(of: "/../..", with: "Resources")
+
+        let imageDimension = try! shellOut(to: .identifyImageDimension(imagePath: absolutePath))
+        let image = Image(with: imageDimension)
+
         return .article(
-            .if(item.imagePath != nil,
-                .a(
-                    .class("sketchnote-item"),
-                    .href(item.path),
+            .a(
+                .class("sketchnote-item"),
+                .href(item.path),
+                .div(
+                    .style("""
+                        width:{{\(image.width)*200/\(image.height)}}px;
+                        flex-grow:{{\(image.width)*200/\(image.height)}}
+                        """),
                     .img(.src(item.imagePath!))
-                ),
-                //TODO: ensure that a sketchnote item has an imagePath
-                else: .a(
-                    .class("sketchnote-item"),
-                    .href(item.path),
-                    .p(.text(item.title))
                 )
             )
         )

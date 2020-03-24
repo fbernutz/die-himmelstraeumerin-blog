@@ -117,17 +117,22 @@ a {
     margin-bottom: 40px;
 }
 
-.grid {
+.grid.posts {
     display: grid;
     grid-gap: 15px;
-}
-
-.grid.posts {
     grid-template-columns: repeat(1, 2fr);
 }
 
 .grid.sketchnotes {
-    grid-template-columns: repeat(4, 2fr);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    flex-grow: 1;
+}
+
+.grid.sketchnotes img {
+    width: auto;
+    height: 200px;
 }
 
 .item-list-item {
