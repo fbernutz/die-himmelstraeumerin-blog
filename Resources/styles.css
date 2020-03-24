@@ -126,7 +126,7 @@ a {
 .grid.sketchnotes {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .grid.sketchnotes::after {
@@ -135,7 +135,7 @@ a {
 }
 
 .item.sketchnotes {
-    margin: 10px;
+    margin: 10px 10px 0 0;
     position: relative;
     display: block;
 }
