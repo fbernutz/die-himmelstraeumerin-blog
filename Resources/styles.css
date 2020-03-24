@@ -24,6 +24,8 @@ body {
     text-align: left;
 }
 
+/* HEADER */
+
 header {
     background-image: linear-gradient(
     to bottom,
@@ -92,6 +94,8 @@ header nav li a.selected {
     border-color: #122869;
 }
 
+/* TEXT */
+
 h1 {
     margin-bottom: 20px;
     font-size: 2em;
@@ -117,52 +121,67 @@ a {
     margin-bottom: 40px;
 }
 
-.grid.posts {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(1, 2fr);
-}
+/* SKETCHNOTES */
 
 .grid.sketchnotes {
     display: flex;
     flex-wrap: wrap;
-    margin: 2px;
-    flex-grow: 1;
-}
-
-.grid.sketchnotes img {
-    width: auto;
-    height: 200px;
-}
-
-.item-list-item {
-    display: block;
     margin-bottom: 20px;
 }
 
-.item-list-item.sketchnotes:hover {
+.grid.sketchnotes::after {
+    content: '';
+    flex-grow: 999999999;
+}
+
+.item.sketchnotes {
+    margin: 10px;
+    position: relative;
+    display: block;
+}
+
+.item.sketchnotes a:hover {
     opacity: 0.3;
 }
 
-.sketchnote-item > img {
-    border: .15em solid #eee;
-    padding: 5px;
+.item.sketchnotes i {
+    display: block;
 }
 
-.item-list-item.posts {
+.item.sketchnotes img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    vertical-align: bottom;
+    border: .15em solid #eee;
+}
+
+/* POSTS */
+
+.grid.posts {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 2fr);
+    margin-bottom: 20px;
+}
+
+.grid.posts > li:last-child {
+    margin-bottom: 0;
+}
+
+.grid h1 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.item.posts {
+    display: block;
     padding: 20px;
     border-radius: 20px;
     background-color: #eee;
 }
 
-.item-list.posts > li:last-child {
-    margin-bottom: 0;
-}
-
-.item-list h1 {
-    margin-bottom: 15px;
-    font-size: 1.3em;
-}
+/* ARTICLE */
 
 article p {
     font-size: 1.05em;
@@ -188,11 +207,11 @@ article ul, ol {
     padding: 0px 8px;
 }
 
-article img {
+article div.content img {
     margin: 1em 0;
     width: 100%;
     height: auto;
-    border: .05em solid #eee;
+    border: .09em solid #eee;
 }
 
 article blockquote {
@@ -218,6 +237,8 @@ article figcaption {
     color: #757575;
     font-size: 0.95em;
 }
+
+/* TAGS */
 
 .tag-list {
     margin-bottom: 15px;
@@ -246,6 +267,14 @@ article figcaption {
     display: inline-block;
 }
 
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+/* OTHERS */
+
 .content {
     margin-bottom: 40px;
 }
@@ -253,12 +282,6 @@ article figcaption {
 .browse-all {
     display: block;
     margin-bottom: 30px;
-}
-
-.all-tags li {
-    font-size: 1.4em;
-    margin-right: 10px;
-    padding: 6px 10px;
 }
 
 footer {
@@ -308,6 +331,8 @@ footer {
         color: #9a9898;
     }
 }
+
+/* CODE STYLE */
 
 pre {
     margin-top: 1.5em;

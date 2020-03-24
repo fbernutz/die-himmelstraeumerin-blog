@@ -18,10 +18,10 @@ extension Node where Context == HTML.BodyContext {
         return .div(
             .if(postItems.count > 0,
                 .ul(
-                    .class("item-list grid posts"),
+                    .class("grid posts"),
                     .forEach(postItems) { item in
                         .li(
-                            .class("item-list-item posts"),
+                            .class("item posts"),
                             .blogPostItem(item)
                         )
                     }
@@ -29,10 +29,10 @@ extension Node where Context == HTML.BodyContext {
             ),
             .if(sketchnoteItems.count > 0,
                 .ul(
-                    .class("item-list grid sketchnotes"),
+                    .class("grid sketchnotes"),
                     .forEach(sketchnoteItems) { item in
                         .li(
-                            .class("item-list-item sketchnotes"),
+                            .class("item sketchnotes"),
                             .sketchnoteItem(item)
                         )
                     }
@@ -66,19 +66,23 @@ private extension Node where Context == HTML.BodyContext {
 
         let imageDimension = try! shellOut(to: .identifyImageDimension(imagePath: absolutePath))
         let image = Image(with: imageDimension)
+        let calculatedWidth = Double(image.width) * 200 / Double(image.height)
+        let calculatedPaddingBottom = Double(image.height) / Double(image.width) * 100
 
         return .article(
             .a(
-                .class("sketchnote-item"),
                 .href(item.path),
-                .div(
-                    .style("""
-                        width:{{\(image.width)*200/\(image.height)}}px;
-                        flex-grow:{{\(image.width)*200/\(image.height)}}
-                        """),
-                    .img(.src(item.imagePath!))
+                .img(
+                    .src(item.imagePath!),
+                    //TODO: add alt text in .md
+                    .alt("")
                 )
-            )
+            ),
+            .i(.style("padding-bottom:\(calculatedPaddingBottom)%")),
+            .style("""
+                width:\(calculatedWidth)px;
+                flex-grow:\(calculatedWidth)
+                """)
         )
     }
 }
