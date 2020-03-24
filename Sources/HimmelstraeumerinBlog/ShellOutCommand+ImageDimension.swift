@@ -8,8 +8,8 @@
 import ShellOut
 
 extension ShellOutCommand {
-    /// Identify Image Size of image in path
+    /// Identify Image Dimension of image in path
     static func identifyImageDimension(imagePath: String) -> ShellOutCommand {
-        return ShellOutCommand(string: "magick identify -format \"%wx%h\" \(imagePath)")
+        return ShellOutCommand(string: "identify -format \"%wx%h\" \(imagePath)")
     }
 }
