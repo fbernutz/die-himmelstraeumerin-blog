@@ -100,6 +100,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                                     .contentBody(item.body),
                                     .p(
                                         .a(
+                                            //TODO: ensure that a sketchnote item has an imagePath
                                             .href(item.imagePath?.absoluteString.originalImagePath ?? ""),
                                             .target(.blank),
                                             .img(
