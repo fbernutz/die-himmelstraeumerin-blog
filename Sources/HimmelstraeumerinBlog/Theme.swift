@@ -88,7 +88,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                             .article(
                                 .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
                                 .div(
-                                    .class("content"),
+                                    .class("content post-detail"),
                                     .contentBody(item.body)
                                 ),
                                 .span("Tagged with: "),
@@ -96,7 +96,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                             ),
                             else: .article(
                                 .div(
-                                    .class("content"),
+                                    .class("content sketchnote-detail"),
                                     .contentBody(item.body),
                                     .p(
                                         .a(

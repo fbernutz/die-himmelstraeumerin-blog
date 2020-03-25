@@ -207,11 +207,14 @@ article ul, ol {
     padding: 0px 8px;
 }
 
-article div.content img {
-    margin: 1em 0;
+article img {
+    border: .09em solid #eee;
     width: 100%;
     height: auto;
-    border: .09em solid #eee;
+}
+
+article .post-detail img {
+    margin: 1em 0;
 }
 
 article blockquote {
