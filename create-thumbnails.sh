@@ -3,8 +3,12 @@
 # create a thumbnail with suffix '-small.jpg' for all jpg sketchnotes
 
 thumbnailSuffix='-small.jpg'
+pathToSketchnotes='Resources/images/sketchnotes'
 
-for image in Resources/images/sketchnotes/*.jpg; do
+# use this to regenerate all thumbnails
+# rm -f $pathToSketchnotes/*$thumbnailSuffix
+
+for image in $pathToSketchnotes/*.jpg; do
 	if [[ $image != *$thumbnailSuffix ]]; then
 		convert $image \
 			-resize 320 \
