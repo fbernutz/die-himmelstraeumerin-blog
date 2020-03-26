@@ -9,7 +9,7 @@ import ShellOut
 
 extension ShellOutCommand {
     /// Identify Image Dimension of image in path
-    static func identifyImageDimension(imagePath: String) -> ShellOutCommand {
+    static func identifyImageDimension(on imagePath: String) -> ShellOutCommand {
         return ShellOutCommand(string: "identify -format \"%wx%h\" \(imagePath)")
     }
 }

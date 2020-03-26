@@ -25,24 +25,24 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .header(for: context, selectedSection: nil),
                     .wrapper(
                         .h1("Recent Sketchnotes"),
-                        .itemList(
+                        try .itemList(
                             for: Array(
                                 context.allItems(
                                     sortedBy: \.date,
                                     order: .descending
                                 ).filter { $0.sectionID == .sketchnotes }
-                                .prefix(4)
+                                    .prefix(4)
                             ),
                             on: context.site
                         ),
                         .h1("Recent Posts"),
-                        .itemList(
+                        try .itemList(
                             for: Array(
                                 context.allItems(
                                     sortedBy: \.date,
                                     order: .descending
                                 ).filter { $0.sectionID == .posts }
-                                .prefix(4)
+                                    .prefix(4)
                             ),
                             on: context.site
                         )
@@ -61,7 +61,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .header(for: context, selectedSection: section.id),
                     .wrapper(
                         .h1(.text(section.title)),
-                        .itemList(
+                        try .itemList(
                             for: Array(
                                 context.allItems(
                                     sortedBy: \.date,
@@ -179,7 +179,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                             .text("Browse all tags"),
                             .href(context.site.tagListPath)
                         ),
-                        .itemList(
+                        try .itemList(
                             for: context.items(
                                 taggedWith: page.tag,
                                 sortedBy: \.date,

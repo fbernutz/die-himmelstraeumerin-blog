@@ -11,7 +11,7 @@ import Plot
 import ShellOut
 
 extension Node where Context == HTML.BodyContext {
-    static func itemList(for items: [Item<HimmelstraeumerinBlog>], on site: HimmelstraeumerinBlog) -> Node {
+    static func itemList(for items: [Item<HimmelstraeumerinBlog>], on site: HimmelstraeumerinBlog) throws -> Node {
         let sketchnoteItems = items.filter { $0.sectionID == .sketchnotes }
         let postItems = items.filter { $0.sectionID == .posts }
 
@@ -30,10 +30,10 @@ extension Node where Context == HTML.BodyContext {
             .if(sketchnoteItems.count > 0,
                 .ul(
                     .class("grid sketchnotes"),
-                    .forEach(sketchnoteItems) { item in
+                    try .forEach(sketchnoteItems) { item in
                         .li(
                             .class("item sketchnotes"),
-                            .sketchnoteItem(item)
+                            try .sketchnoteItem(item)
                         )
                     }
                 )
@@ -47,7 +47,7 @@ private extension Node where Context == HTML.BodyContext {
         return .article(
             .p(
                 .class("release-date"),
-               .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")
+                .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")
             ),
             .h1(
                 .a(
@@ -59,16 +59,26 @@ private extension Node where Context == HTML.BodyContext {
         )
     }
 
-    static func sketchnoteItem(_ item: Item<HimmelstraeumerinBlog>) -> Self {
-        //TODO: ensure that a sketchnote item has an imagePath
-        let imagePath = item.imagePath!.absoluteString
-        let absolutePath = imagePath.resolvedRelativePath
+    static func sketchnoteItem(_ item: Item<HimmelstraeumerinBlog>) throws -> Self {
+        guard let imagePath = item.imagePath else {
+            throw PublishingError(
+                infoMessage: "🖼💥 Missing imagePath on: \(item.title)"
+            )
+        }
 
-        let imageDimension = try! shellOut(to: .identifyImageDimension(imagePath: absolutePath))
+        let absolutePath = imagePath.absoluteString.resolvedRelativePath
+
+        guard let imageDimension = try? shellOut(to: .identifyImageDimension(on: absolutePath))
+            else {
+                throw PublishingError(
+                    infoMessage: "🖼💥 Could not retrieve image dimension for image in: \(item.title)"
+                )
+        }
+
         let image = Image(with: imageDimension)
         let calculatedWidth = Int((Double(image.width) * 200 / Double(image.height)).rounded())
         let calculatedPaddingBottom = Int((Double(image.height) / Double(image.width) * 100).rounded())
-
+        
         return .article(
             .a(
                 .href(item.path),
