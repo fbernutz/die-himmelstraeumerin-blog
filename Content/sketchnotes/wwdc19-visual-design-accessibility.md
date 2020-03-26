@@ -5,4 +5,4 @@ tags: sketchnote, apple, wwdc, wwdc-19, accessibility, iOS
 image: ../../images/sketchnotes/wwdc19-visual-design-accessibility-small.jpg
 ---
 
-# WWDC 2019: Visual Design Accessibility
+# WWDC 2019: Visual Design Accessibility ([#244](https://developer.apple.com/wwdc19/244))
