@@ -24,6 +24,12 @@ body {
     text-align: left;
 }
 
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 40px 20px;
+    }
+}
+
 /* HEADER */
 
 header {
@@ -247,6 +253,10 @@ article figcaption {
     font-size: 0.95em;
 }
 
+.content {
+    margin-bottom: 40px;
+}
+
 /* TAGS */
 
 .tag-list {
@@ -282,16 +292,12 @@ article figcaption {
     padding: 6px 10px;
 }
 
-/* OTHERS */
-
-.content {
-    margin-bottom: 40px;
-}
-
 .browse-all {
     display: block;
     margin-bottom: 30px;
 }
+
+/* FOOTER */
 
 footer {
     padding: 20px;
@@ -299,11 +305,7 @@ footer {
     line-height: 1.2em;
 }
 
-@media (max-width: 600px) {
-    .wrapper {
-        padding: 40px 20px;
-    }
-}
+/* DARK THEME */
 
 @media (prefers-color-scheme: dark) {
     body {
