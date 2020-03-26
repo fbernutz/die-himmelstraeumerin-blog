@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # converts all png sketchnotes to type jpg,
 # delete the png file afterwards

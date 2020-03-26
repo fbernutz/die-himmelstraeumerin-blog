@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # create a thumbnail with suffix '-small.jpg' for all jpg sketchnotes
 
