@@ -38,15 +38,16 @@ private extension Node where Context == HTML.BodyContext {
             .class("content sketchnote-detail"),
             .contentBody(item.body),
             .p(
-                .a(
-                    //TODO: ensure that a sketchnote item has an imagePath
-                    .href(item.imagePath?.absoluteString.originalImagePath ?? ""),
-                    .target(.blank),
-                    .img(
-                        .src(item.imagePath?.absoluteString.originalImagePath ?? ""),
-                        .alt(item.description)
+                .unwrap(item.imagePath) {
+                    .a(
+                        .href($0.absoluteString.originalImagePath),
+                        .target(.blank),
+                        .img(
+                            .src($0.absoluteString.originalImagePath),
+                            .alt(item.description)
+                        )
                     )
-                )
+                }
             )
         )
     }
