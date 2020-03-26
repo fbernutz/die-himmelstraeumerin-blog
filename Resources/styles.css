@@ -163,9 +163,7 @@ a {
 .item.sketchnotes img {
     position: absolute;
     top: 0;
-    width: 100%;
     vertical-align: bottom;
-    border: .15em solid #eee;
 }
 
 /* POSTS */
@@ -191,6 +189,10 @@ a {
     padding: 20px;
     border-radius: 20px;
     background-color: #eee;
+}
+
+.post-detail img {
+    margin: 1em 0;
 }
 
 /* ARTICLE */
@@ -220,13 +222,9 @@ article ul, ol {
 }
 
 article img {
-    border: .09em solid #eee;
+    border: 1px solid #eee;
     width: 100%;
     height: auto;
-}
-
-article .post-detail img {
-    margin: 1em 0;
 }
 
 article blockquote {
@@ -334,6 +332,10 @@ footer {
 
     article p.release-date {
         color: #9a9898;
+    }
+
+    article img {
+        border: 1px solid transparent;
     }
 }
 
