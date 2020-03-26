@@ -8,6 +8,6 @@ clean-thumbs:
 	rm -f Resources/images/sketchnotes/*-small.jpg
 
 convert-png:
-	cd Resources/images/sketchnotes &&
-		magick mogrify -format jpg *.png &&
+	cd Resources/images/sketchnotes && \
+		magick mogrify -format jpg *.png && \
 		rm -f *.png
