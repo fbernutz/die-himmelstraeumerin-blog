@@ -316,7 +316,7 @@ footer {
         color: #ddd;
     }
 
-    .item-list > li {
+    .item.posts {
         background-color: #333;
     }
 
