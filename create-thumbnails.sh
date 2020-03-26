@@ -11,8 +11,9 @@ pathToSketchnotes='Resources/images/sketchnotes'
 for image in $pathToSketchnotes/*.jpg; do
 	if [[ $image != *$thumbnailSuffix ]]; then
 		convert $image \
-			-resize 320 \
+			-resize 500x500 \
 			-set filename:original %t \
+			-quality 70 \
 			"$(dirname $image)"/%[filename:original]$thumbnailSuffix
 	fi
 done
