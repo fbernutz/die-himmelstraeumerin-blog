@@ -84,36 +84,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .class("item-page"),
                     .header(for: context, selectedSection: item.sectionID),
                     .wrapper(
-                        .if(item.sectionID == .posts,
-                            .article(
-                                .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
-                                .div(
-                                    .class("content post-detail"),
-                                    .contentBody(item.body)
-                                ),
-                                .span("Tagged with: "),
-                                .tagList(for: item, on: context.site)
-                            ),
-                            else: .article(
-                                .div(
-                                    .class("content sketchnote-detail"),
-                                    .contentBody(item.body),
-                                    .p(
-                                        .a(
-                                            //TODO: ensure that a sketchnote item has an imagePath
-                                            .href(item.imagePath?.absoluteString.originalImagePath ?? ""),
-                                            .target(.blank),
-                                            .img(
-                                                .src(item.imagePath?.absoluteString.originalImagePath ?? ""),
-                                                .alt(item.description)
-                                            )
-                                        )
-                                    )
-                                ),
-                                .span("Tagged with: "),
-                                .tagList(for: item, on: context.site)
-                            )
-                        )
+                        .itemDetail(for: item, on: context.site)
                     ),
                     .footer(for: context.site)
                 )
