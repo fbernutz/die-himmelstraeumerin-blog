@@ -28,13 +28,10 @@ extension Node where Context == HTML.BodyContext {
                 )
             ),
             .if(sketchnoteItems.count > 0,
-                .ul(
-                    .class("grid sketchnotes"),
+                .div(
+                    .class("sketchnotes"),
                     try .forEach(sketchnoteItems) { item in
-                        .li(
-                            .class("item sketchnotes"),
-                            try .sketchnoteItem(item)
-                        )
+                        try .sketchnoteItem(item)
                     }
                 )
             )
@@ -65,33 +62,15 @@ private extension Node where Context == HTML.BodyContext {
                 infoMessage: "🖼💥 Missing imagePath on: \(item.title)"
             )
         }
-
-        let absolutePath = imagePath.absoluteString.resolvedRelativePath
-
-        guard let imageDimension = try? shellOut(to: .identifyImageDimension(on: absolutePath))
-            else {
-                throw PublishingError(
-                    infoMessage: "🖼💥 Could not retrieve image dimension for image in: \(item.title)"
-                )
-        }
-
-        let image = Image(with: imageDimension)
-        let calculatedWidth = Int((Double(image.width) * 230 / Double(image.height)).rounded())
-        let calculatedPaddingBottom = Int((Double(image.height) / Double(image.width) * 100).rounded())
         
         return .article(
             .a(
                 .href(item.path),
                 .img(
-                    .src(item.imagePath!),
+                    .src(imagePath),
                     .alt(item.description)
                 )
-            ),
-            .i(.style("padding-bottom:\(calculatedPaddingBottom)%")),
-            .style("""
-                width:\(calculatedWidth)px;
-                flex-grow:\(calculatedWidth)
-                """)
+            )
         )
     }
 }
