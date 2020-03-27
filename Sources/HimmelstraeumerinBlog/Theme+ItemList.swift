@@ -76,7 +76,7 @@ private extension Node where Context == HTML.BodyContext {
         }
 
         let image = Image(with: imageDimension)
-        let calculatedWidth = Int((Double(image.width) * 200 / Double(image.height)).rounded())
+        let calculatedWidth = Int((Double(image.width) * 230 / Double(image.height)).rounded())
         let calculatedPaddingBottom = Int((Double(image.height) / Double(image.width) * 100).rounded())
         
         return .article(
