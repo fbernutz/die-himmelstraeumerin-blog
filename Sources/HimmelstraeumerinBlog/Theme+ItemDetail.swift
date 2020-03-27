@@ -48,6 +48,10 @@ private extension Node where Context == HTML.BodyContext {
                         )
                     )
                 }
+            ),
+            .p(
+                .class("release-date"),
+                .text("Sketch created on \(item.date.formatted)")
             )
         )
     }
