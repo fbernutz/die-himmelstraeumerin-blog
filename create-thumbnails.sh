@@ -8,7 +8,7 @@ GLOBIGNORE="*$thumbnailSuffix"
 for image in Resources/images/sketchnotes/*; do
 	echo "converting $image"
 	convert "$image" \
-		-resize 500x500 \
+		-resize 500 \
 		-quality 70 \
 		"${image%.jpg}$thumbnailSuffix"
 done
