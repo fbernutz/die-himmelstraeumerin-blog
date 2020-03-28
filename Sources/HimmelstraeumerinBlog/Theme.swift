@@ -31,7 +31,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                                     sortedBy: \.date,
                                     order: .descending
                                 ).filter { $0.sectionID == .sketchnotes }
-                                    .prefix(4)
+                                    .prefix(3)
                             ),
                             on: context.site
                         ),
@@ -42,7 +42,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                                     sortedBy: \.date,
                                     order: .descending
                                 ).filter { $0.sectionID == .posts }
-                                    .prefix(4)
+                                    .prefix(3)
                             ),
                             on: context.site
                         )
