@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="UTF-8"/>
+				<meta name="og:site_name" content="#diehimmels&shy;traeumerin"/>
+				<link rel="canonical" href="https://fbernutz.github.io/posts/welcome-sketchnotes"/>
+				<meta name="twitter:url" content="https://fbernutz.github.io/posts/welcome-sketchnotes"/>
+				<meta name="og:url" content="https://fbernutz.github.io/posts/welcome-sketchnotes"/>
+				<title>Welcome, Sketchnotes! | #diehimmels&shy;traeumerin</title>
+				<meta name="twitter:title" content="Welcome, Sketchnotes! | #diehimmels&shy;traeumerin"/>
+				<meta name="og:title" content="Welcome, Sketchnotes! | #diehimmels&shy;traeumerin"/>
+				<meta name="description" content="When I released my website in January 2020, I was a hundred percent sure, that I wanted to add my sketchnotes in it as well... but I needed more time to think about how to implement it and I was also unsure about how the layout and navigation should look like."/>
+				<meta name="twitter:description" content="When I released my website in January 2020, I was a hundred percent sure, that I wanted to add my sketchnotes in it as well... but I needed more time to think about how to implement it and I was also unsure about how the layout and navigation should look like."/>
+				<meta name="og:description" content="When I released my website in January 2020, I was a hundred percent sure, that I wanted to add my sketchnotes in it as well... but I needed more time to think about how to implement it and I was also unsure about how the layout and navigation should look like."/>
+				<meta name="twitter:card" content="summary"/>
+				<link rel="stylesheet" href="/styles.css" type="text/css"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<link rel="shortcut icon" href="/images/favicon.png" type="image/png"/>
+				<link rel="alternate" href="/feed.rss" type="application/rss+xml" title="Subscribe to #diehimmels&shy;traeumerin"/>
+		</head>
+		<body class="item-page">
+				<header>
+						<div class="wrapper">
+								<a class="site-name" href="/">#diehimmels&shy;traeumerin</a>
+								<p>iOS dev • sketchnoting • photography • accessibility • pineapple on pizza • lioness • she/her</p>
+								<nav>
+										<ul>
+												<li>
+														<a class="selected" href="/posts">Posts</a>
+												</li>
+												<li>
+														<a href="/sketchnotes">Sketchnotes</a>
+												</li>
+										</ul>
+								</nav>
+						</div>
+				</header>
+				<div class="wrapper">
+						<article>
+								<div class="content post-detail">
+										<p class="release-date">28. Mar 2020 ⋅ 7 min read</p><h1>Welcome, Sketchnotes!</h1><p>Some years ago, a friend of me asked why I don't have my own website where I could host my content. To this time, I was mostly active on Instagram where I posted my photographs and on Twitter to post some things every now and then. To have my own website was something I've never thought of before. Why should I invest time to create a website, when mostly everyone uses platforms like Instagram or Twitter to consume content on a daily basis?</p><p>But after this conversation the first seed was planted. The more I thought about it, the more I've realised that I could have full control over the content I post on my website. I won't stop posting things on other platforms, but now I can refer to my website when I share content. Besides, it feels so <strong>awesome to have my own little place</strong> in the big world of internet, where everything which matters to me can be discovered. A place with things I've created and am proud of.</p><p>When I released this website in January 2020, I was a hundred percent sure, that I wanted to display my sketchnotes as well... but I needed more time to think about how to implement it and I was also unsure about how the layout and navigation should look like.</p><p>But three months later, I had a plan!</p><h2>What was the plan? Which things needed to be done?</h2><h3>1) Navigation to access the sections</h3><p>I needed a navigation bar to access the new section. That was one of the easier things, because I've already had some example in mind, which I could get inspired by.</p><p>It's a simple white rectangle with (currently) two sections "Posts" and "Sketchnotes". When you hover over one of the elements, you see a line under the text. This looks the same when the section is selected.</p><img src="../../images/welcome-sketchnotes/navigation-bar-hover.jpg" alt="Screenshot of hover State of Navigation Bar with underlined section" /><h3>2) Preview of recent sketchnotes</h3><p>On the first page of my website, you see the most recent items. I wanted to add my latest sketchnotes to this page. This is only a small part from the content of page <code>/sketchnotes</code> with the same design. So, let's jump directly to this page.</p><h3>3) List of all sketchnotes</h3><p>The page <code>/sketchnotes</code> should give an overview of all my sketchnotes. You should see a list of all sketchnotes which are displayed with smaller images as thumbnails.</p><img src="../../images/welcome-sketchnotes/sketchnote-list.jpg" alt="Screenshot of page with list of skecthnote" /><p>To have a website which is <strong>performant and loads its content quickly</strong> without using your whole monthly mobile data, was very important to me.</p><p>Google gives a nice insight on why optimizing images is so important:</p><blockquote><p>Images often account for most of the downloaded bytes on a page. As a result, optimizing images can often yield some of the largest byte savings and performance improvements: the fewer bytes the browser has to download, the less competition there is for the client's bandwidth and the faster the browser can download and render content on the screen.</p></blockquote><p>(<em>see the <a href="https://developers.google.com/speed/docs/insights/OptimizeImages">article: Optimize Images</a></em>)</p><p>I created a <a href="https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/create-thumbnails.sh">script</a> to easily generate thumbnails for the list. The script uses the power of <a href="https://imagemagick.org/index.php">ImageMagick</a> to resize all images and to save the resized image as new file with a suffix <code>-small</code>. It has already saved me tons of hours with resizing images!</p><p>Creating the layout for the list was a challenge for me. Every sketchnote has <strong>different aspect ratios</strong> and they exist in <strong>both orientations</strong>, landscape and portrait. I wanted to display the latest sketchnotes on top of the screen, to be able to scroll down and see how the sketchnotes developed. Additionally, I wanted a <strong>CSS only solution</strong>, because I like javascript free websites.</p><p>I'm a totally unexperienced newbie when it comes to HTML and CSS, so I had to learn a lot about different HTML layout techniques. There are many different tutorials for photo grid layouts out there and I've tried different kinds, like CSS grid, flexbox and finally used a column layout, which worked best for me.</p><p>In the next image the numbers from 1 to 12 display the creation date from new to old, which means sketchnote 1 is the latest and sketchnote 12 is the oldest. The blue lines display which side should have the same length for every image. I don't want to crop the sketchnotes in preview and images shouldn't be distorted (who would ever want this?!), one side – either height or width – needs to have a fix length for all images.</p><img src="../../images/welcome-sketchnotes/html-layout.jpg" alt="Four possible list layouts" /><ul><li>(1) is what I actually wanted to achieve</li><li>(2) is what I was able to achieve with <strong>grid layout</strong></li><li>(3) is what I was able to achieve with <strong>flexbox</strong></li><li>(4) is what I was able to achieve with <strong>column layout</strong></li></ul><p>Layout 4 is nearly the same as Layout 1 and is therefore <em>nearly perfect</em>. Only the order of the images isn't like I wanted. Nevertheless, I chose this layout to be the final one (for the moment).</p><h3>4) Detail of sketchnote</h3><p>To layout the detail page of a sketchnote was easier to achieve than the list. The page consists of different elements, mainly one big image. As some sketchnotes are too high to see them complete directly without scrolling, I added a link on the image to open it in a new tap in full resolution. In the new tap, the browser navigation features can be used to zoom in and out.</p><img src="../../images/welcome-sketchnotes/sketchnote-detail.jpg" alt="Screenshot of detail page of skecthnote" /><p>The static HTML for this website is generated with <a href="https://github.com/JohnSundell/Publish">Publish</a>. To have as less manual work as possible when adding a new sketchnote, most of the HTML for the detail page is generated. This means, I add the content for the page in a markdown file, add some logic how the HTML should look like and Publish generates the HTML from the mix of content and logic.</p><p>A markdown file for a sketchnote detail page looks something like this:</p><pre><code>---
+date: <span class="splashnumber">2020</span>-<span class="splashnumber">03</span>-<span class="splashnumber">28 20</span>:<span class="splashnumber">50</span>
+description: <span class="splashtype">Sketchnote</span> about <span class="splashtype">XYZ</span>
+tags: sketchnote, xyz
+image: ../../images/sketchnotes/sketchnote-xyz-small.<span class="splashproperty">jpg</span>
+---
+
+## <span class="splashtype">Sketchnote XYZ</span>
+</code></pre><p>I manually add information about:</p><ul><li>the <strong>date</strong>, when I created the sketchnote, which is used to sort the list of sketchnotes</li><li>the <strong>description</strong>, which is also used as alt tag for the sketchnote</li><li><strong>tags</strong>, which can be used to find other sketchnotes</li><li>the <strong>path to the thumbnail image</strong></li><li>the <strong>title</strong>, which can't be generated from the image name</li></ul><p>I remove the part <code>-small</code> from the thumbnail image path to get the path to the original image and add a HTML structure around the full size image. This is done one time in code and doesn't have to be adapted for other sketchnotes.</p><h2>How do I add a new sketchnote?</h2><ol><li>First of all, I add the sketchnote image with a "good" naming to the <code>/Resources/images/sketchnotes/</code> folder. The naming is important because the name will also be used for the URL for the detail page.</li></ol><ol start="2"><li>If the image isn't of type <code>.jpg</code>, I can run a script to convert <code>.png</code> to <code>.jpg</code> by running <code>make convert-png</code>. All tasks are defined in a <a href="https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/Makefile"><code>Makefile</code></a>, which was added to demonstrate which tasks can be run in the project and to easily run these tasks.</li></ol><ol start="3"><li>The thumbnail for the list has to be created. Therefore I run the script, I've mentioned earlier, by running <code>make thumbs</code>.</li></ol><ol start="4"><li>I create a markdown file, where information about the content is added manually. I copy an existing file most of the time and name it like the image.</li></ol><ol start="5"><li>Run <code>make</code> to generate the new HTML code.</li></ol><h2>Next steps</h2><p>I have thousand ideas what to do next and what to improve. My top three are:</p><ul><li>I think about adding the <strong>name of the speaker or author</strong>, because none of these sketchnotes could be created without a speaker or an author and I want to honor them.</li><li>To display a bit more information about a sketchnote in the list, I want to <strong>display the title on hover</strong>.</li><li>It would be great to <strong>improve dark mode for sketchnotes</strong>. Currently they are white images on a dark background. If anyone has an idea, please share it with me!</li></ul><hr><p>That's it! Feedback or comments are highly welcome! Leave a message in twitter.</p>
+								</div>
+								<span>Tagged with: </span>
+								<ul class="tag-list">
+										<li>
+												<a href="/tags/post">post</a>
+										</li>
+										<li>
+												<a href="/tags/website">website</a>
+										</li>
+										<li>
+												<a href="/tags/sketchnotes">sketchnotes</a>
+										</li>
+								</ul>
+						</article>
+				</div>
+				<footer>
+						<p>Made by Felizia Bernutz using 
+								<a href="https://github.com/johnsundell/publish" target="_blank" rel="noreferrer">Publish</a>. This site is 
+								<a href="https://github.com/fbernutz/die-himmelstraeumerin-blog" target="_blank" rel="noreferrer">open source</a>.
+						</p>
+						<p>
+								<a href="https://twitter.com/felibe444" target="_blank" rel="noreferrer">Twitter</a> | 
+								<a href="https://github.com/fbernutz" target="_blank" rel="noreferrer">GitHub</a> | 
+								<a href="https://www.instagram.com/diehimmelstraeumerin/" target="_blank" rel="noreferrer">Instagram</a> | 
+								<a href="https://www.flickr.com/photos/feli_93/" target="_blank" rel="noreferrer">Flickr</a>
+						</p>
+				</footer>
+		</body>
+</html>

@@ -23,12 +23,22 @@
 						<div class="wrapper">
 								<a class="site-name" href="/">#diehimmels&shy;traeumerin</a>
 								<p>iOS dev • sketchnoting • photography • accessibility • pineapple on pizza • lioness • she/her</p>
+								<nav>
+										<ul>
+												<li>
+														<a class="selected" href="/posts">Posts</a>
+												</li>
+												<li>
+														<a href="/sketchnotes">Sketchnotes</a>
+												</li>
+										</ul>
+								</nav>
 						</div>
 				</header>
 				<div class="wrapper">
 						<article>
-								<p class="release-date">12. Jan 2020 ⋅ 4 min read</p>
-								<div class="content"><h1>Migration from Travis CI to GitHub Actions</h1><p>The last days, I migrated some of my open source repositories from <a href="https://travis-ci.org/">Travis CI</a> to <a href="https://github.com/features/actions">GitHub Actions</a>.</p><p>I only used Travis for running tests or linter, nothing too complicated.</p><h2>Running Tests in iOS Repositories</h2><p>Most of my <code>.travis.yml</code> files looked similar to the code snippet below. I want to run two commands in the CI (with fastlane):</p><ul><li><code>bundle exec fastlane test</code></li><li><code>bundle exec fastlane snapshot_test</code></li></ul><pre><code>language: swift
+								<div class="content post-detail">
+										<p class="release-date">12. Jan 2020 ⋅ 4 min read</p><h1>Migration from Travis CI to GitHub Actions</h1><p>The last days, I migrated some of my open source repositories from <a href="https://travis-ci.org/">Travis CI</a> to <a href="https://github.com/features/actions">GitHub Actions</a>.</p><p>I only used Travis for running tests or linter, nothing too complicated.</p><h2>Running Tests in iOS Repositories</h2><p>Most of my <code>.travis.yml</code> files looked similar to the code snippet below. I want to run two commands in the CI (with fastlane):</p><ul><li><code>bundle exec fastlane test</code></li><li><code>bundle exec fastlane snapshot_test</code></li></ul><pre><code>language: swift
 osx_image: xcode11.<span class="splashnumber">2</span>
 cache:
   - bundler
@@ -95,7 +105,8 @@ pull_request:
   - master
 </code></pre><p>Found in the <a href="https://github.community/t5/GitHub-Actions/How-to-trigger-an-action-on-push-or-pull-request-but-not-both/td-p/35805">GitHub Community Forum</a></p><h3>Pin Xcode Version</h3><p>It's also possible to pin the Xcode version. Add the following code above <code>jobs</code>.</p><pre><code>env:
   <span class="splashtype">DEVELOPER_DIR</span>: /<span class="splashtype">Applications</span>/<span class="splashtype">Xcode_11</span>.<span class="splashnumber">3</span>.<span class="splashproperty">app</span>/<span class="splashtype">Contents</span>/<span class="splashtype">Developer</span>
-</code></pre><p>Found in the <a href="https://github.community/t5/GitHub-Actions/Selecting-an-Xcode-version/m-p/32340#M1092">GitHub Community Forum</a></p><h3>Pin macOS version</h3><p>Currently, it's only possible to use the <code>macos_latest</code> tag to specify that you need a Mac to run your jobs. The tag currently specifies to use <code>macOS 10.15</code>. When you have to use another macOS version, it's not possible to specify an explicit version. But maybe the solution for this is to use <a href="https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners">self-hosted runners</a> which sounds interesting, but also a bit overhead for these simple tasks which I need the CI for.</p><hr><p>Migrations from repositories:</p><ul><li><a href="https://github.com/spacepandas/cineaste-ios/pull/131">PR – Cineaste App (iOS)</a></li><li><a href="https://github.com/fbernutz/mood-tracker-android/pull/2">PR – Mood Tracker (Android)</a></li><li><a href="https://github.com/criticalmaps/criticalmaps-ios/pull/219">PR – CriticalMaps (iOS)</a></li></ul></div>
+</code></pre><p>Found in the <a href="https://github.community/t5/GitHub-Actions/Selecting-an-Xcode-version/m-p/32340#M1092">GitHub Community Forum</a></p><h3>Pin macOS version</h3><p>Currently, it's only possible to use the <code>macos_latest</code> tag to specify that you need a Mac to run your jobs. The tag currently specifies to use <code>macOS 10.15</code>. When you have to use another macOS version, it's not possible to specify an explicit version. But maybe the solution for this is to use <a href="https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners">self-hosted runners</a> which sounds interesting, but also a bit overhead for these simple tasks which I need the CI for.</p><hr><p>Migrations from repositories:</p><ul><li><a href="https://github.com/spacepandas/cineaste-ios/pull/131">PR – Cineaste App (iOS)</a></li><li><a href="https://github.com/fbernutz/mood-tracker-android/pull/2">PR – Mood Tracker (Android)</a></li><li><a href="https://github.com/criticalmaps/criticalmaps-ios/pull/219">PR – CriticalMaps (iOS)</a></li></ul>
+								</div>
 								<span>Tagged with: </span>
 								<ul class="tag-list">
 										<li>
