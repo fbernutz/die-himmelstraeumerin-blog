@@ -8,10 +8,6 @@
 import Foundation
 
 extension String {
-    var resolvedRelativePath: String {
-       replacingOccurrences(of: "/../..", with: "Resources")
-    }
-
     var originalImagePath: String {
         replacingOccurrences(of: "-small", with: "")
     }
