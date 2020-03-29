@@ -64,6 +64,7 @@ private extension Node where Context == HTML.BodyContext {
         }
         
         return .article(
+            .class("sketchnote-item"),
             .a(
                 .href(item.path),
                 .img(

@@ -24,27 +24,30 @@ extension Theme where Site == HimmelstraeumerinBlog {
                 .body(
                     .header(for: context, selectedSection: nil),
                     .wrapper(
-                        .h1("Recent Sketchnotes"),
-                        try .itemList(
-                            for: Array(
-                                context.allItems(
-                                    sortedBy: \.date,
-                                    order: .descending
-                                ).filter { $0.sectionID == .sketchnotes }
-                                    .prefix(3)
+                        .div(
+                            .class("recents"),
+                            .h1("Recent Sketchnotes"),
+                            try .itemList(
+                                for: Array(
+                                    context.allItems(
+                                        sortedBy: \.date,
+                                        order: .descending
+                                    ).filter { $0.sectionID == .sketchnotes }
+                                        .prefix(3)
+                                ),
+                                on: context.site
                             ),
-                            on: context.site
-                        ),
-                        .h1("Recent Posts"),
-                        try .itemList(
-                            for: Array(
-                                context.allItems(
-                                    sortedBy: \.date,
-                                    order: .descending
-                                ).filter { $0.sectionID == .posts }
-                                    .prefix(3)
-                            ),
-                            on: context.site
+                            .h1("Recent Posts"),
+                            try .itemList(
+                                for: Array(
+                                    context.allItems(
+                                        sortedBy: \.date,
+                                        order: .descending
+                                    ).filter { $0.sectionID == .posts }
+                                        .prefix(3)
+                                ),
+                                on: context.site
+                            )
                         )
                     ),
                     .footer(for: context.site)

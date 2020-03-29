@@ -140,6 +140,7 @@ a {
     line-height: 0;
     column-count: 3;
     column-gap: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
@@ -157,12 +158,19 @@ a {
 .sketchnotes img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
     box-shadow: 0 0 5px #ccc;
 }
 
 .sketchnotes img:hover {
     box-shadow: 0 0 5px #999;
+}
+
+.sketchnote-item {
+    margin-bottom: 20px;
+}
+
+.recents .sketchnote-item {
+    margin-bottom: 0;
 }
 
 /* POSTS */
