@@ -142,25 +142,27 @@ a {
     column-gap: 20px;
 }
 
-.sketchnotes a:hover {
-    opacity: 0.3;
+@media (max-width: 800px) {
+    .sketchnotes {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .sketchnotes {
+        column-count: 1;
+    }
 }
 
 .sketchnotes img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+    box-shadow: 0 0 5px #ccc;
 }
 
-@media (max-width: 800px) {
-    .sketchnotes {
-        column-count: 2;
-    }
-}
-@media (max-width: 400px) {
-    .sketchnotes {
-        column-count: 1;
-    }
+.sketchnotes img:hover {
+    box-shadow: 0 0 5px #999;
 }
 
 /* POSTS */
