@@ -8,6 +8,7 @@ import ReadingTimePublishPlugin
 struct HimmelstraeumerinBlog: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
+        case sketchnotes
     }
 
     struct ItemMetadata: WebsiteItemMetadata {

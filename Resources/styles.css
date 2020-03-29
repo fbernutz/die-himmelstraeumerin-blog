@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-    background: #fff;
+    background: #f5f5f5;
     color: #000;
     font-family: Helvetica, Arial;
     text-align: center;
@@ -24,12 +24,21 @@ body {
     text-align: left;
 }
 
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 40px 20px;
+    }
+}
+
+/* HEADER */
+
 header {
     background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.2)
     ), url('../../images/header.jpg');
+    background-color: #284081;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +73,7 @@ header nav {
     display: inline-block;
     margin-top: 20px;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -76,24 +85,29 @@ header nav ul {
 
 header nav li {
     display: inline-block;
-    border-right: .15em solid #cb1818;
 }
 
-header nav li:last-child {
-    border-right:none;
-}
-
-header nav a {
+header nav li a {
     display: block;
-    color: #cb1818;
-    padding: 0 15px;
-    line-height: 35px;
+    color: #122869;
+    padding: 0 10px;
+    line-height: 30px;
+    border-bottom: .15em solid transparent;
+    margin: .5em;
 }
 
-header nav li.selected a {
-    color: #fff;
-    background-color: #9C9E9E;
+header nav a:hover,
+header nav li a.selected {
+    border-color: #122869;
 }
+
+@media (min-width: 640px) {
+    header {
+        padding: 30px 0;
+    }
+}
+
+/* TEXT */
 
 h1 {
     margin-bottom: 20px;
@@ -120,22 +134,75 @@ a {
     margin-bottom: 40px;
 }
 
-.item-list > li {
-    display: block;
-    padding: 20px;
+/* SKETCHNOTES */
+
+.sketchnotes {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
-    background-color: #eee;
 }
 
-.item-list > li:last-child {
+@media (max-width: 800px) {
+    .sketchnotes {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .sketchnotes {
+        column-count: 1;
+    }
+}
+
+.sketchnotes img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.sketchnotes img:hover {
+    box-shadow: 0 0 5px #999;
+}
+
+.sketchnote-item {
+    margin-bottom: 20px;
+}
+
+.recents .sketchnote-item {
     margin-bottom: 0;
 }
 
-.item-list h1 {
+/* POSTS */
+
+.grid.posts {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 2fr);
+    margin-bottom: 20px;
+}
+
+.grid.posts > li:last-child {
+    margin-bottom: 0;
+}
+
+.grid h1 {
     margin-bottom: 15px;
     font-size: 1.3em;
 }
+
+.item.posts {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #e6e5e5;
+}
+
+.post-detail img {
+    margin: 1em 0;
+}
+
+/* ARTICLE */
 
 article p {
     font-size: 1.05em;
@@ -162,7 +229,7 @@ article ul, ol {
 }
 
 article img {
-    margin: 1em 0;
+    border: 1px solid #cfcfcf;
     width: 100%;
     height: auto;
 }
@@ -191,6 +258,12 @@ article figcaption {
     font-size: 0.95em;
 }
 
+.content {
+    margin-bottom: 40px;
+}
+
+/* TAGS */
+
 .tag-list {
     margin-bottom: 15px;
 }
@@ -218,8 +291,10 @@ article figcaption {
     display: inline-block;
 }
 
-.content {
-    margin-bottom: 40px;
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
 }
 
 .browse-all {
@@ -227,11 +302,7 @@ article figcaption {
     margin-bottom: 30px;
 }
 
-.all-tags li {
-    font-size: 1.4em;
-    margin-right: 10px;
-    padding: 6px 10px;
-}
+/* FOOTER */
 
 footer {
     padding: 20px;
@@ -239,17 +310,7 @@ footer {
     line-height: 1.2em;
 }
 
-@media (max-width: 600px) {
-    .wrapper {
-        padding: 40px 20px;
-    }
-}
-
-@media (min-width: 640px) {
-    header {
-        padding: 70px 0;
-    }
-}
+/* DARK THEME */
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -260,7 +321,7 @@ footer {
         color: #ddd;
     }
 
-    .item-list > li {
+    .item.posts {
         background-color: #333;
     }
 
@@ -279,7 +340,13 @@ footer {
     article p.release-date {
         color: #9a9898;
     }
+
+    article img {
+        border: 1px solid transparent;
+    }
 }
+
+/* CODE STYLE */
 
 pre {
     margin-top: 1.5em;

@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Theme.swift
 //  
 //
 //  Created by Felizia Bernutz on 31.12.19.
@@ -24,15 +24,30 @@ extension Theme where Site == HimmelstraeumerinBlog {
                 .body(
                     .header(for: context, selectedSection: nil),
                     .wrapper(
-                        .h1("Latest content"),
-                        .itemList(
-                            for: Array(
-                                context.allItems(
-                                    sortedBy: \.date,
-                                    order: .descending
-                                ).prefix(6)
+                        .div(
+                            .class("recents"),
+                            .h1("Recent Sketchnotes"),
+                            try .itemList(
+                                for: Array(
+                                    context.allItems(
+                                        sortedBy: \.date,
+                                        order: .descending
+                                    ).filter { $0.sectionID == .sketchnotes }
+                                        .prefix(3)
+                                ),
+                                on: context.site
                             ),
-                            on: context.site
+                            .h1("Recent Posts"),
+                            try .itemList(
+                                for: Array(
+                                    context.allItems(
+                                        sortedBy: \.date,
+                                        order: .descending
+                                    ).filter { $0.sectionID == .posts }
+                                        .prefix(3)
+                                ),
+                                on: context.site
+                            )
                         )
                     ),
                     .footer(for: context.site)
@@ -49,7 +64,14 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .header(for: context, selectedSection: section.id),
                     .wrapper(
                         .h1(.text(section.title)),
-                        .itemList(for: section.items, on: context.site)
+                        try .itemList(
+                            for: Array(
+                                context.allItems(
+                                    sortedBy: \.date,
+                                    order: .descending
+                                ).filter { $0.sectionID == section.id }
+                            ),
+                            on: context.site)
                     ),
                     .footer(for: context.site)
                 )
@@ -65,15 +87,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .class("item-page"),
                     .header(for: context, selectedSection: item.sectionID),
                     .wrapper(
-                        .article(
-                            .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
-                            .div(
-                                .class("content"),
-                                .contentBody(item.body)
-                            ),
-                            .span("Tagged with: "),
-                            .tagList(for: item, on: context.site)
-                        )
+                        .itemDetail(for: item, on: context.site)
                     ),
                     .footer(for: context.site)
                 )
@@ -139,7 +153,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
                             .text("Browse all tags"),
                             .href(context.site.tagListPath)
                         ),
-                        .itemList(
+                        try .itemList(
                             for: context.items(
                                 taggedWith: page.tag,
                                 sortedBy: \.date,
@@ -152,99 +166,5 @@ extension Theme where Site == HimmelstraeumerinBlog {
                 )
             )
         }
-    }
-}
-
-private extension Node where Context == HTML.BodyContext {
-    static func wrapper(_ nodes: Node...) -> Node {
-        .div(.class("wrapper"), .group(nodes))
-    }
-
-    static func header<T: Website>(
-        for context: PublishingContext<T>,
-        selectedSection: T.SectionID?
-    ) -> Node {
-        return .header(
-            .wrapper(
-                .a(.class("site-name"), .href("/"), .text(context.site.name)),
-                .p(.text(context.site.description))
-            )
-        )
-    }
-
-    static func itemList<T: Website>(for items: [Item<T>], on site: T) -> Node {
-        return .ul(
-            .class("item-list"),
-            .forEach(items) { item in
-                .li(.article(
-                    .p(.class("release-date"), .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")),
-                    .h1(.a(
-                        .href(item.path),
-                        .text(item.title)
-                        )),
-                    .p(.text(item.description))
-                    ))
-            }
-        )
-    }
-
-    static func tagList<T: Website>(for item: Item<T>, on site: T) -> Node {
-        return .ul(.class("tag-list"), .forEach(item.tags) { tag in
-            .li(.a(
-                .href(site.path(for: tag)),
-                .text(tag.string)
-                ))
-            })
-    }
-
-    static func footer<T: Website>(for site: T) -> Node {
-        return .footer(
-            .p(
-                .text("Made by Felizia Bernutz using "),
-                .a(
-                    .text("Publish"),
-                    .href("https://github.com/johnsundell/publish"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                ),
-                .text(". This site is "),
-                .a(
-                    .text("open source"),
-                    .href("https://github.com/fbernutz/die-himmelstraeumerin-blog"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                ),
-                .text(".")
-            ),
-            .p(
-                .a(
-                    .text("Twitter"),
-                    .href("https://twitter.com/felibe444"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                ),
-                .text(" | "),
-                .a(
-                    .text("GitHub"),
-                    .href("https://github.com/fbernutz"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                ),
-                .text(" | "),
-                .a(
-                    .text("Instagram"),
-                    .href("https://www.instagram.com/diehimmelstraeumerin/"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                ),
-                .text(" | "),
-                .a(
-                    .text("Flickr"),
-                    .href("https://www.flickr.com/photos/feli_93/"),
-                    .target(.blank),
-                    .rel(.noreferrer)
-                )
-            )
-        )
     }
 }
