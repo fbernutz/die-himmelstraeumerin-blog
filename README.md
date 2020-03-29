@@ -12,3 +12,9 @@ With Github Actions the `/Output` directory is copied to https://github.com/fber
 
 - Generated with [Publish](https://github.com/JohnSundell/Publish)
 - Hosted with Github Pages
+
+## Run locally
+
+To start a `localhost` web server for local testing and development, you need to clone and install Publish ([see command line tool installation steps](https://github.com/JohnSundell/Publish#installation)).
+
+Use `make` or `publish run` in root folder of this repository to run the website locally.
