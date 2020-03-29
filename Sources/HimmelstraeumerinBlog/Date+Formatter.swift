@@ -8,6 +8,7 @@
 import Foundation
 
 extension Date {
+    /// outputs "10. Nov 2018"
     var formatted: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
