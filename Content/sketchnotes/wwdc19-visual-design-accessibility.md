@@ -1,5 +1,5 @@
 ---
-date: 2019-06-09 17:02
+date: 2019-06-09 17:01
 description: Sketchnote about visual design accessibility from WWDC 2019
 tags: sketchnote, apple, wwdc, wwdc-19, accessibility, iOS
 image: ../../images/sketchnotes/wwdc19-visual-design-accessibility-small.jpg

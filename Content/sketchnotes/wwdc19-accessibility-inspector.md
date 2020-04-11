@@ -1,5 +1,5 @@
 ---
-date: 2019-06-09 17:02
+date: 2019-06-09 17:04
 description: Sketchnote about accessibility inspector from WWDC 2019
 tags: sketchnote, apple, wwdc, wwdc-19, accessibility, iOS
 image: ../../images/sketchnotes/wwdc19-accessibility-inspector-small.jpg
