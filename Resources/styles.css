@@ -110,19 +110,23 @@ header nav li a.selected {
 /* TEXT */
 
 h1 {
+    font-size: 300%;
     margin-bottom: 20px;
-    font-size: 2em;
 }
 
 h2 {
+    font-size: 180%;
     margin: 30px 0 10px 0;
 }
 
 h3, h4 {
+    font-size: 150%;
     margin: 20px 0 10px 0;
 }
 
-p {
+p, article li {
+    font-size: 120%;
+    line-height: 1.8em;
     margin-bottom: 4px;
 }
 
@@ -205,12 +209,11 @@ a {
 /* ARTICLE */
 
 article p {
-    font-size: 1.05em;
-    line-height: 1.5em;
-    margin-bottom: 0.7em;
+    margin-bottom: 1em;
 }
 
 article p.release-date {
+    font-size: 100%;
     color: #555;
 }
 
@@ -220,8 +223,6 @@ article hr {
 
 article li {
     margin: 10px 0px 10px 10px;
-    font-size: 1.05em;
-    line-height: 1.5em;
 }
 
 article ul, ol {
@@ -312,6 +313,10 @@ footer {
     padding: 20px;
     color: #555;
     line-height: 1.2em;
+}
+
+footer p {
+    font-size: 100%;
 }
 
 /* DARK THEME */
