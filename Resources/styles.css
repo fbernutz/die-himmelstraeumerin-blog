@@ -92,8 +92,8 @@ header nav li a {
     color: #122869;
     padding: 0 10px;
     line-height: 30px;
-    border-bottom: .15em solid transparent;
     margin: .5em;
+    border-bottom: .15em solid transparent;
 }
 
 header nav a:hover,
@@ -357,6 +357,12 @@ footer p {
 
 /* CODE STYLE */
 
+code {
+    padding: .2em .4em;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
 pre {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -370,6 +376,7 @@ pre code {
     display: block;
     padding: 0 20px;
     color: #a9bcbc;
+    background-color: inherit;
     line-height: 1.4em;
     font-size: 0.95em;
     overflow-x: auto;
