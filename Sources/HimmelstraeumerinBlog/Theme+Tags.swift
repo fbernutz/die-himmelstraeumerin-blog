@@ -14,6 +14,7 @@ extension Node where Context == HTML.BodyContext {
             .class("tag-list"),
             .forEach(item.tags) { tag in
                 .li(
+                    .class("tag"),
                     .a(
                         .href(site.path(for: tag)),
                         .text(tag.string)

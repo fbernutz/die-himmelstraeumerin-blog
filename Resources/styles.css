@@ -264,37 +264,41 @@ article figcaption {
 
 /* TAGS */
 
+.tags {
+    font-size: 100%;
+    color: #555;
+}
+
 .tag-list {
-    margin-bottom: 15px;
+    display: inline-block;
 }
 
 .tag-list ul {
     padding: 0;
 }
 
-.tag-list li,
-.tag {
-    display: inline-block;
-    background-color: #000;
-    color: #ddd;
-    padding: 4px 6px;
-    border-radius: 5px;
+.tag-list li {
     margin-right: 5px;
 }
 
-.tag-list a,
+.tag {
+    font-size: 100%;
+    margin: 0;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
 .tag a {
     text-decoration: none;
 }
 
-.item-page .tag-list {
-    display: inline-block;
-}
-
-.all-tags li {
+.all-tags .tag {
     font-size: 1.4em;
-    margin-right: 10px;
     padding: 6px 10px;
+    margin: 5px;
 }
 
 .browse-all {

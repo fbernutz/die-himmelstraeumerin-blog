@@ -15,8 +15,11 @@ extension Node where Context == HTML.BodyContext {
                 .sketchnoteDetail(item),
                 else: .blogPostDetail(item)
             ),
-            .span("Tagged with: "),
-            .tagList(for: item, on: site)
+            .div(
+                .class("tags"),
+                .span("Tagged with: "),
+                .tagList(for: item, on: site)
+            )
         )
     }
 }

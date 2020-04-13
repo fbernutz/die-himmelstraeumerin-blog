@@ -48,18 +48,20 @@ image: ../../images/sketchnotes/sketchnote-xyz-small.<span class="splashproperty
 ## <span class="splashtype">Sketchnote XYZ</span>
 </code></pre><p>I manually add information about:</p><ul><li>the <strong>date</strong>, when I created the sketchnote, which is used to sort the list of sketchnotes</li><li>the <strong>description</strong>, which is also used as alt tag for the sketchnote</li><li><strong>tags</strong>, which can be used to find other sketchnotes</li><li>the <strong>path to the thumbnail image</strong></li><li>the <strong>title</strong>, which can't be generated from the image name</li></ul><p>I remove the part <code>-small</code> from the thumbnail image path to get the path to the original image and add a HTML structure around the full size image. This is done one time in code and doesn't have to be adapted for other sketchnotes.</p><h2>How do I add a new sketchnote?</h2><ol><li>First of all, I add the sketchnote image with a "good" naming to the <code>/Resources/images/sketchnotes/</code> folder. The naming is important because the name will also be used for the URL for the detail page.</li></ol><ol start="2"><li>If the image isn't of type <code>.jpg</code>, I can run a script to convert <code>.png</code> to <code>.jpg</code> by running <code>make convert-png</code>. All tasks are defined in a <a href="https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/Makefile"><code>Makefile</code></a>, which was added to demonstrate which tasks can be run in the project and to easily run these tasks.</li></ol><ol start="3"><li>The thumbnail for the list has to be created. Therefore I run the script, I've mentioned earlier, by running <code>make thumbs</code>.</li></ol><ol start="4"><li>I create a markdown file, where information about the content is added manually. I copy an existing file most of the time and name it like the image.</li></ol><ol start="5"><li>Run <code>make</code> to generate the new HTML code.</li></ol><h2>Next steps</h2><p>I have thousand ideas what to do next and what to improve. My top three are:</p><ul><li>I think about adding the <strong>name of the speaker or author</strong>, because none of these sketchnotes could be created without a speaker or an author and I want to honor them.</li><li>To display a bit more information about a sketchnote in the list, I want to <strong>display the title on hover</strong>.</li><li>It would be great to <strong>improve dark mode for sketchnotes</strong>. Currently they are white images on a dark background. If anyone has an idea, please share it with me!</li></ul><hr><p>That's it! Feedback or comments are highly welcome! Leave a message in twitter.</p>
 								</div>
-								<span>Tagged with: </span>
-								<ul class="tag-list">
-										<li>
-												<a href="/tags/post">post</a>
-										</li>
-										<li>
-												<a href="/tags/website">website</a>
-										</li>
-										<li>
-												<a href="/tags/sketchnotes">sketchnotes</a>
-										</li>
-								</ul>
+								<div class="tags">
+										<span>Tagged with: </span>
+										<ul class="tag-list">
+												<li class="tag">
+														<a href="/tags/post">post</a>
+												</li>
+												<li class="tag">
+														<a href="/tags/website">website</a>
+												</li>
+												<li class="tag">
+														<a href="/tags/sketchnotes">sketchnotes</a>
+												</li>
+										</ul>
+								</div>
 						</article>
 				</div>
 				<footer>
