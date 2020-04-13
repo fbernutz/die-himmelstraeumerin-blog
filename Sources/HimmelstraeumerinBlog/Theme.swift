@@ -146,7 +146,10 @@ extension Theme where Site == HimmelstraeumerinBlog {
                     .wrapper(
                         .h1(
                             "Tagged with ",
-                            .span(.class("tag"), .text(page.tag.string))
+                            .span(
+                                .class("tag"),
+                                .text(page.tag.string)
+                            )
                         ),
                         .a(
                             .class("browse-all"),
