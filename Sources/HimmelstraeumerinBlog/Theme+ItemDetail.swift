@@ -66,22 +66,22 @@ private extension Node where Context == HTML.BodyContext {
     }
 
     static func metaData(for item: Item<HimmelstraeumerinBlog>) -> Self {
-        let talkByText = "Content by"
+        let contentByDescription = "Content by"
         return .div(
             .class("metadata"),
-            .unwrap(item.metadata.speaker) { speaker in
-                .if(item.metadata.speakerLink != nil,
+            .unwrap(item.metadata.contentCreator) { contentCreator in
+                .if(item.metadata.linkToContentCreator != nil,
                     .p(
-                        .text(talkByText),
+                        .text(contentByDescription),
                         .a(
-                            .href(item.metadata.speakerLink ?? ""),
-                            .text(speaker),
+                            .href(item.metadata.linkToContentCreator ?? ""),
+                            .text(contentCreator),
                             .target(.blank),
                             .rel(.noreferrer)
                         )
                     ), else:
                     .p(
-                        .text("\(talkByText) \(speaker)")
+                        .text("\(contentByDescription) \(contentCreator)")
                     )
                 )
             },
