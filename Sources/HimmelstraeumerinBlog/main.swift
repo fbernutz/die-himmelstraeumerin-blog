@@ -13,6 +13,8 @@ struct HimmelstraeumerinBlog: Website {
 
     struct ItemMetadata: WebsiteItemMetadata {
         // Add any site-specific metadata that you want to use here.
+		let speaker: String?
+		let speakerLink: String?
     }
 
     // Update these properties to configure your website:

@@ -26,11 +26,16 @@ extension Node where Context == HTML.BodyContext {
 
 private extension Node where Context == HTML.BodyContext {
     static func blogPostDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
+        let blogMetadata = item.date.formatted
+            + " ⋅ "
+            + "\(Int(item.readingTime.minutes.rounded()))"
+            + " min read"
+
         return .div(
             .class("content post-detail"),
             .p(
                 .class("release-date"),
-                .text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")
+                .text(blogMetadata)
             ),
             .contentBody(item.body)
         )
@@ -40,22 +45,59 @@ private extension Node where Context == HTML.BodyContext {
         return .div(
             .class("content sketchnote-detail"),
             .contentBody(item.body),
-            .p(
-                .unwrap(item.imagePath) {
-                    .a(
-                        .href($0.absoluteString.originalImagePath),
-                        .target(.blank),
-                        .img(
-                            .src($0.absoluteString.originalImagePath),
-                            .alt(item.description)
-                        )
+            .metaData(for: item),
+            .sketchnoteOriginal(for: item)
+        )
+    }
+
+    static func sketchnoteOriginal(for item: Item<HimmelstraeumerinBlog>) -> Self {
+        return .p(
+            .unwrap(item.imagePath) {
+                .a(
+                    .href($0.absoluteString.originalImagePath),
+                    .target(.blank),
+                    .img(
+                        .src($0.absoluteString.originalImagePath),
+                        .alt(item.description)
                     )
-                }
+                )
+            }
+        )
+    }
+
+    static func metaData(for item: Item<HimmelstraeumerinBlog>) -> Self {
+        let talkByText = "Content by"
+        return .div(
+            .class("metadata"),
+            .unwrap(item.metadata.speaker) { speaker in
+                .if(item.metadata.speakerLink != nil,
+                    .p(
+                        .text(talkByText),
+                        .a(
+                            .href(item.metadata.speakerLink ?? ""),
+                            .text(speaker),
+                            .target(.blank),
+                            .rel(.noreferrer)
+                        )
+                    ), else:
+                    .p(
+                        .text("\(talkByText) \(speaker)")
+                    )
+                )
+            },
+            .p(
+                .text("Sketch by"),
+                .a(
+                    .href("https://twitter.com/felibe444"),
+                    .text("@felibe444"),
+                    .target(.blank),
+                    .rel(.noreferrer)
+                )
             ),
             .p(
-                .class("release-date"),
-                .text("Sketch created on \(item.date.formatted)")
+                .text("Created on \(item.date.formatted)")
             )
         )
     }
+
 }

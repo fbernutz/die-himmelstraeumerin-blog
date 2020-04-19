@@ -138,6 +138,16 @@ a {
     margin-bottom: 40px;
 }
 
+.metadata {
+	margin: 20px 0;
+}
+
+.metadata p {
+    font-size: 100%;
+    color: #555;
+	margin-bottom: 0;
+}
+
 /* SKETCHNOTES */
 
 .sketchnotes {
@@ -394,6 +404,10 @@ footer p {
     footer {
         color: #9a9898;
     }
+
+	.metadata p {
+        color: #9a9898;
+	}
 
     .sketchnote-item-container,
     .sketchnote-item-container:hover {
