@@ -392,6 +392,14 @@ footer p {
         border: 0px solid transparent;
     }
 
+    .tags {
+        color: #9a9898;
+    }
+
+    footer {
+        color: #9a9898;
+    }
+
     .sketchnote-item-container,
     .sketchnote-item-container:hover {
         box-shadow: 0 0 0px transparent;
