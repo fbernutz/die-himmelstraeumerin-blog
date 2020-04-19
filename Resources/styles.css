@@ -141,7 +141,6 @@ a {
 /* SKETCHNOTES */
 
 .sketchnotes {
-    line-height: 0;
     column-count: 3;
     column-gap: 20px;
     margin-bottom: 20px;
@@ -162,19 +161,58 @@ a {
 .sketchnotes img {
     width: 100%;
     height: auto;
+}
+
+.sketchnote-item-container {
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 0;
     box-shadow: 0 0 5px #ccc;
 }
 
-.sketchnotes img:hover {
-    box-shadow: 0 0 5px #999;
-}
-
 .sketchnote-item {
-    margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .recents .sketchnote-item {
     margin-bottom: 0;
+}
+
+.sketchnote-title {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(13, 28, 85, 0.6);
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.sketchnote-item-container:hover {
+    box-shadow: 0 0 5px #999;
+}
+
+.sketchnote-item-container:hover .sketchnote-image {
+    filter: blur(2px);
+}
+
+.sketchnote-item-container:hover .sketchnote-title {
+    opacity: 1;
 }
 
 /* POSTS */
@@ -351,7 +389,12 @@ footer p {
     }
 
     article img {
-        border: 1px solid transparent;
+        border: 0px solid transparent;
+    }
+
+    .sketchnote-item-container,
+    .sketchnote-item-container:hover {
+        box-shadow: 0 0 0px transparent;
     }
 }
 
