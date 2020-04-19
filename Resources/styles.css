@@ -200,7 +200,6 @@ a {
 
     background: rgba(13, 28, 85, 0.6);
     opacity: 0;
-    transition: opacity .4s;
 }
 
 .sketchnote-item-container:hover {
@@ -213,6 +212,7 @@ a {
 
 .sketchnote-item-container:hover .sketchnote-title {
     opacity: 1;
+    transition: opacity .4s;
 }
 
 /* POSTS */
