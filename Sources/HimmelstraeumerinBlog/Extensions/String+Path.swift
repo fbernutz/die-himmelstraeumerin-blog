@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    var originalImagePath: String {
-        replacingOccurrences(of: "-small", with: "")
-    }
+	var originalImagePath: String {
+		replacingOccurrences(of: "-small", with: "")
+	}
 }

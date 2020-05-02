@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="banner.jpg" width="1700" max-width="100%" alt="Header of Blog diehimmelstraeumerin" />
+	<img src="banner.jpg" width="1700" max-width="100%" alt="Header of Blog diehimmelstraeumerin" />
 </p>
 
 # #diehimmelstraeumerin
