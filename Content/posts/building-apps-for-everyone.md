@@ -167,7 +167,7 @@ _You can find my slides from the talk here: [https://speakerdeck.com/fbernutz/bu
 
 _The following resources were used for the quotes in this blog post and are a good starting point to get more information about Accessibility and Inclusive Design. I highly recommend reading them._
 
-- _Apple and Accessibility: [https://developer.apple.com/accessibility/ios/](https://developer.apple.com/accessibility/ios/_
+- _Apple and Accessibility: [https://developer.apple.com/accessibility/ios/](https://developer.apple.com/accessibility/ios/)_
 - _Apples Human Interface Guidelines — Introduction: [https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/)_
 - _Microsoft and Inclusive Design: [https://www.microsoft.com/design/inclusive](https://www.microsoft.com/design/inclusive)_
 - _Accessible Interface Design: [https://medium.com/salesforce-ux/accessible-interface-design-d80e95cbb2c1](https://medium.com/salesforce-ux/accessible-interface-design-d80e95cbb2c1)_
