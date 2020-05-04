@@ -19,7 +19,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makeIndexHTML(for index: Index, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML {
 			HTML(
 				.lang(context.site.language),
-				.head(for: index, on: context.site),
+				.head(for: context.site, on: index),
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
@@ -57,7 +57,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makeSectionHTML(for section: Section<HimmelstraeumerinBlog>, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML {
 			HTML(
 				.lang(context.site.language),
-				.head(for: section, on: context.site),
+				.head(for: context.site, on: section),
 				.body(
 					.header(for: context, selectedSection: section.id),
 					.wrapper(
@@ -79,7 +79,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makeItemHTML(for item: Item<HimmelstraeumerinBlog>, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML {
 			HTML(
 				.lang(context.site.language),
-				.head(for: item, on: context.site),
+				.head(for: context.site, on: item),
 				.body(
 					.class("item-page"),
 					.header(for: context, selectedSection: item.sectionID),
@@ -94,7 +94,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makePageHTML(for page: Page, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML {
 			HTML(
 				.lang(context.site.language),
-				.head(for: page, on: context.site),
+				.head(for: context.site, on: page),
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
@@ -108,7 +108,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makeTagListHTML(for page: TagListPage, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML? {
 			HTML(
 				.lang(context.site.language),
-				.head(for: page, on: context.site),
+				.head(for: context.site, on: page),
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
@@ -134,7 +134,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		func makeTagDetailsHTML(for page: TagDetailsPage, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML? {
 			HTML(
 				.lang(context.site.language),
-				.head(for: page, on: context.site),
+				.head(for: context.site, on: page),
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
