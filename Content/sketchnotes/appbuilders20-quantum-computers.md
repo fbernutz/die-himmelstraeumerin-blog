@@ -1,7 +1,7 @@
 ---
 date: 2020-05-11 15:00
 description: Sketchnote about building quantum computers from AppBuilders 2020 (online conference)
-tags: sketchnote, quantumcomputers, appbuilders20
+tags: sketchnote, quantum-computers, appbuilders-20
 image: ../../images/sketchnotes/appbuilders20-quantum-computers-small.jpg
 contentCreator: Sebastian Weidt
 ---
