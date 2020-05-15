@@ -18,3 +18,7 @@ With Github Actions the `/Output` directory is copied to https://github.com/fber
 To start a `localhost` web server for local testing and development, you need to clone and install Publish ([see command line tool installation steps](https://github.com/JohnSundell/Publish#installation)).
 
 Use `make` or `publish run` in root folder of this repository to run the website locally.
+
+## License
+
+Copyright (c) 2020 Felizia Bernutz - Released under the MIT license. Please see the [LICENSE](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/LICENSE) file for more information.
