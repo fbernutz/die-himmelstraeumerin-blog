@@ -296,7 +296,7 @@ article figure {
 }
 
 article figcaption {
-	margin: 10px 0;
+	margin: 5px 0 10px 0;
 	text-align: center;
 	color: #555;
 	font-size: 0.95em;
