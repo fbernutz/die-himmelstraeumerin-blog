@@ -1,5 +1,5 @@
 ---
-date: 2020-05-20 13:00
+date: 2020-05-20 20:00
 description: Two days full of conference talks are hard! It's hard for your brain to stay focused and to process the things you've heard.  It's hard for your back when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard for your fingers when you make sketchnotes two days long.
 tags: post, sketchnotes, online-conference
 ---
@@ -50,11 +50,11 @@ Even though, nothing would ever stop me from making sketchnotes and nothing shou
 ### #AppBuilders20
 
 - [AppBuilders 2020 sketchnotes](/tags/appbuilders20/) on this website
-- [Twitter thread](https://twitter.com/felibe444/status/1259807545364971520?s=20) with my sketchnotes
+- [Twitter thread](https://twitter.com/felibe444/status/1259807545364971520) with my sketchnotes
 - [Memento page](https://2020.appbuilders.ch/memento) with links to talks in YouTube
 
 ### #UIKonf2020
 
 - [UIKonf 2020 sketchnotes](/tags/uikonf20/) on this website
-- [Twitter thread](https://twitter.com/felibe444/status/1262396003413643269?s=20) with my sketchnotes
+- [Twitter thread](https://twitter.com/felibe444/status/1262396003413643269) with my sketchnotes
 - Talks will be available on YouTube in beginning of June
