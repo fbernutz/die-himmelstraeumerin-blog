@@ -5,4 +5,4 @@ tags: sketchnote, apple, wwdc, wwdc-20, iOS
 image: ../../images/sketchnotes/wwdc20-state-of-the-union-small.jpg
 ---
 
-# WWDC 2020: Platforms State of the Union
+# WWDC 2020: Platforms State of the Union ([#102](https://developer.apple.com/videos/play/wwdc2020/102/))
