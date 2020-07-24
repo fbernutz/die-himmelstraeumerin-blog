@@ -1,5 +1,5 @@
 ---
-date: 2020-06-23 17:16
+date: 2020-07-10 16:00
 description: Sketchnote about widget kit from WWDC 2020
 tags: sketchnote, apple, wwdc, wwdc-20, iOS
 image: ../../images/sketchnotes/wwdc20-meet-widgetkit-small.jpg
