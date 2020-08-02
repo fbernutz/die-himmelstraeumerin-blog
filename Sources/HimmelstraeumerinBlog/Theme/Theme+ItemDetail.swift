@@ -52,6 +52,7 @@ private extension Node where Context == HTML.BodyContext {
 
 	static func sketchnoteOriginal(for item: Item<HimmelstraeumerinBlog>) -> Self {
 		return .p(
+			.class("sketchnote-detail-image"),
 			.unwrap(item.imagePath) {
 				.a(
 					.href($0.absoluteString.originalImagePath),
