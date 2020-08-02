@@ -6,4 +6,4 @@ image: ../../images/sketchnotes/wwdc20-meet-scribble-for-ipad-small.jpg
 contentCreator: Daniel Gobera, Evan Long
 ---
 
-# WWDC 2020: Meet Scribble for iPad ([#10106](https://developer.apple.com/wwdc20/10106)
+# WWDC 2020: Meet Scribble for iPad ([#10106](https://developer.apple.com/wwdc20/10106))
