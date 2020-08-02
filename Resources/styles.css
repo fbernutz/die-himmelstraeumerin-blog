@@ -168,19 +168,50 @@ a {
 	}
 }
 
-.sketchnote-item-container {
+.sketchnote-item {
 	margin-bottom: 20px;
 	position: relative;
-	line-height: 0;
 	box-shadow: 0 0 5px #ccc;
-}
-
-.sketchnote-item {
 	overflow: hidden;
 }
 
 .recents .sketchnote-item {
 	margin-bottom: 0;
+}
+
+.sketchnote-item a {
+	display: block;
+}
+
+.sketchnote-item a:focus {
+	box-shadow: 0 0 5px #999;
+}
+
+.sketchnote-item:hover {
+	box-shadow: 0 0 5px #999;
+}
+
+.sketchnote-item a:focus .sketchnote-image {
+	filter: blur(2px);
+}
+
+.sketchnote-item:hover .sketchnote-image {
+	filter: blur(2px);
+}
+
+.sketchnote-item a:focus .sketchnote-title {
+	opacity: 1;
+	transition: opacity .4s;
+}
+
+.sketchnote-item:hover .sketchnote-title {
+	opacity: 1;
+	transition: opacity .4s;
+}
+
+.sketchnote-image {
+	/* to remove small line under image */
+	display: block;
 }
 
 .sketchnote-title {
@@ -205,19 +236,6 @@ a {
 
 	background: rgba(13, 28, 85, 0.6);
 	opacity: 0;
-}
-
-.sketchnote-item-container:hover {
-	box-shadow: 0 0 5px #999;
-}
-
-.sketchnote-item-container:hover .sketchnote-image {
-	filter: blur(2px);
-}
-
-.sketchnote-item-container:hover .sketchnote-title {
-	opacity: 1;
-	transition: opacity .4s;
 }
 
 /* POSTS */
@@ -409,8 +427,8 @@ footer p {
 		color: #9a9898;
 	}
 
-	.sketchnote-item-container,
-	.sketchnote-item-container:hover {
+	.sketchnote-item,
+	.sketchnote-item:hover {
 		box-shadow: 0 0 0px transparent;
 	}
 }

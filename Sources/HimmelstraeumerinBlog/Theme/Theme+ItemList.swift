@@ -64,21 +64,17 @@ private extension Node where Context == HTML.BodyContext {
 		}
 
 		return .article(
-			.class("sketchnote-item-container"),
-			.div(
-				.class("sketchnote-item"),
-				.a(
-					.class("sketchnote-title"),
-					.href(item.path),
-					.text(item.title)
+			.class("sketchnote-item"),
+			.a(
+				.href(item.path),
+				.img(
+					.class("sketchnote-image"),
+					.src(imagePath),
+					.alt(item.description)
 				),
-				.a(
-					.href(item.path),
-					.img(
-						.class("sketchnote-image"),
-						.src(imagePath),
-						.alt(item.description)
-					)
+				.p(
+					.class("sketchnote-title"),
+					.text(item.title)
 				)
 			)
 		)
