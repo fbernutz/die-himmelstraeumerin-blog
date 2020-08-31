@@ -44,7 +44,7 @@ Google gives a nice insight on why optimizing images is so important:
 
 I created a [script](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/create-thumbnails.sh) to easily generate thumbnails for the list. The script uses the power of [ImageMagick](https://imagemagick.org/index.php) to resize all images and to save the resized image as new file with a suffix `-small`. It has already saved me tons of hours with resizing images!
 
-Creating the layout for the list was a challenge for me. Every sketchnote has **different aspect ratios** and they exist in **both orientations**, landscape and portrait. I wanted to display the latest sketchnotes on top of the screen, to be able to scroll down and see how the sketchnotes developed. Additionally, I wanted a **CSS only solution**, because I like javascript free websites.
+Creating the layout for the list was a challenge for me. Every sketchnote has **different aspect ratios** and they exist in **both orientations**, landscape and portrait. I wanted to display the latest sketchnotes on top of the screen, to be able to scroll down and see how the sketchnotes developed. Additionally, I wanted a **CSS only solution**, because I like to keep it simple.
 
 I'm a totally unexperienced newbie when it comes to HTML and CSS, so I had to learn a lot about different HTML layout techniques. There are many different tutorials for photo grid layouts out there and I've tried different kinds, like CSS grid, flexbox and finally used a column layout, which worked best for me.
 
