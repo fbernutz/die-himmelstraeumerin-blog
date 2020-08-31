@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - name: Generate Output
+      run: swift run
     - name: Deploy Content
       uses: peaceiris/actions-gh-pages@v2
       env:
