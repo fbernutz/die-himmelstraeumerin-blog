@@ -38,7 +38,7 @@
 				<div class="wrapper">
 						<article>
 								<div class="content post-detail">
-										<p class="release-date">12. Jan 2020 ⋅ 4 min read</p><h1>Migration from Travis CI to GitHub Actions</h1><p>The last days, I migrated some of my open source repositories from <a href="https://travis-ci.org/">Travis CI</a> to <a href="https://github.com/features/actions">GitHub Actions</a>.</p><p>I only used Travis for running tests or linter, nothing too complicated.</p><h2>Running Tests in iOS Repositories</h2><p>Most of my <code>.travis.yml</code> files looked similar to the code snippet below. I want to run two commands in the CI (with fastlane):</p><ul><li><code>bundle exec fastlane test</code></li><li><code>bundle exec fastlane snapshot_test</code></li></ul><pre><code>language: swift
+										<p class="release-date">Jan 12, 2020 ⋅ 4 min read</p><h1>Migration from Travis CI to GitHub Actions</h1><p>The last days, I migrated some of my open source repositories from <a href="https://travis-ci.org/">Travis CI</a> to <a href="https://github.com/features/actions">GitHub Actions</a>.</p><p>I only used Travis for running tests or linter, nothing too complicated.</p><h2>Running Tests in iOS Repositories</h2><p>Most of my <code>.travis.yml</code> files looked similar to the code snippet below. I want to run two commands in the CI (with fastlane):</p><ul><li><code>bundle exec fastlane test</code></li><li><code>bundle exec fastlane snapshot_test</code></li></ul><pre><code>language: swift
 osx_image: xcode11.<span class="splashnumber">2</span>
 cache:
   - bundler
