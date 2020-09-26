@@ -6,4 +6,4 @@ image: ../../images/sketchnotes/snconnect20-introduction-small.jpg
 contentCreator: Marianne Rady and Mike Rohde
 ---
 
-# Introduction to Sketchnoting Connect 2020
+# Sketchnoting Connect 2020: Introduction

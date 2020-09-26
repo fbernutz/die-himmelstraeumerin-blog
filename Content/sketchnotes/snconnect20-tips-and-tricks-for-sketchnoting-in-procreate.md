@@ -5,4 +5,4 @@ tags: sketchnote, snconnect-20
 image: ../../images/sketchnotes/snconnect20-tips-and-tricks-for-sketchnoting-in-procreate-small.jpg
 ---
 
-# SNConnect 2020: Tips and Tricks for Sketchnoting in ProCreate
+# Sketchnoting Connect 2020: Tips and Tricks for Sketchnoting in ProCreate
