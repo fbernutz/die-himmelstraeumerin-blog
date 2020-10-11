@@ -42,7 +42,7 @@ Of course, using an iPad would help me with that because I can use the same devi
 
 ### Fourth wish
 
-Of course, one of my goals is to improve my apps for the iPad, but for that, I have to first learn about "iPad patterns". Which kind of navigation should used, a tab bar or a side bar? Should this be a detail view or a pop up? So, when I now use the iPad more often I want to have a detailed look at some existing apps and then to improve mine.
+Of course, one of my goals is to improve my apps for the iPad, but for that, I have to first learn about "iPad patterns". Which kind of navigation should be used, a tab bar or a side bar? Should this be a detail view or a pop up? So, when I now use the iPad more often I want to have a detailed look at some existing apps and then to improve mine.
 
 ---
 
@@ -89,7 +89,7 @@ The possibility to change and scale every element afterwards is a curse and a bl
 
 The thought **"It's good enough!"** is now my new goal.
 
-I learned a lot on Sketchnote Connect 2020! My first sketchnoting conference ever! I've even submit a session about ["Tips and Tricks for Sketchnoting in ProCreate](https://fbernutz.github.io/sketchnotes/snconnect20-tips-and-tricks-for-sketchnoting-in-procreate/), where I found out that others felt overwhelmed as well when they changed from analogue to digital sketchnoting!
+I've learned a lot at Sketchnote Connect 2020! My first sketchnoting conference ever! I've even submit a session about ["Tips and Tricks for Sketchnoting in ProCreate](https://fbernutz.github.io/sketchnotes/snconnect20-tips-and-tricks-for-sketchnoting-in-procreate/), where I found out that others felt overwhelmed as well when they changed from analogue to digital sketchnoting!
 
 <figure>
     <video controls autoplay>
