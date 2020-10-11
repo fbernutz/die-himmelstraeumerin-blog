@@ -272,6 +272,9 @@ a {
 .post-detail img {
 	margin: 1em 0;
 }
+.post-detail video {
+	margin: 1em 0;
+}
 
 /* ARTICLE */
 
@@ -297,6 +300,13 @@ article ul, ol {
 }
 
 article img {
+	border: 1px solid #cfcfcf;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+article video {
 	border: 1px solid #cfcfcf;
 	width: 100%;
 	height: auto;
