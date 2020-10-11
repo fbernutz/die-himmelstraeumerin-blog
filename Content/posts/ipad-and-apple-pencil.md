@@ -103,4 +103,4 @@ I've learned a lot at Sketchnote Connect 2020! My first sketchnoting conference 
 - I want to "just start" more often!
 - Practice, practice, practice!
 - Having fun! 😊
-- Maybe there'll be one more iOS conference this year, to train my sketchnote on iPad skills? [#NSSpain2020](https://remote.nsspain.com/)
+- Maybe I'll take part in one more iOS conference this year, to train my sketchnote on iPad skills? [#NSSpain2020](https://remote.nsspain.com/)
