@@ -408,6 +408,10 @@ footer p {
 		color: #ddd;
 	}
 
+	body code {
+		color: #333;
+	}
+
 	.item.posts {
 		background-color: #333;
 	}
