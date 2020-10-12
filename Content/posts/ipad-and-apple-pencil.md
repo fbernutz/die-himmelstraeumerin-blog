@@ -36,7 +36,7 @@ Using an iPad would definitely help me with that because I could resize things o
 
 There are **a lot of manual steps to digitalize the paper sketchnote to an image** which can then be shared on social media.
 
-To share a sketchnote, I use Apples _Files_ app to scan the sketchnote. Sadly, this always results in a `.pdf`, so I have to airdrop it to my MacBook and convert it to `.jpg` (or something else) because `.pdf` can't be posted on twitter. When converting the document, I always increase the distance to the edges, so the content has a bit more space. After the convertion and the editing, I can finally share the image on twitter.
+To share a sketchnote, I use Apples _Files_ app to scan the sketchnote. Sadly, this always results in a `.pdf`, so I have to airdrop it to my MacBook and convert it to `.jpg` (or something else) because `.pdf` can't be posted on twitter. When converting the document, I always increase the distance to the edges, so the content has a bit more space. After the conversion and the editing, I can finally share the image on twitter.
 
 Of course, using an iPad would help me with that because I can use the same device to edit, export and share the image.
 
@@ -74,7 +74,7 @@ It's so fun to browse through YouTube and peek into Procreate tutorials from ama
 
 After using the iPad for about six weeks now... I can say, it was a journey from being super excited at first, over overwhelmed, to pretty confident. It's definitely different to draw on an iPad than on paper, but you're getting used to it after some time. The _Paperlike_ iPad Screen Protector helped me with this. It feels (and sounds) a lot more like drawing on paper.
 
-iOS 14 was released and I could try out Scribble. I really like it because don't have to put the pencil away to type somthing. But from time to time I find myself activating Scribble when I don't want to use it. Sometimes I start typing in "textfields" I haven't even seen, so I constantly rename my color palettes by mistake. Mh, maybe that's just me.
+iOS 14 was released and I could try out Scribble. I really like it because I don't have to put the pencil away to type something. But from time to time I find myself activating Scribble when I don't want to use it. Sometimes I start typing in "textfields" I haven't even seen, so I constantly rename my color palettes by mistake. Mh, maybe that's just me.
 
 ### Were my wishes fulfilled?
 
