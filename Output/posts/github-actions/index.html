@@ -39,7 +39,7 @@
 						<article>
 								<div class="content post-detail">
 										<p class="release-date">Jan 12, 2020 ⋅ 4 min read</p><h1>Migration from Travis CI to GitHub Actions</h1><p>The last days, I migrated some of my open source repositories from <a href="https://travis-ci.org/">Travis CI</a> to <a href="https://github.com/features/actions">GitHub Actions</a>.</p><p>I only used Travis for running tests or linter, nothing too complicated.</p><h2>Running Tests in iOS Repositories</h2><p>Most of my <code>.travis.yml</code> files looked similar to the code snippet below. I want to run two commands in the CI (with fastlane):</p><ul><li><code>bundle exec fastlane test</code></li><li><code>bundle exec fastlane snapshot_test</code></li></ul><pre><code>language: swift
-osx_image: xcode11.<span class="splashnumber">2</span>
+osx_image: xcode11.<span class="number">2</span>
 cache:
   - bundler
 install:
@@ -49,10 +49,10 @@ install:
 jobs:
   include:
     - script: bundle exec fastlane test
-      name: <span class="splashtype">Unit Tests</span>
+      name: <span class="type">Unit Tests</span>
     - script: bundle exec fastlane snapshot_test
-      name: <span class="splashtype">Snapshot Tests</span>
-</code></pre><p>The first lines are setup code, like specifying the Xcode version or which dependencies have to be installed.</p><h3>How to migrate to GitHub Actions?</h3><p>There are two steps for this:</p><ol><li>Add Workflow</li><li>Delete <code>.travis.yml</code></li></ol><h4>1. Add Workflow</h4><p>To migrate this to GitHub Actions, I started with tapping on the "Actions" tap in the repository.</p><img src="../../images/github-actions/github-actions-tab.jpg" alt="A screenshot of the tabs in a repository of GitHub, where "Actions" is highlighted." /><p>It will create a new file for you <code>.github/workflows/&lt;name&gt;.yml</code> with a editor. On the left there is a preview of the most important documentations to understand the syntax and a link to featured marketplace actions.</p><img src="../../images/github-actions/github-actions-editor.jpg" alt="A screenshot of the GitHub Actions editor." /><p>This editor is helpful (sometimes), because it checks for valid syntax, but it can also be a pain. When you want to add a new line between existing code there are some autocompletion actions and it adds some syntax for you. I'm always suprised when this happens.</p><p>The following code snippet shows what you have to define when you want to have the same functionality from the Travis setup.</p><pre><code>name: <span class="splashtype">CI</span>
+      name: <span class="type">Snapshot Tests</span>
+</code></pre><p>The first lines are setup code, like specifying the Xcode version or which dependencies have to be installed.</p><h3>How to migrate to GitHub Actions?</h3><p>There are two steps for this:</p><ol><li>Add Workflow</li><li>Delete <code>.travis.yml</code></li></ol><h4>1. Add Workflow</h4><p>To migrate this to GitHub Actions, I started with tapping on the "Actions" tap in the repository.</p><img src="../../images/github-actions/github-actions-tab.jpg" alt="A screenshot of the tabs in a repository of GitHub, where "Actions" is highlighted." /><p>It will create a new file for you <code>.github/workflows/&lt;name&gt;.yml</code> with a editor. On the left there is a preview of the most important documentations to understand the syntax and a link to featured marketplace actions.</p><img src="../../images/github-actions/github-actions-editor.jpg" alt="A screenshot of the GitHub Actions editor." /><p>This editor is helpful (sometimes), because it checks for valid syntax, but it can also be a pain. When you want to add a new line between existing code there are some autocompletion actions and it adds some syntax for you. I'm always suprised when this happens.</p><p>The following code snippet shows what you have to define when you want to have the same functionality from the Travis setup.</p><pre><code>name: <span class="type">CI</span>
 
 on:
   push:
@@ -64,37 +64,37 @@ on:
 
 jobs:
   unit_tests:
-    name: <span class="splashtype">Unit Tests</span>
+    name: <span class="type">Unit Tests</span>
     runs-on: macOS-latest
 
     steps:
-    - name: <span class="splashtype">Checkout</span>
+    - name: <span class="type">Checkout</span>
       uses: actions/checkout@v1
 
-    - name: <span class="splashtype">Install Gem Dependencies</span>
+    - name: <span class="type">Install Gem Dependencies</span>
       run: bundle install
         
-    - name: <span class="splashtype">Install CocoaPods Dependencies</span>
+    - name: <span class="type">Install CocoaPods Dependencies</span>
       run: pod install --repo-update
 
-    - name: <span class="splashtype">Run UnitTests</span>
+    - name: <span class="type">Run UnitTests</span>
       run: bundle exec fastlane test
 
   snapshot_tests:
-    name: <span class="splashtype">Snapshot Tests</span>
+    name: <span class="type">Snapshot Tests</span>
     runs-on: macOS-latest
 
     steps:
-    - name: <span class="splashtype">Checkout</span>
+    - name: <span class="type">Checkout</span>
       uses: actions/checkout@v1
 
-    - name: <span class="splashtype">Install Gem Dependencies</span>
+    - name: <span class="type">Install Gem Dependencies</span>
       run: bundle install
 
-    - name: <span class="splashtype">Install CocoaPods Dependencies</span>
+    - name: <span class="type">Install CocoaPods Dependencies</span>
       run: pod install --repo-update
 
-    - name: <span class="splashtype">Run SnapshotTests</span>
+    - name: <span class="type">Run SnapshotTests</span>
       run: bundle exec fastlane snapshot_test
 </code></pre><p>Sadly there is nothing like a <code>install</code> phase (yet?), which I know from Travis or Gitlab CI. So, there is some duplicated code in here for installing the dependencies for each job. But there is a solution for it. You can create a "Install Dependency" job and the other jobs then wait for this to finish but I didn't try it out yet. I found this in the <a href="https://github.community/t5/GitHub-Actions/the-same-dependency-in-all-workflows-jobs/td-p/37266">GitHub Community Forum</a> where I discovered some useful hints and tips.</p><h4>2. Delete <code>.travis.yml</code></h4><p>And when you have added the jobs in the new file, you can delete your <code>.travis.yml</code> file and you are already finished. I highly recommend to try this out in a branch 😉</p><h3>Benefits from GitHub Actions</h3><h4>All jobs are visible</h4><p>When you add a new pull request for the migration, you'll see, that all jobs are directly displayed in the pull request.</p><img src="../../images/github-actions/checks.jpg" alt="Two screenshots, one where you can only see one check (from Travis CI) and one where you can see three checks which ran with GitHub Actions." /><h4>Speed</h4><p>When using Travis CI, the jobs had to be in queue for some time before they started, like 5 to 10 minutes. This seems to happen instantly with GitHub Actions, I didn't wait for 30 seconds to see that the jobs have already started. So, instead of waiting ~12 minutes for all jobs to finish with Travis CI, I now wait ~4 minutes. This is such a huge difference!</p><h4>Marketplace</h4><p>There is a ton of community work available to use. You can browse through the <a href="https://github.com/marketplace?type=actions">marketplace</a> and you can imagine to automate everything, you could ever think of. Maybe I'm exaggerating, but this was my first impression.</p><p>There is a repository called "<a href="https://github.com/sdras/awesome-actions">Awesome Actions</a>" where some (obviously) awesome actions are collected.</p><h4>MacStadium</h4><p>When running jobs with <code>macos-latest</code>, GitHub uses <a href="https://www.macstadium.com/">MacStadium</a> to host the macOS runners as stated in their <a href="https://help.github.com/en/actions/automating-your-workflow-with-github-actions/virtual-environments-for-github-hosted-runners">documentation</a>. This also saves some time when there is no waiting time for starting virtual machines.</p><h2>Additions</h2><h3>Run CI from forks</h3><p>When you use the "Actions" tab to create a new workflow the default for the trigger is <code>on: [push]</code>. I thought, this is perfect for my use cases, but when someone forked the repository and creates a pull request, no CI is running automatically. So, I used <code>on: [push, pull_request]</code> as trigger, but then the jobs are running twice when creating a pull request. The solution is this:</p><pre><code>on:
 push:
@@ -104,7 +104,7 @@ pull_request:
   branches:
   - master
 </code></pre><p>Found in the <a href="https://github.community/t5/GitHub-Actions/How-to-trigger-an-action-on-push-or-pull-request-but-not-both/td-p/35805">GitHub Community Forum</a></p><h3>Pin Xcode Version</h3><p>It's also possible to pin the Xcode version. Add the following code above <code>jobs</code>.</p><pre><code>env:
-  <span class="splashtype">DEVELOPER_DIR</span>: /<span class="splashtype">Applications</span>/<span class="splashtype">Xcode_11</span>.<span class="splashnumber">3</span>.<span class="splashproperty">app</span>/<span class="splashtype">Contents</span>/<span class="splashtype">Developer</span>
+  <span class="type">DEVELOPER_DIR</span>: /<span class="type">Applications</span>/<span class="type">Xcode_11</span>.<span class="number">3</span>.<span class="property">app</span>/<span class="type">Contents</span>/<span class="type">Developer</span>
 </code></pre><p>Found in the <a href="https://github.community/t5/GitHub-Actions/Selecting-an-Xcode-version/m-p/32340#M1092">GitHub Community Forum</a></p><h3>Pin macOS version</h3><p>Currently, it's only possible to use the <code>macos_latest</code> tag to specify that you need a Mac to run your jobs. The tag currently specifies to use <code>macOS 10.15</code>. When you have to use another macOS version, it's not possible to specify an explicit version. But maybe the solution for this is to use <a href="https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners">self-hosted runners</a> which sounds interesting, but also a bit overhead for these simple tasks which I need the CI for.</p><hr><p>Migrations from repositories:</p><ul><li><a href="https://github.com/spacepandas/cineaste-ios/pull/131">PR – Cineaste App (iOS)</a></li><li><a href="https://github.com/fbernutz/mood-tracker-android/pull/2">PR – Mood Tracker (Android)</a></li><li><a href="https://github.com/criticalmaps/criticalmaps-ios/pull/219">PR – CriticalMaps (iOS)</a></li></ul>
 								</div>
 								<div class="tags">

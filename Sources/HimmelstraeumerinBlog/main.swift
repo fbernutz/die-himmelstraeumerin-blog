@@ -3,7 +3,7 @@ import ReadingTimePublishPlugin
 
 try HimmelstraeumerinBlog().publish(
 	using: [
-		.installPlugin(.splash(withClassPrefix: "splash")),
+		.installPlugin(.splash(withClassPrefix: "")),
 		.addMarkdownFiles(),
 		.installPlugin(.readingTime()),
 		.copyResources(),
