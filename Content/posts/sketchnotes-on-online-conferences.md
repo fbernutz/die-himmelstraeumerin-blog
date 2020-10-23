@@ -1,6 +1,6 @@
 ---
 date: 2020-05-20 20:00
-description: Two days full of conference talks are hard! It's hard for your brain to stay focused and to process the things you've heard.  It's hard for your back when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard for your fingers when you make sketchnotes two days long.
+description: I love visiting conferences! But two days full of conference talks are hard! It's hard for your brain to stay focused and to process the things you've heard. It's hard for your back when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard for your fingers when you make sketchnotes two days long.
 tags: post, sketchnotes, online-conference
 ---
 
@@ -8,7 +8,7 @@ tags: post, sketchnotes, online-conference
 
 I recently took part in my first two online conferences. Last week was [AppBuilders](https://appbuilders.ch/) and this week was [UIKonf](https://uikonf.com/)! The organizers of both conferences did an awesome job! Kudos to them! 👏
 
-Two days full of conference talks are hard! It's hard **for your brain** to stay focused and to process the things you've heard.  It's hard **for your back** when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard **for your fingers** when you make sketchnotes two days long.
+I love visiting conferences! But two days full of conference talks are hard! It's hard **for your brain** to stay focused and to process the things you've heard.  It's hard **for your back** when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard **for your fingers** when you make sketchnotes two days long.
 
 But to be honest, conferences are also exhausting when they are not online but you have to be on site (maybe even more). I always need some rest after a conference to process all the things I've experienced. **Pro tip: take a day after the conference off if possible!** Having a remote conference, a big advantage for sketchnoters is, that you have your own space for your pens, sketchbooks and stuff and you don't have to make sketchnotes on your knees. This was really nice! 🙃
 
