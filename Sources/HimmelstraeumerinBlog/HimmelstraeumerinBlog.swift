@@ -27,5 +27,6 @@ struct HimmelstraeumerinBlog: Website {
 	var name = "#diehimmels&shy;traeumerin"
 	var description = "iOS dev • sketchnoting • photography • accessibility • pineapple on pizza • lioness • she/her"
 	var language: Language { .english }
+	var favicon: Favicon? { Favicon() }
 	var imagePath: Path? { nil }
 }

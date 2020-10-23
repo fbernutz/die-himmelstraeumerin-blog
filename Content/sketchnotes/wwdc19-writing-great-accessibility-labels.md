@@ -2,7 +2,7 @@
 date: 2019-06-09 17:02
 description: Sketchnote about visual design accessibility from WWDC 2019
 tags: sketchnote, apple, wwdc, wwdc-19, accessibility, iOS
-image: ../../images/sketchnotes/wwdc19-writing-great-accessibility-labels-small.jpg
+image: images/sketchnotes/wwdc19-writing-great-accessibility-labels-small.jpg
 contentCreator: Jordyn Castor
 linkToContentCreator: https://twitter.com/jordyn2493
 ---

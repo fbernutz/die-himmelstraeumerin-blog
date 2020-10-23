@@ -74,7 +74,7 @@ A markdown file for a sketchnote detail page looks something like this:
 date: 2020-03-28 20:50
 description: Sketchnote about XYZ
 tags: sketchnote, xyz
-image: ../../images/sketchnotes/sketchnote-xyz-small.jpg
+image: images/sketchnotes/sketchnote-xyz-small.jpg
 ---
 
 ## Sketchnote XYZ

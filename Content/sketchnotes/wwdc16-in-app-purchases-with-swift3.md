@@ -2,7 +2,7 @@
 date: 2019-12-23 17:00
 description: Sketchnote about visual design accessibility from WWDC 2016
 tags: sketchnote, apple, wwdc, wwdc-16, iOS, IAP
-image: ../../images/sketchnotes/wwdc16-in-app-purchases-with-swift3-small.jpg
+image: images/sketchnotes/wwdc16-in-app-purchases-with-swift3-small.jpg
 contentCreator: Dana DuBois
 ---
 

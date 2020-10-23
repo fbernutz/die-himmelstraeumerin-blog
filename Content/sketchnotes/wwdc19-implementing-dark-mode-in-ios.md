@@ -2,7 +2,7 @@
 date: 2019-07-19 08:08
 description: Sketchnote about implementing dark mode in iOS from WWDC 2019
 tags: sketchnote, apple, wwdc, wwdc-19, iOS
-image: ../../images/sketchnotes/wwdc19-implementing-dark-mode-in-ios-small.jpg
+image: images/sketchnotes/wwdc19-implementing-dark-mode-in-ios-small.jpg
 contentCreator: Kurt Revis & Tyler Fox
 ---
 
