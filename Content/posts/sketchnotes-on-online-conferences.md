@@ -57,4 +57,4 @@ Even though, nothing would ever stop me from making sketchnotes and nothing shou
 
 - [UIKonf 2020 sketchnotes](/tags/uikonf20/) on this website
 - [Twitter thread](https://twitter.com/felibe444/status/1262396003413643269) with my sketchnotes
-- Talks will be available on YouTube in beginning of June
+- Talks are [available on YouTube](https://www.youtube.com/playlist?list=PLdr22uU_wISpu7T6JWq7eMSxP0tYcmXcB) since June
