@@ -11,3 +11,6 @@ convert-png:
 	cd Resources/images/sketchnotes && \
 		magick mogrify -format jpg *.png && \
 		rm -f *.png
+
+sketchnote-page:
+	./create-sketchnote-page.sh
