@@ -151,37 +151,32 @@ a {
 /* SKETCHNOTES */
 
 .sketchnotes {
-	column-count: 3;
-	column-gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
 	margin-bottom: 20px;
 }
 
+.sketchnote-item {
+	margin: 10px;
+	position: relative;
+	box-shadow: 0 0 5px #ccc;
+	flex: 30%;
+}
+
 @media (max-width: 800px) {
-	.sketchnotes {
-		column-count: 2;
+	.sketchnote-item {
+		flex: 50%;
 	}
 }
 
 @media (max-width: 400px) {
-	.sketchnotes {
-		column-count: 1;
+	.sketchnote-item {
+		flex: 100%;
 	}
-}
-
-.sketchnote-item {
-	margin-bottom: 20px;
-	position: relative;
-	box-shadow: 0 0 5px #ccc;
-	overflow: hidden;
 }
 
 .recents .sketchnote-item {
 	margin-bottom: 0;
-}
-
-.sketchnote-item a {
-	/* to remove small line under image */
-	display: block;
 }
 
 .sketchnote-item a:focus {
@@ -211,8 +206,10 @@ a {
 }
 
 .sketchnote-image {
-	/* to remove small line under image */
-	display: block;
+    padding: 4px;
+    height: 200px;
+    object-fit: contain;
+    background-color: white;
 }
 
 .sketchnote-title {
