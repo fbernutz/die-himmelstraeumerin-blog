@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# create a new markdown page for a sketchnote
+# create new markdown pages for new sketchnotes
 
 thumbnailSuffix='-small.jpg'
 
@@ -17,8 +17,7 @@ for image in Resources/images/sketchnotes/*; do
 	# check if file is empty
 	if [[ -z "$(find $path -type f -empty)" ]]
 	then
-		# do nothing
-		echo "nothing"
+		echo "$fileName is not new, do not change anything"
 	else
 		# fill with template content
 		echo "---" >> $path
