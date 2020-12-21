@@ -27,7 +27,7 @@ It's a simple white rectangle with (currently) two sections "Posts" and "Sketchn
 
 ### 2) Preview of recent sketchnotes
 
-On the first page of my website, you see the most recent items. I wanted to add my latest sketchnotes to this page. This is only a small part from the content of page `/sketchnotes` with the same design. So, let's jump directly to this page.
+On the first page of my website, you see the most recent items. I wanted to add my latest sketchnotes to this page. This is only a small part from the content of page `/sketchnotes` with the same design. So, let's jump directly to the list of all sketchnotes.
 
 ### 3) List of all sketchnotes
 
@@ -45,11 +45,11 @@ Google gives a nice insight on why optimizing images is so important:
 
 I created a [script](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/create-thumbnails.sh) to easily generate thumbnails for the list. The script uses the power of [ImageMagick](https://imagemagick.org/index.php) to resize all images and to save the resized image as new file with a suffix `-small`. It has already saved me tons of hours with resizing images!
 
-Creating the layout for the list was a challenge for me. Every sketchnote has **different aspect ratios** and they exist in **both orientations**, landscape and portrait. I wanted to display the latest sketchnotes on top of the screen, to be able to scroll down and see how the sketchnotes developed. Additionally, I wanted a **CSS only solution**, because I like to keep it simple.
+Creating the layout for the list was a challenge for me. Every sketchnote has **different aspect ratios** and they exist in **both orientations**, landscape and portrait. I wanted to display the latest sketchnotes on top of the screen, to be able to scroll down and see how the sketchnotes developed. Additionally, I wanted a **CSS only solution**, because I like to keep it simple whenever it's possible.
 
-I'm a totally unexperienced newbie when it comes to HTML and CSS, so I had to learn a lot about different HTML layout techniques. There are many different tutorials for photo grid layouts out there and I've tried different kinds, like CSS grid, flexbox and finally used a column layout, which worked best for me.
+I'm a newbie when it comes to HTML and CSS, so I had to learn a lot about different HTML layout techniques. There are many different tutorials for photo grid layouts out there and I've tried different kinds, like CSS grid, flexbox and finally used a column layout, which worked best for me.
 
-In the next image the numbers from 1 to 12 display the creation date from new to old, which means sketchnote 1 is the latest and sketchnote 12 is the oldest. The blue lines display which side should have the same length for every image. I don't want to crop the sketchnotes in preview and images shouldn't be distorted (who would ever want this?!), one side – either height or width – needs to have a fix length for all images.
+In the next image there are four layout variations. In each variation the numbers from 1 to 12 display the creation date of a sketchnote from new to old, which means sketchnote 1 is the latest and sketchnote 12 is the oldest. The blue lines display which side should have the same length for every image. I don't want to crop the sketchnotes in preview and images shouldn't be distorted (who would ever want this?!), one side – either height or width – needs to have a fix length for all images.
 
 <img src="../../images/welcome-sketchnotes/html-layout.jpg" alt="Four possible list layouts" />
 
@@ -60,9 +60,13 @@ In the next image the numbers from 1 to 12 display the creation date from new to
 
 Layout 4 is nearly the same as Layout 1 and is therefore _nearly perfect_. Only the order of the images isn't like I wanted. Nevertheless, I chose this layout to be the final one (for the moment).
 
+_EDIT: in November 2020, I changed the layout to flexbox layout for various reasons ([see commit](https://github.com/fbernutz/die-himmelstraeumerin-blog/commit/e24c8f958bcc5e34dfff9850dd13bf380a08b44d)):_
+
+> 1) To fix order of sketchnotes in `/sketchnotes`. The items are now displayed from top left to bottom right. To make this possible, every sketchnote has the same aspect ratio and is filled up with white space. 2) To remove weird visual effect when refreshing `/sketchnotes`. 3) To remove a bug with shadow and link in column-layout.
+
 ### 4) Detail of sketchnote
 
-To layout the detail page of a sketchnote was easier to achieve than the list. The page consists of different elements, mainly one big image. As some sketchnotes are too high to see them complete directly without scrolling, I added a link on the image to open it in a new tap in full resolution. In the new tap, the browser navigation features can be used to zoom in and out.
+To layout the detail page of a sketchnote was easier to achieve than the list. The page consists of different elements, mainly one big image. As some sketchnotes are too high to see them complete directly without scrolling, I added a link on the image to open it in a new tab in full resolution. In the new tab, the browser navigation features can be used to zoom in and out.
 
 <img src="../../images/welcome-sketchnotes/sketchnote-detail.jpg" alt="Screenshot of detail page of skecthnote" />
 
@@ -86,10 +90,10 @@ I manually add information about:
 - the **date**, when I created the sketchnote, which is used to sort the list of sketchnotes
 - the **description**, which is also used as alt tag for the sketchnote
 - **tags**, which can be used to find other sketchnotes
-- the **path to the thumbnail image**
+- the **path to the thumbnail image***
 - the **title**, which can't be generated from the image name
 
-I remove the part `-small` from the thumbnail image path to get the path to the original image and add a HTML structure around the full size image. This is done one time in code and doesn't have to be adapted for other sketchnotes.
+*I remove the part `-small` from the thumbnail image path to get the path to the original image and add a HTML structure around the full size image. This is done once in code and doesn't have to be adapted for other sketchnotes.
 
 ## How do I add a new sketchnote?
 
@@ -97,18 +101,20 @@ I remove the part `-small` from the thumbnail image path to get the path to the 
 
 2. If the image isn't of type `.jpg`, I can run a script to convert `.png` to `.jpg` by running `make convert-png`. All tasks are defined in a [`Makefile`](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/Makefile), which was added to demonstrate which tasks can be run in the project and to easily run these tasks.
 
-3. The thumbnail for the list has to be created. Therefore I run the script, I've mentioned earlier, by running `make thumbs`.
+3. The thumbnails for the list have to be created. Therefore I run the script, I've mentioned earlier, by running `make thumbs`.
 
-4. I create a markdown file, where information about the content is added manually. I copy an existing file most of the time and name it like the image.
+4. I create a markdown file, where information about the content is added manually. I copy an existing file most of the time and name it like the image.*
 
 5. Run `make` to generate the new HTML code.
+
+*_EDIT: in November 2020, I added a script to generate markdown files with correct naming for all sketchnote images. This makes it even more easier. ([see commit](https://github.com/fbernutz/die-himmelstraeumerin-blog/commit/402382440f77757be574ac55b2a11445b3780bd3))_
 
 ## Next steps
 
 I have thousand ideas what to do next and what to improve. My top three are:
 
-- I think about adding the **name of the speaker or author**, because none of these sketchnotes could be created without a speaker or an author and I want to honor them.
-- To display a bit more information about a sketchnote in the list, I want to **display the title on hover**.
+- I think about adding the **name of the speaker or author**, because none of these sketchnotes could be created without a speaker or an author and I want to honor them. _(EDIT: done in this [commit](https://github.com/fbernutz/die-himmelstraeumerin-blog/commit/5f7d08c03cc3837bb87af2cb9c4875f4fd1cc4c3))_
+- To display a bit more information about a sketchnote in the list, I want to **display the title on hover**. _(EDIT: done in this [commit](https://github.com/fbernutz/die-himmelstraeumerin-blog/commit/afdb98b2ea1d89cfc09f072611c776f5045d54fe))_
 - It would be great to **improve dark mode for sketchnotes**. Currently they are white images on a dark background. If anyone has an idea, please share it with me!
 
 ---
