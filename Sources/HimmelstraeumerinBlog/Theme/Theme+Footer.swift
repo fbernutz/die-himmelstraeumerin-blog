@@ -23,9 +23,9 @@ extension Node where Context == HTML.BodyContext {
 				.separator,
 				.linkToGithub,
 				.separator,
-				.linkToInstagram,
+				.linkToRSSFeed,
 				.separator,
-				.linkToFlickr
+				.linkToInstagram
 			)
 		)
 	}
@@ -74,11 +74,9 @@ private extension Node where Context == HTML.BodyContext {
 			.rel(.noreferrer)
 	)
 
-	static let linkToFlickr: Self =
+	static let linkToRSSFeed: Self =
 		.a(
-			.text("Flickr"),
-			.href("https://www.flickr.com/photos/feli_93/"),
-			.target(.blank),
-			.rel(.noreferrer)
+			.text("RSS Feed"),
+			.href("https://fbernutz.github.io/feed.rss")
 	)
 }
