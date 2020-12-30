@@ -233,4 +233,4 @@ Most days this year, cooking was the highlight of the day for me. I started taki
 
 ---
 
-Bye 2020 and happy new year!
+Stay safe and a happy new year!
