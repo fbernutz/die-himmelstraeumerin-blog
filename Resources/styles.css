@@ -126,8 +126,8 @@ h3, h4 {
 
 p, article li {
 	font-size: 120%;
-	line-height: 1.8em;
-	margin-bottom: 4px;
+    line-height: 1.6em;
+    margin-bottom: 8px;
 }
 
 a {
@@ -288,12 +288,9 @@ article hr {
 	margin: 30px 0;
 }
 
-article li {
-	margin: 10px 0px 10px 10px;
-}
-
 article ul, ol {
-	padding: 0px 8px;
+	padding: 0 2.5em;
+    margin-bottom: 1em;
 }
 
 article img {
