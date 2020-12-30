@@ -10,7 +10,7 @@ One year ago, I wrote down the [most important things for me from 2019](https://
 
 ## Adventurous Tenerife
 
-In February, I made vacations on Tenerife on the Canary Islands! Life was still "normal". But crazy things happened there nevertheless. One day it was so unbelievable windy and stormy, we were told to stay at the hotel. The next day the sand arrived with the wind and the air turned orange after some time! See this [before and after picture on twitter](https://twitter.com/felibe444/status/1231627031668051969). I've learned that it's called a "Calima". Calimas are hot wind storms that carry sand towards the Canary Islands from the Sahara, capable of lifting dust thousands of metres above the Atlantic Ocean. The air smelled and felt dirty and sandy. Again, we were told to stay at the hotel, because you could have difficulties to breath. Definitely felt like a kind of apocalypse.
+In February, I made vacations on Tenerife on the Canary Islands! Life was still "normal". But crazy things happened there nevertheless. One day it was so unbelievable windy and stormy, we were told to stay at the hotel. The next day the sand arrived with the wind and the air turned orange after some time! See this [before and after picture on twitter](https://twitter.com/felibe444/status/1231627031668051969). I've learned that it's called a "Calima". Calimas are hot wind storms that carry sand towards the Canary Islands from the Sahara, capable of lifting dust thousands of meters above the Atlantic Ocean. The air smelled and felt dirty and sandy. Again, we were told to stay at the hotel, because you could have difficulties to breath. Definitely felt like a kind of apocalypse.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">See you next time, adventurous Tenerife 🌵☀️ <a href="https://t.co/Nh7kjITL9b">pic.twitter.com/Nh7kjITL9b</a></p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1232620096490741760?ref_src=twsrc%5Etfw">February 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -18,7 +18,7 @@ In February, I made vacations on Tenerife on the Canary Islands! Life was still 
 
 In March, I integrated my sketchnotes on this website. It was a lot of work, but I could learn much about layouts with CSS. I wrote [a blog post](https://fbernutz.github.io/posts/welcome-sketchnotes/) about the idea, the process and the implementation (see the [tweet](https://twitter.com/felibe444/status/1244202896339742720)).
 
-It feels awesome to have my own little place in the big world of internet, where everything which matters to me can be discovered. A place with things I've created and am proud of.
+It feels awesome to have my own little place in the big world of the internet, where everything which matters to me can be discovered. A place with things I've created and am proud of.
 
 ## Home Office Time
 
@@ -100,7 +100,7 @@ Since January, I have had an Apple Watch. It was one of the best decisions to bu
 
 My sister invited me to go **rock climbing** with her in May. I had some bouldering experience before, but I love climbing more because you're outside in the nature and it's so fun to spend time with my sister. We go almost every weekend!
 
-In August, I started going **swimming** two to three times a week. During the summer, the outdoor pools were still open and I could go there after work. On the one hand to ride my bike and on the other hand to go swimming, to get my mind off work. I was immediately hooked on it. I could do it by myself and enjoy the weather in the summer. I really enjoyed the 50m swim lane. I tried to crawl for a bit, but it just didn't work for me and I panicked after a few strokes, because I couldn't get enough air into my lungs. So, I just stuck to breaststroke and I was happy (when the swim lane was long enough and they lane was clear). On my vacation in September, the AirBnB had access to a spa at a hotel next door. They had a pool, but the swim lane was only ~13m long. So annoying, but hey, there was water and it was free 😉 One day, we went to a spa that had a loooong sports pool that was totally empty (of course) instead of the other hot tub and fun areas. I beat my highscore and swam 1km in under 20min! I was so happy the whole day.
+In August, I started going **swimming** two to three times a week. During the summer, the outdoor pools were still open and I could go there after work. I could get my mind off work by riding my bike and going to swim. I was immediately hooked on it. I could do it by myself and enjoy the weather in the summer. I really enjoyed the 50m swim lane. I tried to crawl for a bit, but it just didn't work for me and I panicked after a few strokes, because I couldn't get enough air into my lungs. So, I just stuck to breaststroke and I was happy (when the swim lane was long enough and they lane was clear). On my vacation in September, the AirBnB had access to a spa at a hotel next door. They had a pool, but the swim lane was only ~13m long. So annoying, but hey, there was water and it was free 😉 One day, we went to a spa that had a loooong sports pool that was totally empty (of course) instead of the other hot tub and fun areas. I beat my highscore and swam 1km in under 20min! I was so happy the whole day.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I‘ve just swam 1km in under 20min for the first time since August. Yesss! 💪 <a href="https://t.co/efIDo5E0MD">pic.twitter.com/efIDo5E0MD</a></p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1306553354953338881?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -134,7 +134,7 @@ In September, the best [@xavierLowmiller](https://twitter.com/xavierLowmiller) a
 
 ## iPad and Apple Pencil
 
-In August, I gave myself a birthday present, I ordered the iPad Pro 12.9" with the Apple Pencil. I wanted to use it for sketchnoting. A few weeks later, the [Apple Pencil arrived](https://twitter.com/felibe444/status/1296048389629587457). Nice! I had to stay patient because the iPad took another two weeks to arrive. If you want to know why I bought it, what I was hoping for and how I liked it, I recommend reading my blog post ["Me, my new iPad Pro and the Apple Pencil"](https://fbernutz.github.io/posts/ipad-and-apple-pencil/).
+In August, I gave myself a birthday present: I ordered the iPad Pro 12.9" with the Apple Pencil. I wanted to use it for sketchnoting. A few weeks later, the [Apple Pencil arrived](https://twitter.com/felibe444/status/1296048389629587457). Nice! I had to stay patient because the iPad took another two weeks to arrive. If you want to know why I bought it, what I was hoping for and how I liked it, I recommend reading my blog post ["Me, my new iPad Pro and the Apple Pencil"](https://fbernutz.github.io/posts/ipad-and-apple-pencil/).
 
 ## Workshop for hundreds of People
 
@@ -221,8 +221,7 @@ Top 3 words in commit messages (ignoring words up to three letters)
 
 ## My Highlights
 
-My highlights from this year are definitely that I discovered new sports activities. Climbing is really fun, you're out in nature and #frankenjura has so much to offer. I also love that I get to s
-pend time with my sister. Swimming in the summer was great, especially after work to clear my head. After a few weeks, I could see that I was gaining speed and endurance. I miss swimming a lot.
+My highlights from this year are definitely that I discovered new sports activities. Climbing is really fun, you're out in the nature and #frankenjura has so much to offer. I also love that I get to spend time with my sister. Swimming in the summer was great, especially after work to clear my head. After a few weeks, I could see that I was gaining speed and endurance. I miss swimming a lot.
 
 Definitely the workshop at NSSpain! I am so proud and happy that so many people participated and enjoyed it.
 
