@@ -121,7 +121,7 @@ h4 {
 	margin: 20px 0 10px 0;
 }
 
-p, article li {
+p {
 	font-size: 120%;
 	line-height: 1.8em;
 	margin-bottom: 4px;
@@ -283,6 +283,12 @@ article p.release-date {
 
 article hr {
 	margin: 30px 0;
+}
+
+article li {
+	font-size: 120%;
+	line-height: 1.6em;
+	margin-bottom: 8px;
 }
 
 article ul,

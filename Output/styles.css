@@ -1,11 +1,11 @@
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
 	height: 100%;
 }
 
@@ -33,11 +33,7 @@ body {
 /* HEADER */
 
 header {
-	background-image: linear-gradient(
-	to bottom,
-	rgba(0, 0, 0, 0),
-	rgba(0, 0, 0, 0.2)
-	), url('../../images/header.jpg');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../../images/header.jpg");
 	background-color: #284081;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -92,8 +88,8 @@ header nav li a {
 	color: #122869;
 	padding: 0 10px;
 	line-height: 30px;
-	margin: .5em;
-	border-bottom: .15em solid transparent;
+	margin: 0.5em;
+	border-bottom: 0.15em solid transparent;
 }
 
 header nav a:hover,
@@ -119,15 +115,16 @@ h2 {
 	margin: 30px 0 10px 0;
 }
 
-h3, h4 {
+h3,
+h4 {
 	font-size: 150%;
 	margin: 20px 0 10px 0;
 }
 
-p, article li {
+p {
 	font-size: 120%;
-    line-height: 1.6em;
-    margin-bottom: 8px;
+	line-height: 1.8em;
+	margin-bottom: 4px;
 }
 
 a {
@@ -197,19 +194,19 @@ a {
 
 .sketchnote-item a:focus .sketchnote-title {
 	opacity: 1;
-	transition: opacity .4s;
+	transition: opacity 0.4s;
 }
 
 .sketchnote-item:hover .sketchnote-title {
 	opacity: 1;
-	transition: opacity .4s;
+	transition: opacity 0.4s;
 }
 
 .sketchnote-image {
-    padding: 4px;
-    height: 200px;
-    object-fit: contain;
-    background-color: white;
+	padding: 4px;
+	height: 200px;
+	object-fit: contain;
+	background-color: white;
 }
 
 .sketchnote-title {
@@ -288,9 +285,16 @@ article hr {
 	margin: 30px 0;
 }
 
-article ul, ol {
+article li {
+	font-size: 120%;
+	line-height: 1.6em;
+	margin-bottom: 8px;
+}
+
+article ul,
+ol {
 	padding: 0 2.5em;
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 article img {
@@ -312,7 +316,7 @@ article blockquote {
 	font-style: italic;
 	color: #555;
 	padding: 1em 30px;
-	border-left: 8px solid #EDEDED;
+	border-left: 8px solid #ededed;
 }
 
 article blockquote p {
@@ -451,7 +455,7 @@ footer p {
 /* CODE STYLE */
 
 code {
-	padding: .2em .4em;
+	padding: 0.2em 0.4em;
 	background-color: #e2e2e2;
 	border-radius: 5px;
 }
