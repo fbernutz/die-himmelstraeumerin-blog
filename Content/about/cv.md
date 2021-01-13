@@ -1,6 +1,6 @@
 # Resume
 
-I'm an iOS developer with focus on user experience and accessibility. I have a Bachelor of Science degree in Media Engineering and a solid understanding of software engineering. I also have a background in design and have worked with some design and prototyping tools. I have experience in giving workshops about sketchnoting remotely and in person.
+My name is **Felizia Bernutz**. I'm an iOS developer with focus on user experience and accessibility. I have a Bachelor of Science degree in Media Engineering and a solid understanding of software engineering. I also have a background in design and have worked with some design and prototyping tools. I have experience in giving workshops about sketchnoting remotely and in person.
 
 ---
 
@@ -31,6 +31,13 @@ I build **native iOS apps** for different clients in finance, insurance and tax 
 <p class="company"><a href="https://adorsys.com/de/">adorsys, Nuremberg, Germany</a></p>
 
 I learned iOS development and helped out in internal projects and some client projects in Swift and Objective C.
+
+### Design Internship
+
+<p class="timeperiod"><em>Feb 2014 – Sep 2014</em></p>
+<p class="company"><a href="https://www.spiritlink.de/home">Spirit Link, Erlangen, Germany</a></p>
+
+My tasks included media production for websites and apps, content insertion into websites, creating design drafts and typesetting of print materials. I worked mostly with Adobe Creative Suite, Alienbrain as data management system and Jira as Ticket Management System.
 
 ---
 
