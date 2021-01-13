@@ -135,6 +135,37 @@ a {
 	margin-bottom: 40px;
 }
 
+/* ABOUT */
+	
+.about h3 {
+	margin: 20px 0 0 0;
+}
+
+.about .timeperiod {
+	margin-top: 10px;
+	margin-bottom: 0;
+	color: #555;
+	font-size: 1.1em;
+}
+
+.about .company {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.about hr::before {
+	content: "• • •";
+	font-size: 2rem;
+}
+
+.about hr {
+	margin: 20px 0;
+    border: 0;
+    text-align: center;
+}
+
+/* METADATA */
+
 .metadata {
 	margin: 20px 0;
 }
@@ -439,6 +470,10 @@ footer p {
 	}
 
 	footer {
+		color: #9a9898;
+	}
+
+	.about .timeperiod {
 		color: #9a9898;
 	}
 

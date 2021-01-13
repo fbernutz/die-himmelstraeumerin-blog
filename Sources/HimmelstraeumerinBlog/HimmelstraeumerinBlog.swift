@@ -14,6 +14,7 @@ struct HimmelstraeumerinBlog: Website {
 	enum SectionID: String, WebsiteSectionID {
 		case posts
 		case sketchnotes
+		case about
 	}
 
 	struct ItemMetadata: WebsiteItemMetadata {

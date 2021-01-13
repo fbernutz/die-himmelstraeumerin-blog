@@ -11,7 +11,7 @@ import Plot
 import ShellOut
 
 extension Node where Context == HTML.BodyContext {
-	static func itemList(for items: [Item<HimmelstraeumerinBlog>], on site: HimmelstraeumerinBlog) throws -> Node {
+	static func itemList(for items: [Item<HimmelstraeumerinBlog>]) throws -> Node {
 		let sketchnoteItems = items.filter { $0.sectionID == .sketchnotes }
 		let postItems = items.filter { $0.sectionID == .posts }
 

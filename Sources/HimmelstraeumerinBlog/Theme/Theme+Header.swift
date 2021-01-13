@@ -9,9 +9,9 @@ import Publish
 import Plot
 
 extension Node where Context == HTML.BodyContext {
-	static func header<T: Website>(
-		for context: PublishingContext<T>,
-		selectedSection: T.SectionID?
+	static func header(
+		for context: PublishingContext<HimmelstraeumerinBlog>,
+		selectedSection: HimmelstraeumerinBlog.SectionID?
 	) -> Node {
 		.header(
 			.wrapper(
@@ -24,7 +24,7 @@ extension Node where Context == HTML.BodyContext {
 }
 
 private extension Node where Context == HTML.BodyContext {
-	static func siteName<T: Website>(for context: PublishingContext<T>) -> Self {
+	static func siteName(for context: PublishingContext<HimmelstraeumerinBlog>) -> Self {
 		.a(
 			.class("site-name"),
 			.href("/"),
@@ -32,14 +32,14 @@ private extension Node where Context == HTML.BodyContext {
 		)
 	}
 
-	static func siteDescription<T: Website>(for context: PublishingContext<T>) -> Self {
+	static func siteDescription(for context: PublishingContext<HimmelstraeumerinBlog>) -> Self {
 		.p(
 			.text(context.site.description)
 		)
 	}
 
-	static func navigation<T: Website>(for context: PublishingContext<T>, selectedSection: T.SectionID?) -> Self {
-		let sectionIDs = T.SectionID.allCases
+	static func navigation(for context: PublishingContext<HimmelstraeumerinBlog>, selectedSection: HimmelstraeumerinBlog.SectionID?) -> Self {
+		let sectionIDs = HimmelstraeumerinBlog.SectionID.allCases
 
 		return .nav(
 			.ul(
@@ -48,7 +48,7 @@ private extension Node where Context == HTML.BodyContext {
 						.a(
 							.class(section == selectedSection ? "selected" : ""),
 							.href(context.sections[section].path),
-							.text(context.sections[section].title)
+							.text(context.sections[section].id == .about ? "About" : context.sections[section].title)
 						)
 					)
 				}

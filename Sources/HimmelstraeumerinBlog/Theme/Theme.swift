@@ -33,8 +33,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 										order: .descending
 									).filter { $0.sectionID == .sketchnotes }
 										.prefix(3)
-								),
-								on: context.site
+								)
 							),
 							.h1("Recent Posts"),
 							try .itemList(
@@ -44,8 +43,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 										order: .descending
 									).filter { $0.sectionID == .posts }
 										.prefix(3)
-								),
-								on: context.site
+								)
 							)
 						)
 					),
@@ -55,22 +53,37 @@ extension Theme where Site == HimmelstraeumerinBlog {
 		}
 
 		func makeSectionHTML(for section: Section<HimmelstraeumerinBlog>, context: PublishingContext<HimmelstraeumerinBlog>) throws -> HTML {
-			HTML(
+			let items = Array(
+				context.allItems(
+					sortedBy: \.date,
+					order: .descending
+				).filter { $0.sectionID == section.id }
+			)
+
+			let sectionContent: Node<HTML.BodyContext>
+			switch section.id {
+			case .sketchnotes,
+				 .posts:
+				sectionContent = .wrapper(
+					.h1(.text(section.title)),
+					try! .itemList(
+						for: items
+					)
+				)
+			case .about:
+				sectionContent = .wrapper(
+					.article(
+						section.content.body.node
+					)
+				)
+			}
+
+			return HTML(
 				.lang(context.site.language),
 				.head(for: section, on: context.site),
 				.body(
 					.header(for: context, selectedSection: section.id),
-					.wrapper(
-						.h1(.text(section.title)),
-						try .itemList(
-							for: Array(
-								context.allItems(
-									sortedBy: \.date,
-									order: .descending
-								).filter { $0.sectionID == section.id }
-							),
-							on: context.site)
-					),
+					sectionContent,
 					.footer(for: context.site)
 				)
 			)
@@ -155,8 +168,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 								taggedWith: page.tag,
 								sortedBy: \.date,
 								order: .descending
-							),
-							on: context.site
+							)
 						)
 					),
 					.footer(for: context.site)

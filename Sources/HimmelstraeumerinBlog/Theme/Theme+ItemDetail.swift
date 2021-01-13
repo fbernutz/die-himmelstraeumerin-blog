@@ -10,17 +10,30 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
 	static func itemDetail(for item: Item<HimmelstraeumerinBlog>, on site: HimmelstraeumerinBlog) -> Node {
-		return .article(
-			.if(item.sectionID == .sketchnotes,
-				.sketchnoteDetail(item),
-				else: .blogPostDetail(item)
-			),
-			.div(
-				.class("tags"),
-				.span("Tagged with: "),
-				.tagList(for: item, on: site)
+		switch item.sectionID {
+		case .posts:
+			return .article(
+				.blogPostDetail(item),
+				.div(
+					.class("tags"),
+					.span("Tagged with: "),
+					.tagList(for: item, on: site)
+				)
 			)
-		)
+		case .sketchnotes:
+			return .article(
+				.sketchnoteDetail(item),
+				.div(
+					.class("tags"),
+					.span("Tagged with: "),
+					.tagList(for: item, on: site)
+				)
+			)
+		case .about:
+			return .article(
+				.cvDetail(item)
+			)
+		}
 	}
 }
 
@@ -100,4 +113,12 @@ private extension Node where Context == HTML.BodyContext {
 			)
 		)
 	}
+
+	static func cvDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
+		.div(
+			.class("content about"),
+			.contentBody(item.body)
+		)
+	}
+
 }
