@@ -2,6 +2,8 @@
 
 My name is **Felizia Bernutz**. I'm an iOS developer with focus on user experience and accessibility. I have a Bachelor of Engineering degree in Media Engineering and a solid understanding of software engineering. I also have a background in design and have worked with some design and prototyping tools. I have experience in giving workshops about sketchnoting remotely and in person.
 
+Read through my [motivators][motivators], if you want to know what motivates me and what makes me happy.
+
 ---
 
 ## Skills
@@ -43,7 +45,7 @@ My tasks included media production for websites and apps, content insertion into
 
 ## Certificates
 
-2019: ISAQB - Certified Professional for Software Architecture ([Foundational Level][isaqb-foundation-level])
+2019: iSAQB - Certified Professional for Software Architecture ([Foundational Level][isaqb-foundation-level])
 
 ---
 
@@ -64,4 +66,4 @@ In my bachelor thesis, I've build an [iOS app to control HomeKit accessories][ba
 
 [isaqb-foundation-level]: https://www.isaqb.org/certifications/foundation-level/?lang=en
 [ba-thesis]: https://github.com/fbernutz/smart-living-ios
-[motivators]: http://localhost:8000/about/motivators/
+[motivators]: https://fbernutz.github.io/about/motivators/
