@@ -64,6 +64,6 @@ The Bachelor of Engineering degree in Media Engineering included learning about 
 
 In my bachelor thesis, I've build an [iOS app to control HomeKit accessories][ba-thesis].
 
-[isaqb-foundation-level]: https://www.isaqb.org/certifications/foundation-level/?lang=en
+[isaqb-foundation-level]: https://www.isaqb.org/certifications/cpsa-certifications/cpsa-foundation-level/
 [ba-thesis]: https://github.com/fbernutz/smart-living-ios
 [motivators]: https://fbernutz.github.io/about/motivators/
