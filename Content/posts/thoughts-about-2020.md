@@ -110,12 +110,16 @@ All in all, the swim was a complete success. I learned so much and I was able to
 
 Since November, all the pools have been closed due to lockdown. I really miss swimming and hope I don't have to relearn everything  when they eventually reopen.
 
-Since I can't go swimming right now, I bought a **balance board**. It's like a skateboard without wheels and you can do balance exercises with it in the living room in front of the TV. It's so easy but also really fun!
+Since I can't go swimming right now, I bought a **balance board**. It's like a skateboard without wheels and you can do balance exercises with it in the living room in front of the TV. It's so simple but also really fun!
 
 <figure>
     <img src="../../images/thoughts-about-2020/sports.jpg" alt="A collage of different pictures with a balance board from the top, an outdoor swimming pool, me climbing in between two rocks, me climbing in front of a rock, the view into tree tops and my feet from the top next to a swimming pool." />
     <figcaption>Balance Board, Swimming and Rock Climbing - my new sport activities this year</figcaption>
 </figure>
+
+## iPad and Apple Pencil
+
+In August, I gave myself a birthday present: I ordered the iPad Pro 12.9" with the Apple Pencil. I wanted to use it for sketchnoting. A few weeks later, the [Apple Pencil arrived](https://twitter.com/felibe444/status/1296048389629587457). Nice! I had to stay patient because the iPad took another two weeks to arrive. If you want to know why I bought it, what I was hoping for and how I liked it, I recommend reading my blog post ["Me, my new iPad Pro and the Apple Pencil"](https://fbernutz.github.io/posts/ipad-and-apple-pencil/).
 
 ## Vacation Mode On
 
@@ -131,10 +135,6 @@ We were lucky with our vacation planning this year, so we managed to make a road
 In September, the best [@xavierLowmiller](https://twitter.com/xavierLowmiller) and me decided to experiment with the new iOS 14 feature - Widgets! We did some awesome pair programming sessions and after a while we were able to solve all the code signing issues. Widgets in [Cineaste App](https://apps.apple.com/us/app/cineaste-app/id1402748020) allow you to create a release countdown for your favorite movie that you would like to see. Unfortunately the cinemas were mostly closed this year, so only a few movies were released, but hopefully they will open again soon and it makes even more sense to use the widgets 🤞
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/felibe444?ref_src=twsrc%5Etfw">@felibe444</a> and I join the cool kids club and made a widget for her app, Cineaste!<br><br>Because anticipation is the best, you can now track the release date of upcoming movies!<br><br>Get it here:<a href="https://t.co/cFR91N5Reo">https://t.co/cFR91N5Reo</a> <a href="https://t.co/aKx8c8hJhx">pic.twitter.com/aKx8c8hJhx</a></p>&mdash; Xavier Lowmiller (@xavierLowmiller) <a href="https://twitter.com/xavierLowmiller/status/1311911949467254784?ref_src=twsrc%5Etfw">October 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-## iPad and Apple Pencil
-
-In August, I gave myself a birthday present: I ordered the iPad Pro 12.9" with the Apple Pencil. I wanted to use it for sketchnoting. A few weeks later, the [Apple Pencil arrived](https://twitter.com/felibe444/status/1296048389629587457). Nice! I had to stay patient because the iPad took another two weeks to arrive. If you want to know why I bought it, what I was hoping for and how I liked it, I recommend reading my blog post ["Me, my new iPad Pro and the Apple Pencil"](https://fbernutz.github.io/posts/ipad-and-apple-pencil/).
 
 ## Workshop for hundreds of People
 
