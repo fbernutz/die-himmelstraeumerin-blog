@@ -470,6 +470,10 @@ footer p {
 		border: 0px solid transparent;
 	}
 
+	article figcaption {
+		color: #9a9898;
+	}
+
 	.tags {
 		color: #9a9898;
 	}
