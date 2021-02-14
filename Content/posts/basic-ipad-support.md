@@ -48,23 +48,27 @@ Let's fix the layout problems! But one thing at a time.
 
 ### Large Poster Images on iPad
 
-On the iPad, the **poster images** (and therefore the cells) **are a little bit too large**. The images use a "Proportional Width" constraint which is set to ~20% of the screen width. This means on larger devices, the images are larger, too. To make the images a bit smaller on large devices, I programmatically updated the percentage of the constraint depending on the screen size.
+On the iPad, the **poster images** (and therefore the cells) **are a little bit too large**.
 
 <figure>
     <img src="../../images/basic-ipad-support/poster-size.png" alt="Screenshots of the movie list before and after. On the before screenshot, the poster images are way larger than on the after screenshot." />
     <figcaption>On the left the watchlist with large poster images (before) and on the right with smaller poster images (after).</figcaption>
 </figure>
 
+The images use a "Proportional Width" constraint which is set to ~20% of the screen width. This means on larger devices, the images are larger, too. To make the images a bit smaller on large devices, I programmatically updated the percentage of the constraint depending on the screen size.
+
 For tips on how to use size classes for different layout on different devices, I can recommend the talk ["Size Doesn't Matter: Building an App for Every iOS Device"](https://www.youtube.com/watch?v=2sImrtlesfQ) by Janina Kutyn from AppBuilders 2019. 🍿
 
 ### Safe Area Issues on Landscape Mode
 
-Some **safe area settings** (for the toolbar or the poster) need improvements in the movie detail screen when using the iPhone in landscape mode. To fix the issues with the safe area on landscape mode, I constrained the toolbar to not respect the safe area and to use the superview instead. The reason for this is, that toolbars automatically respect safe areas. The `UIBarButtonItems` are positioned respecting the safe area, so they have enough space to both sides. It doesn't matter when some small parts of the poster are not visible, so I set constraints to the superview on both sides.
+Some **safe area settings** (for the toolbar or the poster) need improvements in the movie detail screen when using the iPhone in landscape mode. 
 
 <figure>
     <img src="../../images/basic-ipad-support/safe-area.png" alt="Screenshots of the movie detail before and after. On the before screenshot, the toolbar is misplaced and the poster has spacing to the left and right. On the after screenshot, the toolbar is positioned at the bottom and to both sides. The poster also uses the same width." />
     <figcaption>On the left the movie detail with wrong toolbar and poster size (before) and on the right toolbar and poster use the whole width (after).</figcaption>
 </figure>
+
+To fix the issues with the safe area on landscape mode, I constrained the toolbar to not respect the safe area and to use the superview instead. The reason for this is, that toolbars automatically respect safe areas. The `UIBarButtonItems` are positioned respecting the safe area, so they have enough space on both sides. It doesn't matter when small parts of the poster are not visible, so I set constraints to the superview on both sides.
 
 ### Fix Table View Background Color
 
@@ -81,16 +85,16 @@ There is still an [unresolved bug](https://github.com/spacepandas/cineaste-ios/i
 
 Most of the work has to be done in the movie detail screen in landscape mode. You **shouldn't see a full screen image when navigating to the screen and then have to scroll a few times** to see the information about a movie.
 
-The screen is the most complex of the app. It contains two scroll views which are used to add a parralax effect on the poster when scrolling down.
-
-To prevent seeing a full screen image initially, I added a "Proportional Height" constraint to the poster of 60%. This means when the device is in portrait mode, 60% of the screen displays the poster and you can already see 40% of movie information underneath. When rotating the device, it's the same logic. A user then sees way less of the poster than in portrait mode, but there's always the possibility to tap on the poster to see it full screen anyways.
-
-It sounds simple to add one constraint but I introduced some new bugs with every release and needed some TestFlight versions until I got everything working correctly on iPad portrait and iPhone landscape. 🙈
-
 <figure>
     <img src="../../images/basic-ipad-support/large-poster.png" alt="Screenshots of the movie detail before and after. On the before screenshot, the poster is visible full screen, you have to scroll to see movie information. On the after screenshot, the poster is only visible 40% of the screen height and you see some movie information directly underneath." />
     <figcaption>On the left movie detail with a full screen poster (before) and on the right the poster with some movie information directly underneath (after).</figcaption>
 </figure>
+
+The screen is the most complex of the app. It contains two scroll views which are used to add a parallax effect on the poster when scrolling down.
+
+To prevent seeing a full screen image initially, I added a "Proportional Height" constraint to the poster of 60%. This means when the device is in portrait mode, 60% of the screen displays the poster and you can already see 40% of movie information underneath. When rotating the device, it's the same logic. A user then sees way less of the poster than in portrait mode, but there's always the possibility to tap on the poster to see it full screen anyways.
+
+It sounds simple to add one constraint but I introduced some new bugs with every release and needed some TestFlight versions until I got everything working correctly on iPad portrait and iPhone landscape. 🙈
 
 The biggest part of work is done 💪 Yay!
 
@@ -129,7 +133,7 @@ After running the app on the simulator you might have noticed that **your app ha
     <figcaption>Screenshot of App Icons in AssetCatalog in Xcode.</figcaption>
 </figure>
 
-Awesome, that's it! At this point we are nearly good to go!
+Awesome, that's it! At this point we are almost good to go!
 
 ## 6) Additional Tasks
 
