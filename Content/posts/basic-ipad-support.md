@@ -42,7 +42,7 @@ If you're brave enough, pick an iPad as simulator, run your app, and see what's 
     <figcaption>Screenshots of the app running on iPad and iPhone landscape without any further optimization.</figcaption>
 </figure>
 
-Next, fix the layout problems! One thing at a time.
+Let's fix the layout problems! But one thing at a time.
 
 ## 3) Layout Issues and Optimization
 
@@ -155,7 +155,7 @@ I think this is a major improvement.
     <figcaption>On the left movie detail with full width text (before) and on the right the text with a nice readable width (after).</figcaption>
 </figure>
 
-For more information about that, you read about ["Readable Content Guides"](https://useyourloaf.com/blog/readable-content-guides/) at Use Your Loaf. Even though it's a post from 2016, it's still relevant. 📚
+For more information about that, read ["Readable Content Guides"](https://useyourloaf.com/blog/readable-content-guides/) at Use Your Loaf. Even though it's a post from 2016, it's still relevant. 📚
 
 I think with all these changes, the iPad version looks ~1000% better than before. But there are still some things which I may want to change in the future.
 
