@@ -1,7 +1,7 @@
 ---
 date: 2020-01-12 10:00
 description: The last days, I migrated some of my open source repositories from Travis CI to GitHub Actions. I only used Travis for running tests or linter, nothing too complicated.
-tags: post, github-actions, open-source, CI
+tags: post, github-actions, open-source, CI, iOS
 image: images/github-actions/preview.jpg
 ---
 # Migration from Travis CI to GitHub Actions
