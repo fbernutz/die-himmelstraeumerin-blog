@@ -70,6 +70,20 @@ extension Theme where Site == HimmelstraeumerinBlog {
 						for: items
 					)
 				)
+			case .iOS:
+				let iOSPosts = Array(
+					context.allItems(
+						sortedBy: \.date,
+						order: .descending
+					).filter { $0.sectionID == .posts }
+				).filter { $0.tags.contains("iOS") }
+
+				sectionContent = .wrapper(
+					.h1(.text("iOS Posts")),
+					try! .itemList(
+						for: iOSPosts
+					)
+				)
 			case .about:
 				sectionContent = .wrapper(
 					.article(

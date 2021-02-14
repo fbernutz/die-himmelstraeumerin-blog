@@ -11,7 +11,8 @@ import Plot
 extension Node where Context == HTML.BodyContext {
 	static func itemDetail(for item: Item<HimmelstraeumerinBlog>, on site: HimmelstraeumerinBlog) -> Node {
 		switch item.sectionID {
-		case .posts:
+		case .posts,
+			 .iOS:
 			return .article(
 				.blogPostDetail(item),
 				.div(
