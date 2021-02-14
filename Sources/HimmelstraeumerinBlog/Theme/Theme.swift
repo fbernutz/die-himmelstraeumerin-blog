@@ -70,7 +70,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 						for: items
 					)
 				)
-			case .iOS:
+			case .ios:
 				let iOSPosts = Array(
 					context.allItems(
 						sortedBy: \.date,
