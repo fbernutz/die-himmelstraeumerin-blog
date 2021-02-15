@@ -79,7 +79,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 				).filter { $0.tags.contains("iOS") }
 
 				sectionContent = .wrapper(
-					.h1(.text("iOS Posts")),
+					.h1(.text(section.title)),
 					try! .itemList(
 						for: iOSPosts
 					)
