@@ -40,7 +40,7 @@ private extension Node where Context == HTML.BodyContext {
 
 	static func navigation(for context: PublishingContext<HimmelstraeumerinBlog>, selectedSection: HimmelstraeumerinBlog.SectionID?) -> Self {
 		let sectionIDs = HimmelstraeumerinBlog.SectionID.allCases
-			.filter { $0 != .ios } // do not show "iOS" in navigation
+			.filter { $0 != .iOS } // do not show "iOS" in navigation
 
 		return .nav(
 			.ul(

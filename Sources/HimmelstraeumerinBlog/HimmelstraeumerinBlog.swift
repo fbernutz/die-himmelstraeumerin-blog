@@ -13,7 +13,7 @@ import Plot
 struct HimmelstraeumerinBlog: Website {
 	enum SectionID: String, WebsiteSectionID {
 		case posts
-		case ios
+		case iOS
 		case sketchnotes
 		case about
 	}
