@@ -34,7 +34,7 @@ jobs:
         echo "${HOME}/Publish/.build/release" >> ${GITHUB_PATH}
         
     - name: Deploy Content
-      uses: peaceiris/actions-gh-pages@v2
+      uses: peaceiris/actions-gh-pages@v3.7.3
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         EXTERNAL_REPOSITORY: fbernutz/fbernutz.github.io
