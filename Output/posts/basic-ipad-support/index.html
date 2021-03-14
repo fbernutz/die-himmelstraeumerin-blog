@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="UTF-8"/>
+				<meta name="og:site_name" content="#diehimmels&shy;traeumerin"/>
+				<link rel="canonical" href="https://fbernutz.github.io/posts/basic-ipad-support"/>
+				<meta name="twitter:url" content="https://fbernutz.github.io/posts/basic-ipad-support"/>
+				<meta name="og:url" content="https://fbernutz.github.io/posts/basic-ipad-support"/>
+				<title>How I Added Basic iPad Support to my iPhone Only App | #diehimmels&shy;traeumerin</title>
+				<meta name="twitter:title" content="How I Added Basic iPad Support to my iPhone Only App | #diehimmels&shy;traeumerin"/>
+				<meta name="og:title" content="How I Added Basic iPad Support to my iPhone Only App | #diehimmels&shy;traeumerin"/>
+				<meta name="description" content="I have a confession to make. It's really sad, but true. In my career as an iOS developer, I've only ever build iPhone apps. iPads were never meant to be supported. Well... the apps "worked" in theory! Sort of. So, during my vacation in December, it was finally time to start working on the two-plus years old ticket to add iPad and iPhone landscape support for Cineaste App."/>
+				<meta name="twitter:description" content="I have a confession to make. It's really sad, but true. In my career as an iOS developer, I've only ever build iPhone apps. iPads were never meant to be supported. Well... the apps "worked" in theory! Sort of. So, during my vacation in December, it was finally time to start working on the two-plus years old ticket to add iPad and iPhone landscape support for Cineaste App."/>
+				<meta name="og:description" content="I have a confession to make. It's really sad, but true. In my career as an iOS developer, I've only ever build iPhone apps. iPads were never meant to be supported. Well... the apps "worked" in theory! Sort of. So, during my vacation in December, it was finally time to start working on the two-plus years old ticket to add iPad and iPhone landscape support for Cineaste App."/>
+				<meta name="twitter:card" content="summary_large_image"/>
+				<link rel="stylesheet" href="/styles.css" type="text/css"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<link rel="shortcut icon" href="/images/favicon.png" type="image/png"/>
+				<link rel="alternate" href="/feed.rss" type="application/rss+xml" title="Subscribe to #diehimmels&shy;traeumerin"/>
+				<meta name="twitter:image" content="https://fbernutz.github.io/images/basic-ipad-support/preview.jpg"/>
+				<meta name="og:image" content="https://fbernutz.github.io/images/basic-ipad-support/preview.jpg"/>
+		</head>
+		<body class="item-page">
+				<header>
+						<div class="wrapper">
+								<a class="site-name" href="/">#diehimmels&shy;traeumerin</a>
+								<p>iOS dev • sketchnoting • photography • accessibility • pineapple on pizza • lioness • she/her</p>
+								<nav>
+										<ul>
+												<li>
+														<a class="selected" href="/posts">Posts</a>
+												</li>
+												<li>
+														<a href="/sketchnotes">Sketchnotes</a>
+												</li>
+												<li>
+														<a href="/about">About</a>
+												</li>
+										</ul>
+								</nav>
+						</div>
+				</header>
+				<div class="wrapper">
+						<article>
+								<div class="content post-detail">
+										<p class="release-date">Feb 14, 2021 ⋅ 9 min read</p><h1>How I Added Basic iPad Support to my iPhone Only App</h1><p>I have a confession to make. It's really sad, but true. In my career as an iOS developer, I've only ever build iPhone apps. iPads were never meant to be supported. Well... all apps "worked" in theory! Sort of.</p><figure>
+    <img src="../../images/basic-ipad-support/scaled.png" alt="Screenshot of scaled app on iPad" />
+    <figcaption>A "beautifully" scaled iPhone app on iPad.</figcaption>
+</figure><p>So, during my vacation in December, <strong>it was finally time to start working on the two-plus years old ticket</strong> to add iPad and iPhone landscape support for <a href="https://github.com/spacepandas/cineaste-ios">Cineaste App</a>.</p><p>I gave myself a Christmas present and finished the feature on Christmas Eve (see the <a href="https://github.com/spacepandas/cineaste-ios/pull/160">final PR on GitHub</a>). The current version is <a href="https://testflight.apple.com/join/sAfD3j8m">available for testing on Testflight</a>.</p><p><strong>Feel free to test the app and send feedback!</strong> I would really appreciate it. 🙌</p><p>So, what did I do to add basic iPad and landscape support?</p><h2>1) Activate that Checkmark!</h2><p>The first important step is to <strong>activate that checkmark for iPad</strong> support. You can find that setting in Xcode under the settings of your main target under the tab "General" and the section "Deployment Info".</p><figure>
+    <img src="../../images/basic-ipad-support/checkmark.jpg" alt="Screenshot of checkmarks to activate iPad support in Xcode" />
+    <figcaption>Activate the checkmark for native iPad support in Xcode.</figcaption>
+</figure><p>Cineaste App was also pinned to portrait orientation before. If you want to support landscape mode as well, activate the checkmarks for the new orientations too. You can find them directly below the checkmarks for the supported device categories.</p><h2>2) Run and See What's Broken</h2><p>If you're brave enough, pick an iPad as simulator, run your app, and see what's broken. In my case, there were some layout issues, but all in all, it didn't even look <em>that</em> bad. I was surprised! My goal was to create minimal iPad (and iPhone landscape) support that satisfied me for now. Bigger improvements can be made later.</p><figure>
+    <img src="../../images/basic-ipad-support/first-issues.png" alt="Screenshots of the app without further optimization running on iPad and iPhone landscape. There are some issues with the safe area and some images which are way too big." />
+    <figcaption>Screenshots of the app running on iPad and iPhone landscape without any further optimization.</figcaption>
+</figure><p>Let's fix the layout problems! But one thing at a time.</p><h2>3) Layout Issues and Optimization</h2><h3>Large Poster Images on iPad</h3><p>On the iPad, the <strong>poster images</strong> (and therefore the cells) <strong>are a little bit too large</strong>.</p><figure>
+    <img src="../../images/basic-ipad-support/poster-size.png" alt="Screenshots of the movie list before and after. On the before screenshot, the poster images are way larger than on the after screenshot." />
+    <figcaption>On the left the watchlist with large poster images (before) and on the right with smaller poster images (after).</figcaption>
+</figure><p>The images use a "Proportional Width" constraint which is set to ~20% of the screen width. This means on larger devices, the images are larger, too. To make the images a bit smaller on large devices, I programmatically updated the percentage of the constraint depending on the screen size.</p><p>For tips on how to use size classes for different layout on different devices, I can recommend the talk <a href="https://www.youtube.com/watch?v=2sImrtlesfQ">"Size Doesn't Matter: Building an App for Every iOS Device"</a> by Janina Kutyn from AppBuilders 2019. 🍿</p><h3>Safe Area Issues on Landscape Mode</h3><p>Some <strong>safe area settings</strong> (for the toolbar or the poster) need improvements in the movie detail screen when using the iPhone in landscape mode.</p><figure>
+    <img src="../../images/basic-ipad-support/safe-area.png" alt="Screenshots of the movie detail before and after. On the before screenshot, the toolbar is misplaced and the poster has spacing to the left and right. On the after screenshot, the toolbar is positioned at the bottom and to both sides. The poster also uses the same width." />
+    <figcaption>On the left the movie detail with wrong toolbar and poster size (before) and on the right toolbar and poster use the whole width (after).</figcaption>
+</figure><p>To fix the issues with the safe area on landscape mode, I constrained the toolbar to not respect the safe area and to use the superview instead. The reason for this is, that toolbars automatically respect safe areas. The <code>UIBarButtonItems</code> are positioned respecting the safe area, so they have enough space on both sides. It doesn't matter when small parts of the poster are not visible, so I set constraints to the superview on both sides.</p><h3>Fix Table View Background Color</h3><p>It looks weird to have a white area next to the poster. So, the <strong>table view background color</strong> in the lists on iPhone landscape should have no color and show the background color.</p><figure>
+    <img src="../../images/basic-ipad-support/background.png" alt="Screenshots of the movie list before and after. On the before screenshot, the movie cells have a white background. On the after screenshot, the poster and therefore cells are smaller and the background is dark." />
+    <figcaption>On the left the watchlist with white background and large poster images (before) and on the right with clear background and smaller cells (after).</figcaption>
+</figure><p>There is still an <a href="https://github.com/spacepandas/cineaste-ios/issues/164">unresolved bug</a> (on iOS 14 only), where a table view cell shows a white background when using a long tap to see the contextual menu. Anyone has an idea how to fix this?</p><h3>Movie Detail and Poster Height</h3><p>Most of the work has to be done in the movie detail screen in landscape mode. You <strong>shouldn't see a full screen image when navigating to the screen and then have to scroll a few times</strong> to see the information about a movie.</p><figure>
+    <img src="../../images/basic-ipad-support/large-poster.png" alt="Screenshots of the movie detail before and after. On the before screenshot, the poster is visible full screen, you have to scroll to see movie information. On the after screenshot, the poster is only visible 40% of the screen height and you see some movie information directly underneath." />
+    <figcaption>On the left movie detail with a full screen poster (before) and on the right the poster with some movie information directly underneath (after).</figcaption>
+</figure><p>The screen is the most complex of the app. It contains two scroll views which are used to add a parallax effect on the poster when scrolling down.</p><p>To prevent seeing a full screen image initially, I added a "Proportional Height" constraint to the poster of 60%. This means when the device is in portrait mode, 60% of the screen displays the poster and you can already see 40% of movie information underneath. When rotating the device, it's the same logic. A user then sees way less of the poster than in portrait mode, but there's always the possibility to tap on the poster to see it full screen anyways.</p><p>It sounds simple to add one constraint but I introduced some new bugs with every release and needed some TestFlight versions until I got everything working correctly on iPad portrait and iPhone landscape. 🙈</p><p>The biggest part of work is done 💪 Yay!</p><h2>4) Prevent Crashes</h2><p>It can happen that your app crashes on the iPad, but it doesn't on the iPhone. Some UI elements, like <code>UIAlertController</code> or <code>UIActivityViewController</code> are displayed in a popover style on the iPad. Therefore they either need a <code>UIBarButtonItem</code> or a <code>sourceView</code> and <code>sourceRect</code> as anchor point to display the popover.</p><p>To check if your app crashes on the iPad, tap every button you have in the app. Additionally, look through your code and search for <code>UIAlertController</code> with style <code>actionSheet</code> or <code>UIActivityViewController</code> and set the information on the property <code>popoverPresentationController</code> to prevent crashes.</p><pre><code><span class="keyword">let</span> actionSheet = <span class="type">UIAlertController</span>(title: <span class="string">"Contact"</span>, message: <span class="keyword">nil</span>, preferredStyle: .<span class="dotAccess">actionSheet</span>)
+<span class="keyword">let</span> action = <span class="type">UIAlertAction</span>(title: <span class="string">"GitHub"</span>, style: <span class="keyword">default</span>) { <span class="keyword">_ in</span> 
+    <span class="comment">/* link to GitHub */</span> 
+}
+actionSheet.<span class="call">addAction</span>(action)
+
+<span class="comment">// 1) use the `UIBarButtonItem` to display the popover</span>
+actionSheet.<span class="property">popoverPresentationController</span>?.<span class="property">barButtonItem</span> = barButtonItem
+
+<span class="comment">// 2) use the center of a view to display the popover, for example on a `UITableViewCell`</span>
+actionSheet.<span class="property">popoverPresentationController</span>?.<span class="property">sourceView</span> = cell
+actionSheet.<span class="property">popoverPresentationController</span>?.<span class="property">sourceRect</span> = <span class="type">CGRect</span>(
+    x: cell.<span class="property">bounds</span>.<span class="property">midX</span>,
+    y: cell.<span class="property">bounds</span>.<span class="property">midY</span>,
+    width: <span class="number">0</span>,
+    height: <span class="number">0</span>
+)
+</code></pre><h2>5) Add More App Icons</h2><p>After running the app on the simulator you might have noticed that <strong>your app has no app icon</strong> anymore. We need to add the icon in some more sizes. To do that, choose the "AppIcon" in your Asset Catalog and on the Attributes Inspector, activate another checkmark "iPad". With a tool of your choice (<a href="https://github.com/onmyway133/IconGenerator">I really like "Icon Generator" which is open source</a>), generate the missing assets in the correct sizes and assign them in the Asset Catalog.</p><figure>
+    <img src="../../images/basic-ipad-support/app-icons.jpg" alt="Screenshot of app icons in AssetCatalog in Xcode" />
+    <figcaption>Screenshot of App Icons in AssetCatalog in Xcode.</figcaption>
+</figure><p>Awesome, that's it! At this point we are almost good to go!</p><h2>6) Additional Tasks</h2><p>To release your app update on the AppStore, you should <strong>record some new iPad screenshots</strong>. To record screenshots for the AppStore, <a href="https://docs.fastlane.tools/getting-started/ios/screenshots/"><code>fastlane screenshots</code></a> could be the tool of your choice.</p><p>When you have an external mouse or touchpad, you <em>can</em> test the <strong>cursor behaviour</strong> and <strong>right click menu</strong> of your app. I didn't optimize something for that, because it looked already good in my opinion. Maybe this is because I only use default iOS elements and don't want to have any special behaviour. With a right click, the app displays the contextual actions automatically, which is really cool.</p><h2>7) That Last Big Improvement</h2><p>In January, I read about <code>layoutMarginsFollowReadableWidth</code> for improved reading experience (see the <a href="https://twitter.com/JordanMorgan10/status/1267239117521399815">thread with lots of awesome tips</a> by <a href="https://twitter.com/JordanMorgan10">@JordanMorgan10</a>). I loved the idea and the movie detail screen (on large devices) was the perfect scenario to use this feature.</p><p>If you're working with storyboards, you can activate "Follow Readable Width" Layout Guide, instead of "Safe Area Relative Margins". In my case, I changed the layout guide of the stack view which contained the textual content. The stack view automatically adds insets to respect the readable width.</p><figure>
+    <img src="../../images/basic-ipad-support/follow-readable-width.jpg" alt="Screenshot of storyboard with Follow Readable Width Layout Guide in Xcode" />
+    <figcaption>Screenshot of Storyboard "Follow Readable Width".</figcaption>
+</figure><p>I think this is a major improvement.</p><figure>
+    <img src="../../images/basic-ipad-support/readable-width.png" alt="Screenshots of the movie detail before and after. On the before screenshot, the movie information have a width of the full screen. On the after screenshot, the movie information have a maximum of 130 characters per line, so it's easier to read a longer text." />
+    <figcaption>On the left movie detail with full width text (before) and on the right the text with a nice readable width (after).</figcaption>
+</figure><p>For more information about that, read <a href="https://useyourloaf.com/blog/readable-content-guides/">"Readable Content Guides"</a> at Use Your Loaf. Even though it's a post from 2016, it's still relevant. 📚</p><p>I think with all these changes, the iPad version looks ~1000% better than before. But there are still some things which I may want to change in the future.</p><h2>What's missing?</h2><p>I loved the <a href="https://medium.com/lookup-design/designed-for-ipad-a77f05c4919a">article "Designed for iPad"</a> by <a href="https://twitter.com/viditb">@viditb</a> which helped me a lot to identify what I'm still missing. 📚</p><p>The currently missing features are:</p><ul><li>Keyboard Support</li><li>Multi Window Support (but I'm not sure if this is really relevant for this app)</li><li>Drag and Drop Support (but I'm not sure if this is really relevant for this app)</li><li>Improved Layout for iPad (the movie lists still don't use the optimal layout, a better idea would be to use a split layout with <code>UISplitViewController</code>, a Grid Layout with a <code>UICollectionView</code>, or at least make use of a side bar to use the space on larger devices more efficient)</li></ul><h2>Conclusion</h2><p>Adding support for iPad adds <em>a lot of complexity</em> to your app. You have to test so much more! There are many more different devices now, there is the split screen layout, you have to test rotating the devices, and and and...</p><p>But I really enjoyed it and it's worth it!</p><img src="../../images/basic-ipad-support/preview.jpg" alt="An iPad on a table with Cineaste App on screen. It shows a movie detail of the movie Weathering With You." /><p>I had such respect for this task, but in retrospect it was not <em>that</em> difficult in my case. (This impression may vary, of course, depending on what your app does.) Just try it and improve it step by step. It doesn't have to be perfect right away.</p><hr><p>This was my first experiment with iPad support. Please get in touch on <a href="https://twitter.com/felibe444">Twitter</a> and tell me what I might have missed or what I can improve.</p>
+								</div>
+								<div class="tags">
+										<span>Tagged with: </span>
+										<ul class="tag-list">
+												<li class="tag">
+														<a href="/tags/post">post</a>
+												</li>
+												<li class="tag">
+														<a href="/tags/ios">iOS</a>
+												</li>
+												<li class="tag">
+														<a href="/tags/ipados">iPadOS</a>
+												</li>
+												<li class="tag">
+														<a href="/tags/ipad">iPad</a>
+												</li>
+										</ul>
+								</div>
+						</article>
+				</div>
+				<footer>
+						<p>Made by Felizia Bernutz using 
+								<a href="https://github.com/johnsundell/publish" target="_blank" rel="noreferrer">Publish</a>. This site is 
+								<a href="https://github.com/fbernutz/die-himmelstraeumerin-blog" target="_blank" rel="noreferrer">open source</a>.
+						</p>
+						<p>
+								<a href="https://twitter.com/felibe444" target="_blank" rel="noreferrer">Twitter</a> | 
+								<a href="https://github.com/fbernutz" target="_blank" rel="noreferrer">GitHub</a> | 
+								<a href="https://fbernutz.github.io/feed.rss">RSS Feed</a> | 
+								<a href="https://www.instagram.com/diehimmelstraeumerin/" target="_blank" rel="noreferrer">Instagram</a>
+						</p>
+				</footer>
+		</body>
+</html>
