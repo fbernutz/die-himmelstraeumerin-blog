@@ -35,9 +35,9 @@ jobs:
         
     - name: Deploy Content
       uses: peaceiris/actions-gh-pages@v3.7.3
-      env:
-        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        EXTERNAL_REPOSITORY: fbernutz/fbernutz.github.io
-        PUBLISH_DIR: ./Output
       with:
-        commitMessage: ${{ github.event.head_commit.message }}
+        deploy_key: ${{ secrets.PERSONAL_TOKEN }}
+        external_repository: fbernutz/fbernutz.github.io
+        publish_branch: master
+        publish_dir: ./Output
+        commit_message: ${{ github.event.head_commit.message }}
