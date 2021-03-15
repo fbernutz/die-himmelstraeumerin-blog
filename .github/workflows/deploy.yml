@@ -33,6 +33,9 @@ jobs:
         cp -r .build ~/Publish_build || true
         echo "${HOME}/Publish/.build/release" >> ${GITHUB_PATH}
         
+    - name: Generate Output
+      run: publish-cli generate
+        
     - name: Deploy Content
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
