@@ -4,14 +4,37 @@
 	box-sizing: border-box;
 }
 
+:root {
+	color-scheme: light dark;
+	--body-background-color: #f5f5f5;
+	--body-text-color: #000;
+	--body-text-color-secondary: #555;
+	--code-color: #e2e2e2;
+	--item-posts-background-color: #e6e5e5;
+	--header-background-color: #284081;
+	--article-blockquote-border-color: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--body-background-color: #222;
+		--body-text-color: #ddd;
+		--body-text-color-secondary: #9a9898;
+		--code-color: #333;
+		--item-posts-background-color: #333;
+		--header-background-color: #000;
+		--article-blockquote-border-color: #9a9898;
+	}
+}
+
 body,
 html {
 	height: 100%;
 }
 
 body {
-	background: #f5f5f5;
-	color: #000;
+	background: var(--body-background-color);
+	color: var(--body-text-color);
 	font-family: Helvetica, Arial;
 	text-align: center;
 }
@@ -39,7 +62,7 @@ a:not([class]) {
 
 header {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../../images/header.jpg");
-	background-color: #284081;
+	background-color: var(--header-background-color);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -149,7 +172,7 @@ a {
 .about .timeperiod {
 	margin-top: 10px;
 	margin-bottom: 0;
-	color: #555;
+	color: var(--body-text-color-secondary);
 	font-size: 1.1em;
 }
 
@@ -177,7 +200,7 @@ a {
 
 .metadata p {
 	font-size: 100%;
-	color: #555;
+	color: var(--body-text-color-secondary);
 	margin-bottom: 0;
 }
 
@@ -212,6 +235,7 @@ a {
 	margin-bottom: 0;
 }
 
+
 .sketchnote-item a:focus {
 	box-shadow: 0 0 5px #999;
 }
@@ -236,6 +260,13 @@ a {
 .sketchnote-item:hover .sketchnote-title {
 	opacity: 1;
 	transition: opacity 0.4s;
+}
+
+@media (prefers-color-scheme: dark) {
+	.sketchnote-item,
+	.sketchnote-item:hover {
+		box-shadow: 0 0 0px transparent;
+	}
 }
 
 .sketchnote-image {
@@ -296,7 +327,7 @@ a {
 	display: block;
 	padding: 20px;
 	border-radius: 20px;
-	background-color: #e6e5e5;
+	background-color: var(--item-posts-background-color);
 }
 
 .post-detail img {
@@ -314,7 +345,7 @@ article p {
 
 article p.release-date {
 	font-size: 100%;
-	color: #555;
+	color: var(--body-text-color-secondary);
 }
 
 article hr {
@@ -340,6 +371,12 @@ article img {
 	display: block;
 }
 
+@media (prefers-color-scheme: dark) {
+	article img {
+		border: 0px solid transparent;
+	}
+}
+
 article video {
 	border: 1px solid #cfcfcf;
 	width: 100%;
@@ -350,9 +387,9 @@ article video {
 article blockquote {
 	margin: 20px auto;
 	font-style: italic;
-	color: #555;
+	color: var(--body-text-color-secondary);
 	padding: 1em 30px;
-	border-left: 8px solid #ededed;
+	border-left: 8px solid var(--article-blockquote-border-color);
 }
 
 article blockquote p {
@@ -367,7 +404,7 @@ article figure {
 article figcaption {
 	margin: 5px 0 10px 0;
 	text-align: center;
-	color: #555;
+	color: var(--body-text-color-secondary);
 	font-size: 0.95em;
 }
 
@@ -379,7 +416,7 @@ article figcaption {
 
 .tags {
 	font-size: 100%;
-	color: #555;
+	color: var(--tags-text-color);
 }
 
 .tag-list {
@@ -423,7 +460,7 @@ article figcaption {
 
 footer {
 	padding: 20px;
-	color: #555;
+	color: var(--body-text-color-secondary);
 	line-height: 1.2em;
 }
 
@@ -431,76 +468,11 @@ footer p {
 	font-size: 100%;
 }
 
-/* DARK THEME */
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #222;
-	}
-
-	body {
-		color: #ddd;
-	}
-
-	body code {
-		color: #333;
-	}
-
-	.item.posts {
-		background-color: #333;
-	}
-
-	header {
-		background-color: #000;
-	}
-
-	article blockquote p {
-		color: #9a9898;
-	}
-
-	article blockquote {
-		border-color: #9a9898;
-	}
-
-	article p.release-date {
-		color: #9a9898;
-	}
-
-	article img {
-		border: 0px solid transparent;
-	}
-
-	article figcaption {
-		color: #9a9898;
-	}
-
-	.tags {
-		color: #9a9898;
-	}
-
-	footer {
-		color: #9a9898;
-	}
-
-	.about .timeperiod {
-		color: #9a9898;
-	}
-
-	.metadata p {
-		color: #9a9898;
-	}
-
-	.sketchnote-item,
-	.sketchnote-item:hover {
-		box-shadow: 0 0 0px transparent;
-	}
-}
-
 /* CODE STYLE */
 
 code {
 	padding: 0.2em 0.4em;
-	background-color: #e2e2e2;
+	background-color: var(--code-color);
 	border-radius: 5px;
 }
 
