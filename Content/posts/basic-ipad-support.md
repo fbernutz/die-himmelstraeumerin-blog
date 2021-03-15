@@ -169,7 +169,7 @@ I loved the [article "Designed for iPad"](https://medium.com/lookup-design/desig
 
 The currently missing features are:
 
-- Keyboard Support
+- Keyboard Support (maybe use [KeyboardKit](https://github.com/douglashill/KeyboardKit) for that?)
 - Multi Window Support (but I'm not sure if this is really relevant for this app)
 - Drag and Drop Support (but I'm not sure if this is really relevant for this app)
 - Improved Layout for iPad (the movie lists still don't use the optimal layout, a better idea would be to use a split layout with `UISplitViewController`, a Grid Layout with a `UICollectionView`, or at least make use of a side bar to use the space on larger devices more efficient)
