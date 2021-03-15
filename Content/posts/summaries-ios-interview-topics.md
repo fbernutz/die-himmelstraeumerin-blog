@@ -9,7 +9,7 @@ image: images/summaries-ios-interview-topics/preview.jpg
 
 After a few technical interviews, I realised that it's good to prepare for them (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain some topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. I'm learning some of these topics anyway, so sketchnotes would be perfect as a summary (at least for me). And if they help me, maybe they'll help you too.
 
-**Disclaimer 1:** The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. 
+**Disclaimer 1:** The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the (in my opinion) most common topics.
 
 **Disclaimer 2:** There are much better and more detailed sources to learn about the details. These are just "small" summaries about the most important points _for me_. There might be other important points for you.
 
