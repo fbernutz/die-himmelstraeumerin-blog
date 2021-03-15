@@ -1,6 +1,6 @@
 ---
 date: 2021-03-15 15:30
-description: After a few technical interviews, I realised that is good to prepare for them (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain some topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. I'm learning some of these topics anyway, so sketchnotes would be perfect as a summary (at least for me). And if they help me, maybe they'll help you too.
+description: After a few technical interviews, I realised that it's good to prepare for them (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain some topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. I'm learning some of these topics anyway, so sketchnotes would be perfect as a summary (at least for me). And if they help me, maybe they'll help you too.
 tags: post, iOS, interview
 image: images/summaries-ios-interview-topics/preview.jpg
 ---
