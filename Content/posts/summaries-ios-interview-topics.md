@@ -66,7 +66,7 @@ It was a bit difficult to focus on the most important things here. I have two mo
 So, this sketchnote contains (in my opinion) the most important differences between Structs and Classes in Swift, with some additional thoughts and a small chart about when (and why) to use an Enum, a Struct or a Class.
 
 <a href="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" alt="Sketchnote about the evolution of Swift displayed with a timeline and additional release notes." />
+    <img src="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" alt="Sketchnote about the differences between structs and classes in Swift." />
 </a>
 
 ### Additional links
