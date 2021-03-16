@@ -20,7 +20,7 @@ After a few technical interviews, I realised that it's good to prepare for them 
 On my list are currently the following topics: 
 
 - Swift Evolution (done ✅)
-- Structs vs Classes
+- Structs vs Classes (done ✅)
 - Sets
 - Concurrency / Dispatch Queues
 - Grand Central Dispatch / NSOperations
@@ -54,6 +54,27 @@ Creating this sketchnote was especially fun because I could look back at the fea
 
 - The History of Swift [on Wikipedia][wikipedia]
 - I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](www.hackingwithswift.com).
+
+## Structs vs Classes
+
+_(added on 16th of March 2021)_
+
+"Structs vs Classes" is a real classic. 
+
+It was a bit difficult to focus on the most important things here. I have two more pages of notes about capture lists and memory management in Swift. Maybe I add both topics to the list and make own sketchnotes for them or I can combine the topics with another topic. Let's see. 
+
+So, this sketchnote contains (in my opinion) the most important differences between Structs and Classes in Swift, with some additional thoughts and a small chart about when (and why) to use an Enum, a Struct or a Class.
+
+<a href="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" target="_blank">
+    <img src="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" alt="Sketchnote about the evolution of Swift displayed with a timeline and additional release notes." />
+</a>
+
+### Additional links
+
+- [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes) from  Docs
+- [Capture Lists](https://scotteg.github.io/capture-lists) by Scott Gardner
+- I love this [gif with the two cups of coffee](https://twitter.com/suksr/status/738130336270422017) to visualize reference and value types
+- In Depth Optimization Tip: [Use copy-on-write semantics for large values](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values)
 
 ## Stay Tuned
 
