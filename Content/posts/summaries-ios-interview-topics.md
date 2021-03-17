@@ -85,7 +85,7 @@ _(added on 17th of March 2021)_
 I know Sets can be really powerful, but I always forget how the set operations are called and what they mean. That's the reason why "How to use Sets" was a topic from which I always wanted to make a sketchnote to have a quick reference.
 
 <a href="../../images/summaries-ios-interview-topics/sets.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/sets-medium.jpg" alt="Sketchnote about the how to use Sets in Swift, contains set operations, membership and differences to an Array." />
+    <img src="../../images/summaries-ios-interview-topics/sets-medium.jpg" alt="Sketchnote about how to use Sets in Swift. It contains set operations, membership and differences to an Array. Sets are unordered, only contain unique values, must be hashable and have an efficient lookup in large collections." />
 </a>
 
 ### Additional links
