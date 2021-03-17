@@ -19,9 +19,9 @@ After a few technical interviews, I realised that it's good to prepare for them 
 
 On my list are currently the following topics: 
 
-- Swift Evolution (done ✅)
-- Structs vs Classes (done ✅)
-- Sets (done ✅)
+- [Swift Evolution](#swift-evolution) (done ✅)
+- [Structs vs Classes](#structs-vs-classes) (done ✅)
+- [Sets](#sets) (done ✅)
 - Concurrency / Dispatch Queues
 - Grand Central Dispatch / NSOperations
 - Protocol / Delegate Pattern
@@ -38,7 +38,7 @@ I won't create sketchnotes for every topic, but I think it's good to have a list
 
 Now, I'll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. 
 
-## Swift Evolution
+<h2 id="swift-evolution">Swift Evolution</h2>
 
 _(added on 15th of March 2021)_
 
@@ -56,7 +56,7 @@ Creating this sketchnote was especially fun because I could look back at the fea
 - The History of Swift [on Wikipedia][wikipedia]
 - I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](www.hackingwithswift.com).
 
-## Structs vs Classes
+<h2 id="structs-vs-classes">Structs vs Classes</h2>
 
 _(added on 16th of March 2021)_
 
@@ -78,7 +78,7 @@ So, this sketchnote contains (in my opinion) the most important differences betw
 - I love this [gif with the two cups of coffee](https://twitter.com/suksr/status/738130336270422017) to visualize reference and value types
 - In Depth Optimization Tip: [Use copy-on-write semantics for large values](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values)
 
-## Sets
+<h2 id="sets">Sets</h2>
 
 _(added on 17th of March 2021)_
 
