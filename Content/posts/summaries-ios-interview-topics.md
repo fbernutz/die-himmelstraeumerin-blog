@@ -47,11 +47,12 @@ Let's start with the evolution of Swift. I started working with iOS when Swift 2
 Creating this sketchnote was especially fun because I could look back at the features which were added step by step. I had almost forgotten that there was a time when Swift had no `guard` statement or `try and catch`. I don't miss it 😉
 
 <a href="../../images/summaries-ios-interview-topics/swift-evolution.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/swift-evolution.jpg" alt="Sketchnote about the evolution of Swift displayed with a timeline and additional release notes." />
+    <img src="../../images/summaries-ios-interview-topics/swift-evolution-medium.jpg" alt="Sketchnote about the evolution of Swift displayed with a timeline and additional release notes." />
 </a>
 
 ### Additional links
 
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/swift-evolution.jpg)
 - The History of Swift [on Wikipedia][wikipedia]
 - I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](www.hackingwithswift.com).
 
@@ -66,11 +67,12 @@ It was a bit difficult to focus on the most important things here. I have two mo
 So, this sketchnote contains (in my opinion) the most important differences between Structs and Classes in Swift, with some additional thoughts and a small chart about when (and why) to use an Enum, a Struct or a Class.
 
 <a href="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/structs-vs-classes.jpg" alt="Sketchnote about the differences between structs and classes in Swift." />
+    <img src="../../images/summaries-ios-interview-topics/structs-vs-classes-medium.jpg" alt="Sketchnote about the differences between structs and classes in Swift." />
 </a>
 
 ### Additional links
 
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/structs-vs-classes.jpg)
 - [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes) from  Docs
 - [Capture Lists](https://scotteg.github.io/capture-lists) by Scott Gardner
 - I love this [gif with the two cups of coffee](https://twitter.com/suksr/status/738130336270422017) to visualize reference and value types
@@ -83,11 +85,12 @@ _(added on 17th of March 2021)_
 I know Sets can be really powerful, but I always forget how the set operations are called and what they mean. That's the reason why "How to use Sets" was a topic from which I always wanted to make a sketchnote to have a quick reference.
 
 <a href="../../images/summaries-ios-interview-topics/sets.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/sets.jpg" alt="Sketchnote about the how to use Sets in Swift, contains set operations, membership and differences to an Array." />
+    <img src="../../images/summaries-ios-interview-topics/sets-medium.jpg" alt="Sketchnote about the how to use Sets in Swift, contains set operations, membership and differences to an Array." />
 </a>
 
 ### Additional links
 
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/sets.jpg)
 - Swift Docs: [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html), section about Sets
 - [When to use a set rather than an array](https://www.hackingwithswift.com/example-code/language/when-to-use-a-set-rather-than-an-array) on Hacking With Swift
 
