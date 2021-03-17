@@ -21,7 +21,7 @@ On my list are currently the following topics:
 
 - Swift Evolution (done ✅)
 - Structs vs Classes (done ✅)
-- Sets
+- Sets (done ✅)
 - Concurrency / Dispatch Queues
 - Grand Central Dispatch / NSOperations
 - Protocol / Delegate Pattern
@@ -75,6 +75,21 @@ So, this sketchnote contains (in my opinion) the most important differences betw
 - [Capture Lists](https://scotteg.github.io/capture-lists) by Scott Gardner
 - I love this [gif with the two cups of coffee](https://twitter.com/suksr/status/738130336270422017) to visualize reference and value types
 - In Depth Optimization Tip: [Use copy-on-write semantics for large values](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values)
+
+## Sets
+
+_(added on 17th of March 2021)_
+
+I know Sets can be really powerful, but I always forget how the set operations are called and what they mean. That's the reason why "How to use Sets" was a topic from which I always wanted to make a sketchnote to have a quick reference.
+
+<a href="../../images/summaries-ios-interview-topics/sets.jpg" target="_blank">
+    <img src="../../images/summaries-ios-interview-topics/sets.jpg" alt="Sketchnote about the how to use Sets in Swift, contains set operations, membership and differences to an Array." />
+</a>
+
+### Additional links
+
+- Swift Docs: [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html), section about Sets
+- [When to use a set rather than an array](https://www.hackingwithswift.com/example-code/language/when-to-use-a-set-rather-than-an-array) on Hacking With Swift
 
 ## Stay Tuned
 
