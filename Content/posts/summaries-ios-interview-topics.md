@@ -22,7 +22,7 @@ On my list are currently the following topics:
 - [Swift Evolution](#swift-evolution) (done ✅)
 - [Structs vs Classes](#structs-vs-classes) (done ✅)
 - [Sets](#sets) (done ✅)
-- [Grand Central Dispatch / Concurrency / NSOperations](#gcd) (done ✅)
+- [Grand Central Dispatch / Concurrency / OperationQueue](#gcd) (done ✅)
 - Protocol / Delegate Pattern
 - Notification / Observer
 - Closures
@@ -93,7 +93,7 @@ I know Sets can be really powerful, but I always forget how the set operations a
 - Swift Docs: [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html), section about Sets
 - [When to use a set rather than an array](https://www.hackingwithswift.com/example-code/language/when-to-use-a-set-rather-than-an-array) on Hacking With Swift
 
-<h2 id="gcd">Grand Central Dispatch / Concurrency / NSOperations</h2>
+<h2 id="gcd">Grand Central Dispatch / Concurrency / OperationQueue</h2>
 
 _(added on 18th of March 2021)_
 
