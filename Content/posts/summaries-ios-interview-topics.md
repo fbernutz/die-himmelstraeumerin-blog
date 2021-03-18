@@ -22,8 +22,7 @@ On my list are currently the following topics:
 - [Swift Evolution](#swift-evolution) (done ✅)
 - [Structs vs Classes](#structs-vs-classes) (done ✅)
 - [Sets](#sets) (done ✅)
-- Concurrency / Dispatch Queues
-- Grand Central Dispatch / NSOperations
+- [Grand Central Dispatch / Concurrency / NSOperations](#gcd) (done ✅)
 - Protocol / Delegate Pattern
 - Notification / Observer
 - Closures
@@ -42,7 +41,7 @@ Now, I'll walk you through the sketchnotes I have created as part of my preparat
 
 _(added on 15th of March 2021)_
 
-Let's start with the evolution of Swift. I started working with iOS when Swift 2 was the latest release - it was in 2015.
+Let's start with the evolution of Swift. I started with iOS development shortly before the release of Swift 2 - it was in 2015.
 
 Creating this sketchnote was especially fun because I could look back at the features which were added step by step. I had almost forgotten that there was a time when Swift had no `guard` statement or `try and catch`. I don't miss it 😉
 
@@ -93,6 +92,29 @@ I know Sets can be really powerful, but I always forget how the set operations a
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/sets.jpg)
 - Swift Docs: [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html), section about Sets
 - [When to use a set rather than an array](https://www.hackingwithswift.com/example-code/language/when-to-use-a-set-rather-than-an-array) on Hacking With Swift
+
+<h2 id="gcd">Grand Central Dispatch / Concurrency / NSOperations</h2>
+
+_(added on 18th of March 2021)_
+
+Puuuh, creating this sketchnote was really time-consuming and exhausting. There's a lot going on in it, but I tried to make containers to group content and connect it with arrows when needed. It's just a huge topic, or rather it's a lot of topics that have to do with each other! 
+
+Do you know the difference between threads and queues? Well, to be honest, it wasn't clear to me before I made the sketchnote. So, I'm glad I learned something new!
+
+<a href="../../images/summaries-ios-interview-topics/gcd.jpg" target="_blank">
+    <img src="../../images/summaries-ios-interview-topics/gcd-medium.jpg" alt="Sketchnote about Grand Central Dispatch, threads, concurrency, types of queues, Operation Queues and DispatchGroup." />
+</a>
+
+### Additional links
+
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/gcd.jpg)
+- [Dispatch Framework](https://developer.apple.com/documentation/dispatch) from  Docs
+- [Operation Queue](https://developer.apple.com/documentation/foundation/operationqueue) from  Docs
+- [How to make one operation wait for another to complete using addDependency()](https://www.hackingwithswift.com/example-code/system/how-to-make-one-operation-wait-for-another-to-complete-using-adddependency) on Hacking With Swift
+- [Project 9: Grand Central Dispatch](https://www.hackingwithswift.com/read/9/overview) on Hacking With Swift
+- [Threads, Queues, and Concurrency](https://cocoacasts.com/swift-and-cocoa-fundamentals-threads-queues-and-concurrency) on Cocoacast
+- [Grand Central Dispatch](https://www.swiftbysundell.com/basics/grand-central-dispatch/) on Swift by Sundell
+- [Swift Evolution Proposal about "Actors"](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md)
 
 ## Stay Tuned
 
