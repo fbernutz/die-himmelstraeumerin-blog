@@ -1,6 +1,6 @@
 ---
 date: 2021-03-26 17:47
-description: Sketchnote about Generics and how to use them in Swift, in detail aboutt naming conventions, type constraints and code examples.s
+description: Sketchnote about Generics and how to use them in Swift, in detail aboutt naming conventions, type constraints and code examples.
 tags: sketchnote, generic, iOS, swift, interview-topics
 image: images/sketchnotes/interview-topic-generics-small.jpg
 contentCreator: Felizia Bernutz
