@@ -23,7 +23,7 @@ On my list are currently the following topics:
 - [Structs vs Classes](#structs-vs-classes) (done ✅)
 - [Sets](#sets) (done ✅)
 - [Grand Central Dispatch / Concurrency / OperationQueue](#gcd) (done ✅)
-- Generics
+- [Generics](#generics) (done ✅)
 - Protocol / Delegate Pattern
 - Notification / Observer
 - Closures
@@ -74,6 +74,7 @@ So, this sketchnote contains (in my opinion) the most important differences betw
 
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/structs-vs-classes.jpg)
 - [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes) from  Docs
+- Swift Docs: [Classes and Structs](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 - [Capture Lists](https://scotteg.github.io/capture-lists) by Scott Gardner
 - I love this [gif with the two cups of coffee](https://twitter.com/suksr/status/738130336270422017) to visualize reference and value types
 - In Depth Optimization Tip: [Use copy-on-write semantics for large values](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values)
@@ -116,6 +117,22 @@ Do you know the difference between threads and queues? Well, to be honest, it wa
 - [Threads, Queues, and Concurrency](https://cocoacasts.com/swift-and-cocoa-fundamentals-threads-queues-and-concurrency) on Cocoacast
 - [Grand Central Dispatch](https://www.swiftbysundell.com/basics/grand-central-dispatch/) on Swift by Sundell
 - [Swift Evolution Proposal about "Actors"](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md)
+
+<h2 id="generics">Generics</h2>
+
+_(added on 26th of March 2021)_
+
+Generics are an _abstract_ way to solve code duplication. I think the "abstraction" might be one reason why I sometimes have trouble understanding generic code. Even though generics can make the code more flexible and reusable, remember that it _can_ also make the code harder for others to understand.
+
+<a href="../../images/summaries-ios-interview-topics/generics.jpg" target="_blank">
+    <img src="../../images/summaries-ios-interview-topics/generics-medium.jpg" alt="Sketchnote about Generics and how to use them in Swift, in detail aboutt naming conventions, type constraints and code examples." />
+</a>
+
+### Additional links
+
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/generics.jpg)
+- Swift Docs: [Generics](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)
+- [What are generics?](https://www.hackingwithswift.com/example-code/language/what-are-generics) on Hacking With Swift
 
 ## Stay Tuned
 
