@@ -125,7 +125,7 @@ _(added on 26th of March 2021)_
 Generics are an _abstract_ way to solve code duplication. I think the "abstraction" might be one reason why I sometimes have trouble understanding generic code. Even though generics can make the code more flexible and reusable, remember that it _can_ also make the code harder for others to understand.
 
 <a href="../../images/summaries-ios-interview-topics/generics.jpg" target="_blank">
-    <img src="../../images/summaries-ios-interview-topics/generics-medium.jpg" alt="Sketchnote about Generics and how to use them in Swift, in detail aboutt naming conventions, type constraints and code examples." />
+    <img src="../../images/summaries-ios-interview-topics/generics-medium.jpg" alt="Sketchnote about Generics and how to use them in Swift, in detail about naming conventions, type constraints and code examples." />
 </a>
 
 ### Additional links
