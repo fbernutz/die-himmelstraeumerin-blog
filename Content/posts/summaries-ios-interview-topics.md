@@ -1,23 +1,22 @@
 ---
 date: 2021-03-15 15:30
-description: After a few technical interviews, I realised that it's good to prepare for them (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain some topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. I'm learning some of these topics anyway, so sketchnotes would be perfect as a summary (at least for me). And if they help me, maybe they'll help you too.
-tags: post, iOS, interview
+description: After my first technical interviews in years, I have found that it's always a good idea to refresh your knowledge and prepare for technical interview questions (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they'll help you too.
+tags: post, iOS, interview-topics
 image: images/summaries-ios-interview-topics/preview.jpg
 ---
 
-# Summaries of (some possible) iOS Interview Topics
+# Sketchnote Summaries of possible iOS Interview Topics
 
-After a few technical interviews, I realised that it's good to prepare for them (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain some topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. I'm learning some of these topics anyway, so sketchnotes would be perfect as a summary (at least for me). And if they help me, maybe they'll help you too.
+After my first technical interviews in years, I have found that it's always a good idea to refresh your knowledge and prepare for technical interview questions (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they'll help you too.
 
-**Disclaimer 1:** The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the (in my opinion) most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions))
-
-**Disclaimer 2:** There are much better and more detailed sources to learn about the details. These are just "small" summaries about the most important points _for me_. There might be other important points for you.
+<figure>
+    <img src="../../images/summaries-ios-interview-topics/preview.jpg" alt="iPad which displays a Sketchnote in ProCreate with some hand written notes next to it." />
+    <figcaption>I make the sketchnotes with Procreate after researching the content and making handwritten notes.</figcaption>
+</figure>
 
 ## Topics
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m thinking of creating a small series of <a href="https://twitter.com/hashtag/sketchnotes?src=hash&amp;ref_src=twsrc%5Etfw">#sketchnotes</a> that explains/summarizes some topics for iOS job interviews. <br><br>Currently, I have on my list:<br>- Swift Evolution<br>- Structs vs Classes<br>- Closures<br>- Generics<br>- Sets<br><br>In which topics would you be interested? 🤔 <a href="https://twitter.com/hashtag/ios?src=hash&amp;ref_src=twsrc%5Etfw">#ios</a> <a href="https://twitter.com/hashtag/iosdev?src=hash&amp;ref_src=twsrc%5Etfw">#iosdev</a></p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1369972198685949954?ref_src=twsrc%5Etfw">March 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-On my list are currently the following topics: 
+[I asked on twitter for possible interview topics](https://twitter.com/felibe444/status/1369972198685949954?s=20). On my list are currently the following: 
 
 - [Swift Evolution](#swift-evolution) (done ✅)
 - [Structs vs Classes](#structs-vs-classes) (done ✅)
@@ -34,15 +33,15 @@ On my list are currently the following topics:
 - SwiftUI Data Flow
 - Memory Management with ARC (especially to values returned by functions??)
 
-I won't create sketchnotes for every topic, but I think it's good to have a list of relevant topics that you can study or prepare for your interviews.
+_Disclaimer: The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions))_
 
-Now, I'll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. 
+Now, I'll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. But I won't have time to create sketchnotes for every single topic.
 
 <h2 id="swift-evolution">Swift Evolution</h2>
 
 _(added on 15th of March 2021)_
 
-Let's start with the evolution of Swift. I started with iOS development shortly before the release of Swift 2 - it was in 2015.
+Let's start with the evolution of Swift. I started with iOS development shortly before the release of Swift 2 – it was in 2015.
 
 Creating this sketchnote was especially fun because I could look back at the features which were added step by step. I had almost forgotten that there was a time when Swift had no `guard` statement or `try and catch`. I don't miss it 😉
 
@@ -60,7 +59,7 @@ Creating this sketchnote was especially fun because I could look back at the fea
 
 _(added on 16th of March 2021)_
 
-"Structs vs Classes" is a real classic. 
+"Structs vs Classes" is a real classic in interviews. 
 
 It was a bit difficult to focus on the most important things here. I have two more pages of notes about capture lists and memory management in Swift. Maybe I add both topics to the list and make own sketchnotes for them or I can combine the topics with another topic. Let's see. 
 

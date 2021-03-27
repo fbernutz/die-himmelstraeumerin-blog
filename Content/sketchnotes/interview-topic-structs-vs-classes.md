@@ -9,4 +9,4 @@ linkToContentCreator: https://twitter.com/felibe444
 
 # iOS Interview Topic: Structs vs Classes
 
-👉 Read more about possible interview topics in ["Summaries of (some possible) iOS Interview Topics"](https://fbernutz.github.io/posts/summaries-ios-interview-topics/)
+👉 Read more about this in ["Sketchnote Summaries of possible iOS Interview Topics"](https://fbernutz.github.io/posts/summaries-ios-interview-topics/)
