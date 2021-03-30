@@ -10,7 +10,7 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
 	static func wrapper(_ nodes: Node...) -> Node {
-		.div(
+		.main(
 			.class("wrapper"),
 			.group(nodes)
 		)
