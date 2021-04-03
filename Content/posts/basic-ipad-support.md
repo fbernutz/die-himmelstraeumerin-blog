@@ -1,7 +1,7 @@
 ---
 date: 2021-02-14 12:00
 description: I have a confession to make. It's really sad, but true. In my career as an iOS developer, I've only ever build iPhone apps. iPads were never meant to be supported. Well... the apps "worked" in theory! Sort of. So, during my vacation in December, it was finally time to start working on the two-plus years old ticket to add iPad and iPhone landscape support for Cineaste App.
-tags: post, iOS, iPadOS, iPad
+tags: iOS, iPadOS, iPad
 image: images/basic-ipad-support/preview.jpg
 ---
 

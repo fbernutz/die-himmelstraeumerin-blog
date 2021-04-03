@@ -1,7 +1,7 @@
 ---
 date: 2020-05-19 18:00
 description: Sketchnote about an architectural refactoring from VIPER from UIKonf 2020 (online conference)
-tags: sketchnote, iOS, uikonf, uikonf-20
+tags: iOS, uikonf, uikonf-20, online-conference, data-flow
 image: images/sketchnotes/uikonf20-conductors-its-all-about-communication-small.jpg
 contentCreator: Peter Mosaad
 linkToContentCreator: https://twitter.com/PeterSelim

@@ -1,7 +1,7 @@
 ---
 date: 2019-05-30 13:49
 description: Sketchnote about Clue's approach to backend driven UIs from UIKonf 2019
-tags: sketchnote, iOS, uikonf, uikonf-19
+tags: iOS, uikonf, uikonf-19, data-flow
 image: images/sketchnotes/uikonf19-clues-approach-to-backend-driven-ui-small.jpg
 contentCreator: Kate Castellano
 linkToContentCreator: https://twitter.com/KateCastellano

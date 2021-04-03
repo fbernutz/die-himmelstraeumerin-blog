@@ -1,7 +1,7 @@
 ---
 date: 2020-11-19 11:44
 description: Sketchnote about Big O Notation at NSSpain 2020
-tags: nsspain-20, iOS, algorithm, performance
+tags: nsspain-20, iOS, algorithm, performance, online-conference
 image: images/sketchnotes/nsspain20-big-o-notation-of-your-app-small.jpg
 contentCreator: Vadim Drobinin
 linkToContentCreator: https://twitter.com/Valzevul

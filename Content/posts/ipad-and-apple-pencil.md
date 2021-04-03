@@ -1,7 +1,7 @@
 ---
 date: 2020-10-11 15:00
 description: Since 2018, I make sketchnotes of conference talks and lots of other things. I've always used pen and paper for it. As an iOS developer, I spend much of my time on my MacBook and my iPhone and somehow I wanted to hide from all the digital stuff. I also love to have one book with all sketchnotes, and to be able to browse through the book and remember everything easily.
-tags: post, iPad, apple-pencil, sketchnote
+tags: iPad, apple-pencil, sketchnoting
 image: images/ipad-and-apple-pencil/preview.jpg
 ---
 

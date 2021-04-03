@@ -1,7 +1,7 @@
 ---
 date: 2020-05-20 20:00
 description: I love visiting conferences! But two days full of conference talks are hard! It's hard for your brain to stay focused and to process the things you've heard. It's hard for your back when you sit on your chair all the time, not only during the talks but also during the little breaks when you join sessions to meet others. It's hard for your fingers when you make sketchnotes two days long.
-tags: post, sketchnote, online-conference
+tags: sketchnoting, online-conference
 image: images/sketchnotes-on-online-conferences/preview.jpg
 ---
 

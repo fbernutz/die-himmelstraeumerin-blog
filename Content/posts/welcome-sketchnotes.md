@@ -1,7 +1,7 @@
 ---
 date: 2020-03-28 10:00
 description: When I released my website in January 2020, I was a hundred percent sure, that I wanted to add my sketchnotes in it as well... but I needed more time to think about how to implement it and I was also unsure about how the layout and navigation should look like.
-tags: post, website, sketchnote
+tags: website, sketchnoting
 image: images/welcome-sketchnotes/preview.jpg
 ---
 

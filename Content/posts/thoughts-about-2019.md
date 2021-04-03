@@ -1,7 +1,7 @@
 ---
 date: 2019-12-30 22:10
 description: "If you loved it, you should write a blog post on it." Following this motto, I decided to write down some thoughts about 2019.
-tags: post, recap
+tags: recap
 image: images/thoughts-about-2019/preview.jpg
 ---
 # Thoughts about 2019

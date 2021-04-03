@@ -1,7 +1,7 @@
 ---
 date: 2020-07-05 14:00
 description: Sketchnote about scribble on iPad from WWDC 2020
-tags: sketchnote, apple, wwdc, wwdc-20, iOS
+tags: apple, wwdc, wwdc-20, iOS, online-conference
 image: images/sketchnotes/wwdc20-meet-scribble-for-ipad-small.jpg
 contentCreator: Daniel Gobera and Evan Long
 ---

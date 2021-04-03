@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30 12:22
 description: One year ago, I wrote down the most important things for me from 2019. I really liked it, because it helped me to process the year and to remember what happened. Obviously, 2020 is marked by the pandemic. I wish so badly that this will be over soon! A few days ago, I watched "Soul" and it reminded me not to wait for something but to enjoy the little things. So, I need to write this down to remember myself that not everything was bad and that I've learned and experienced a lot.
-tags: post, recap
+tags: recap
 image: images/thoughts-about-2020/preview.jpg
 ---
 # Thoughts about 2020

@@ -1,7 +1,7 @@
 ---
 date: 2019-05-16 09:00
 description: Is it really important to build mobile apps with accessibility features and who needs them? Deep down, everyone of us knows that when we don’t support accessibility features in our products, we leave users behind. But in reality, we all find tons of excuses for not going that extra mile …
-tags: post, accessibility, iOS
+tags: accessibility, iOS
 image: images/building-apps-for-everyone/preview.jpg
 ---
 
