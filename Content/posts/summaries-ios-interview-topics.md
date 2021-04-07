@@ -26,7 +26,6 @@ After my first technical interviews in years, I have found that it's always a go
 - [Auto Layout and Constraints](#autolayout) (done ✅)
 - Messaging Patterns (KVO / Delegate / Notification / Observer)
 - Closures
-- Functional (Declarative) Programming (https://www.raywenderlich.com/9222-an-introduction-to-functional-programming-in-swift) (for business logic and models) vs Reactive Programming (for UI)
 - Core Graphics
 - Extensions
 - SwiftUI Data Flow
