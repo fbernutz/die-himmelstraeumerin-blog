@@ -93,6 +93,7 @@ I know Sets can be really powerful, but I always forget how the set operations a
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/sets.jpg)
 - Swift Docs: [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html), section about Sets
 - [When to use a set rather than an array](https://www.hackingwithswift.com/example-code/language/when-to-use-a-set-rather-than-an-array) on Hacking With Swift
+- Swift Docs: [Introducing Swift Collections](https://swift.org/blog/swift-collections/) an open-source package with new collection types like `Deque`, `OrderedSet`, `OrderedDictionary` _(Since 5th of April)_ 
 
 <h2 id="gcd">Grand Central Dispatch / Concurrency / OperationQueue</h2>
 
