@@ -23,13 +23,12 @@ After my first technical interviews in years, I have found that it's always a go
 - [Sets](#sets) (done ✅)
 - [Grand Central Dispatch / Concurrency / OperationQueue](#gcd) (done ✅)
 - [Generics](#generics) (done ✅)
-- Protocol / Delegate Pattern
-- Notification / Observer
+- [Auto Layout and Constraints](#autolayout) (done ✅)
+- Messaging Patterns (KVO / Delegate / Notification / Observer)
 - Closures
+- Functional (Declarative) Programming (https://www.raywenderlich.com/9222-an-introduction-to-functional-programming-in-swift) (for business logic and models) vs Reactive Programming (for UI)
 - Core Graphics
 - Extensions
-- UIKit Constraints / AutoLayout
-- Storyboard vs layout-in-code
 - SwiftUI Data Flow
 - Memory Management with ARC (especially to values returned by functions??)
 
@@ -135,8 +134,24 @@ Generics are an _abstract_ way to solve code duplication. I think the "abstracti
 - Swift Docs: [Generics](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)
 - [What are generics?](https://www.hackingwithswift.com/example-code/language/what-are-generics) on Hacking With Swift
 
+<h2 id="autolayout">Auto Layout and Constraints</h2>
+
+_(added on 6th of April 2021)_
+
+How do you build your UI? Layout-in-code vs Storyboards is one of the most controversial topics in iOS development. This sketchnote contains a summary of how to use Auto Layout, constraints and equations, some debugging tips, what's intrinsic content size and Content Hugging vs Content Compression Resistence Priority. And of course it also contains some arguments for the disussion Layout-in-code vs Storyboards.
+
+<a href="../../images/summaries-ios-interview-topics/autolayout.jpg" target="_blank">
+    <img src="../../images/summaries-ios-interview-topics/autolayout-medium.jpg" alt="Sketchnote about Auto Layout, constraints and equations, some debugging tips, what's intrinsic content size and Content Hugging vs Content Compression Resistence Priority, arguments for Layout-in-code vs Storyboards discussions." />
+</a>
+
+### Additional links
+
+- 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/autolayout.jpg)
+- Documentation: [Auto Layout Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1)
+- WWDC18 - [High Performance Auto Layout](https://developer.apple.com/wwdc18/220)
+
 ## Stay Tuned
 
-More sketchnotes will follow the next days!
+More sketchnotes will follow the next days and weeks!
 
 [wikipedia]: https://en.wikipedia.org/wiki/Swift_(programming_language)#History
