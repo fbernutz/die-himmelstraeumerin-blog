@@ -1,7 +1,7 @@
 ---
 date: 2020-05-18 15:55
 description: Sketchnote about prepping For a SwiftUI Future from UIKonf 2020 (online conference)
-tags: iOS, uikonf, uikonf-20, swift-ui, data-flow, online-conference
+tags: iOS, uikonf, uikonf-20, swift-ui, architecture, online-conference
 image: images/sketchnotes/uikonf20-prepping-for-a-swiftui-future-small.jpg
 contentCreator: Veronica Ray
 linkToContentCreator: https://twitter.com/nerdonica
