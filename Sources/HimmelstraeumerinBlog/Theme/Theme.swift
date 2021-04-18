@@ -62,10 +62,21 @@ extension Theme where Site == HimmelstraeumerinBlog {
 
 			let sectionContent: Node<HTML.BodyContext>
 			switch section.id {
-			case .sketchnotes,
-				 .posts:
+			case .posts:
 				sectionContent = .wrapper(
 					.h1(.text(section.title)),
+					try! .itemList(
+						for: items
+					)
+				)
+			case .sketchnotes: 
+				sectionContent = .wrapper(
+					.h1(.text(section.title)),
+					.a(
+						.class("browse-all"),
+						.text("Browse all tags"),
+						.href(context.site.tagListPath)
+					),
 					try! .itemList(
 						for: items
 					)

@@ -13,6 +13,8 @@
 	--item-posts-background-color: #e6e5e5;
 	--header-background-color: #284081;
 	--article-blockquote-border-color: #ededed;
+	--tags-background-color: #122869;
+	--tags-text-color: #f5f5f5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +26,8 @@
 		--item-posts-background-color: #333;
 		--header-background-color: #000;
 		--article-blockquote-border-color: #9a9898;
+		--tags-background-color: #555;
+		--tags-text-color: #fff;
 	}
 }
 
@@ -352,14 +356,14 @@ article hr {
 	margin: 30px 0;
 }
 
-article li {
+article li:not([class]) {
 	font-size: 120%;
 	line-height: 1.6em;
 	margin-bottom: 8px;
 }
 
-article ul,
-ol {
+article ul:not([class]),
+ol:not([class]) {
 	padding: 0 2.5em;
 	margin-bottom: 1em;
 }
@@ -414,30 +418,16 @@ article figcaption {
 
 /* TAGS */
 
-.tags {
-	font-size: 100%;
-	color: var(--tags-text-color);
-}
-
 .tag-list {
 	display: inline-block;
 }
 
-.tag-list ul {
-	padding: 0;
-}
-
-.tag-list li {
-	margin-right: 5px;
-}
-
 .tag {
-	font-size: 100%;
-	margin: 0;
+	margin: 2px;
 	display: inline-block;
-	background-color: #000;
-	color: #fff;
-	padding: 4px 6px;
+	background-color: var(--tags-background-color);
+	color: var(--tags-text-color);
+	padding: 6px 10px;
 	border-radius: 5px;
 }
 
@@ -446,8 +436,7 @@ article figcaption {
 }
 
 .all-tags .tag {
-	font-size: 1.4em;
-	padding: 6px 10px;
+	font-size: 120%;
 	margin: 5px;
 }
 
