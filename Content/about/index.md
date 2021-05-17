@@ -15,5 +15,5 @@ Find out more about me in my [CV][cv] or read my [motivators][motivators].
 
 [cineaste]: https://github.com/spacepandas/cineaste-ios
 [criticalmaps]: https://github.com/criticalmaps/criticalmaps-ios
-[cv]: https://fbernutz.github.io/about/cv/
-[motivators]: https://fbernutz.github.io/about/motivators/
+[cv]: /about/cv/
+[motivators]: /about/motivators/

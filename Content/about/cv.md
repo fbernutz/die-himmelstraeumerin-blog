@@ -66,4 +66,4 @@ In my bachelor thesis, I've build an [iOS app to control HomeKit accessories][ba
 
 [isaqb-foundation-level]: https://www.isaqb.org/certifications/cpsa-certifications/cpsa-foundation-level/
 [ba-thesis]: https://github.com/fbernutz/smart-living-ios
-[motivators]: https://fbernutz.github.io/about/motivators/
+[motivators]: /about/motivators/

@@ -27,4 +27,4 @@ Over the years, I identified things which help me stay motivated and happy.
 
 Read more about me in my [CV][cv].
 
-[cv]: https://fbernutz.github.io/about/cv/
+[cv]: /about/cv/
