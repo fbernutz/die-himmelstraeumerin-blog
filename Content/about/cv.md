@@ -20,12 +20,19 @@ Read through my [motivators][motivators], if you want to know what motivates me 
 
 ## Work Experience
 
+### Software Engineer
+
+<p class="timeperiod"><em>Jun 2021 – now</em></p>
+<p class="company"><a href="https://spotify.com">Spotify, remote</a></p>
+
+tbd
+
 ### Software Developer
 
-<p class="timeperiod"><em>Mar 2016 – now</em></p>
-<p class="company"><a href="https://adorsys.com/de/">adorsys, Nuremberg, Germany</a></p>
+<p class="timeperiod"><em>Mar 2016 – Feb 2021</em></p>
+<p class="company"><a href="https://adorsys.com">adorsys, Nuremberg, Germany</a></p>
 
-I build **native iOS apps** for different clients in finance, insurance and tax environment. This also includes setting up and maintaining the infrastructure for **continuous integration and deployment**, like automated testing, builds and releases to TestFlight and AppStore. I teach iOS development to colleagues. Some used technologies and frameworks in projects are: Swift, SwiftUI, ReSwift, SnapshotTesting, CocoaPods, fastlane, Git, GitlabCI. Beside iOS, I also do **frontend development**, build small features and fix bugs, mostly at HTML / CSS level. My focus is also to create awareness for accessibility and to teach other developers how to fix accessibility issues.
+I built **native iOS apps** for different clients in finance, insurance and tax environment. This also included setting up and maintaining the infrastructure for **continuous integration and deployment**, like automated testing, builds and releases to TestFlight and AppStore. I tought iOS development to colleagues. Some used technologies and frameworks in projects were: Swift, SwiftUI, ReSwift, SnapshotTesting, CocoaPods, fastlane, Git, GitlabCI. Beside iOS, I also did **frontend development**, built small features and fixed bugs, mostly at HTML / CSS level. My focus was also to create awareness for accessibility and to teach other developers how to fix accessibility issues.
 
 ### Working Student
 
