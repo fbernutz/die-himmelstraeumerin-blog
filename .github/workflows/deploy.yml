@@ -25,7 +25,7 @@ jobs:
     - name: Setup JohnSundell/Publish
       run: |
         cd ${HOME}
-        export PUBLISH_VERSION="0.8.0"
+        export PUBLISH_VERSION="0.7.0"
         git clone https://github.com/JohnSundell/Publish.git
         cd ./Publish && git checkout ${PUBLISH_VERSION}
         mv ~/Publish_build .build || true
