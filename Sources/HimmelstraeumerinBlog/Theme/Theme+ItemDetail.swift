@@ -42,7 +42,7 @@ private extension Node where Context == HTML.BodyContext {
 	static func blogPostDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
 		let blogMetadata = item.date.formatted
 			+ " ⋅ "
-			+ "\(Int(item.readingTime.minutes.rounded()))"
+			+ "\(Int(item.readingTime.minutes))"
 			+ " min read"
 
 		return .div(

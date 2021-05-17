@@ -44,7 +44,7 @@ private extension Node where Context == HTML.BodyContext {
 		return .article(
 			.p(
 				.class("release-date"),
-				.text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes.rounded())) min read")
+				.text("\(item.date.formatted) ⋅ \(Int(item.readingTime.minutes)) min read")
 			),
 			.h1(
 				.a(
