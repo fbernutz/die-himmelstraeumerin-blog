@@ -31,7 +31,7 @@ After my first technical interviews in years, I have found that it's always a go
 - SwiftUI Data Flow
 - Memory Management with ARC (especially to values returned by functions??)
 
-_Disclaimer: The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions))_
+_Disclaimer: The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions) or at [Hacking With Swift](https://www.hackingwithswift.com/interview-questions))_
 
 Now, I'll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. But I won't have time to create sketchnotes for every single topic.
 
@@ -148,6 +148,7 @@ How do you build your UI? Layout-in-code vs Storyboards is one of the most contr
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/autolayout.jpg)
 - Documentation: [Auto Layout Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1)
 - WWDC18 - [High Performance Auto Layout](https://developer.apple.com/wwdc18/220)
+- [Auto Layout in Swift: Writing constraints programmatically](https://www.avanderlee.com/swift/auto-layout-programmatically/) on SwiftLee
 
 ## Stay Tuned
 
