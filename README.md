@@ -1,8 +1,8 @@
 <p align="center">
-	<img src="banner.jpg" width="1700" max-width="100%" alt="Header of Blog diehimmelstraeumerin" />
+	<img src="banner.jpg" width="1700" max-width="100%" alt="Header of Blog DieHimmelstraeumerin" />
 </p>
 
-# #diehimmelstraeumerin
+# #DieHimmelstraeumerin
 
 My personal Blog.
 
@@ -21,4 +21,4 @@ Use `make` or `publish run` in root folder of this repository to run the website
 
 ## License
 
-Copyright (c) 2020 Felizia Bernutz - Released under the MIT license. Please see the [LICENSE](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/LICENSE) file for more information.
+Copyright (c) 2021 Felizia Bernutz - Released under the MIT license. Please see the [LICENSE](https://github.com/fbernutz/die-himmelstraeumerin-blog/blob/master/LICENSE) file for more information.
