@@ -30,5 +30,5 @@ struct HimmelstraeumerinBlog: Website {
 	var description = "iOS dev • sketchnoting • accessibility • pineapple on pizza • longboarding • she/her"
 	var language: Language { .english }
 	var favicon: Favicon? { Favicon() }
-	var imagePath: Path? { "images/preview.jpg" }
+	var imagePath: Path? { .defaultForFavicon }
 }
