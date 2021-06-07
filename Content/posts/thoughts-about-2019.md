@@ -24,7 +24,7 @@ I received great feedback. Some of the attendees didn’t even know about the ac
 
 <blockquote class="twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">Today is Global Accessibility Awareness Day <a href="https://twitter.com/hashtag/GAAD?src=hash&amp;ref_src=twsrc%5Etfw">#GAAD</a>. It’s therefore a perfect time to release my first blog post about why you should build apps for everyone. <a href="https://t.co/GcJNbGyZfd">https://t.co/GcJNbGyZfd</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1128893432783675392?ref_src=twsrc%5Etfw">May 16, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1128893432783675392?ref_src=twsrc%5Etfw">May 16, 2019</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -44,14 +44,14 @@ When I implemented the layout changes, I also made everything work with **Dynami
 
 <blockquote class=" twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">Took me nearly half a day, but I built the new search layout in Cineaste to *truly* support dynamic type – without any constraint warnings or broken layouts on a small iPhone 5 with iOS 10 as well as on an iPhone X with iOS 12 with small and extra large system fonts! So proud! <a href="https://t.co/zqym3x85oR">pic.twitter.com/zqym3x85oR</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1104454193895690240?ref_src=twsrc%5Etfw">March 9, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1104454193895690240?ref_src=twsrc%5Etfw">March 9, 2019</a>
 </blockquote>
 
 We tested the iOS App on an event called ["Usability Test-Essen"](https://usability-testessen.org/). This event takes part in many cities in Germany. On one evening, a handful of testers test your product with some scenarios you give them. It was very interesting to see what was easy to understand for the tester and what they didn't even discover. It was an exhausting but amazing experience! I highly recommend to test your own product but also to test other products.
 
 <blockquote class=" twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/happyFeli?src=hash&amp;ref_src=twsrc%5Etfw">#happyFeli</a>! What a great evening with you guys 🙌 <br>My number one observation from yesterday: nearly nobody wants to swipe. ☝️ Well, this is good to know. <a href="https://t.co/CJPECdslJW">pic.twitter.com/CJPECdslJW</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1116238159308783617?ref_src=twsrc%5Etfw">April 11, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1116238159308783617?ref_src=twsrc%5Etfw">April 11, 2019</a>
 </blockquote>
 
 With the release of iOS 13 in autumn there came a lot new features. Mainly interesting for the user – **Dark Mode**! Actually, I feared implementing it, because I had no plan how a dark design of Cineaste should look like and it looked like a lot of work... So, I disabled Dark Mode for iOS 13 in the first step. After a few months, I decided to go for it again. Even Instagram had its own dark mode, so I can do it as well. I started to make a design first, to have a plan for the implementation and to think about how it could look like. It was way easier than I thought it would be and it looked kinda good. I got super motivated when I had a screenshot of the new design on my phone. I wanted to start implementing it right away. It only took me two evening/nights to implement the new design. To be able to test the implemented dark mode on my device, was such a great feeling. I wonder why I feared starting with it at all. I looove the new dark mode 😍
@@ -72,7 +72,7 @@ After three conferences full of talks (so about 30 sketchnotes) you could see so
 
 <blockquote class="twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">Yay! My <a href="https://twitter.com/hashtag/sketchnotes?src=hash&amp;ref_src=twsrc%5Etfw">#sketchnotes</a> of “What’s new in iOS Design” by Mike Stern. <a href="https://twitter.com/hashtag/WWDC19?src=hash&amp;ref_src=twsrc%5Etfw">#WWDC19</a> <br><br>Mike gives an overview about...<br>• dark mode<br>• the new iOS design system<br>• modal presentation and <br>• contextual actions <br>... in iOS 13. <a href="https://t.co/ag87di2fKl">https://t.co/ag87di2fKl</a> <a href="https://t.co/yC1IBX6wp9">pic.twitter.com/yC1IBX6wp9</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1139450461310898183?ref_src=twsrc%5Etfw">June 14, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1139450461310898183?ref_src=twsrc%5Etfw">June 14, 2019</a>
 </blockquote>
 
 I talked a lot about sketchnoting at work too and especially in WWDC season, of course, I did sketchnotes of the sessions I've watched and showed them to my colleagues 😉 I think, it was just a matter of time, when a colleague suggested that I should do a workshop about sketchnoting at my company. I immediately declined, because I was just a beginner myself! But one day later, I said that I want to do it. Because... sharing is caring! So, I prepared my very first workshop [(see tweet)](https://twitter.com/felibe444/status/1159192552228163584?s=20). I was so scared but also excited, because sketchnoting is simply my favorite. I'm so glad, that I got so much support at my company!
@@ -81,7 +81,7 @@ I was overwhelmed by my feeling after I did my first workshop in August. Everybo
 
 <blockquote class="twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">✅ First Workshop <br>✅ Fun Fun Fun <br>✅ Chaos on Desk <br>✅ Attendees Happy <br>✅ Me Happy<a href="https://twitter.com/hashtag/sketchnoting?src=hash&amp;ref_src=twsrc%5Etfw">#sketchnoting</a> at <a href="https://twitter.com/adorsys?ref_src=twsrc%5Etfw">@adorsys</a> <a href="https://t.co/u8NuCgF2zP">pic.twitter.com/u8NuCgF2zP</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1162319140285296640?ref_src=twsrc%5Etfw">August 16, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1162319140285296640?ref_src=twsrc%5Etfw">August 16, 2019</a>
 </blockquote>
 
 In August/September, I made one sketchnote of every day of my vacation, even though I never was a diary writer. Especially on vacation, I often have the feeling I'm overwhelmed of all the impressions that I forget what I experienced over the day. Sketchnotes help me to think about what happened and to calm down after a long day. If you are interested how a sketchnote of vacations can look like, you can watch a small video of my sketchnotes [in this tweet](https://twitter.com/felibe444/status/1172838391836303360).
@@ -122,7 +122,7 @@ This year in October, I participated in [Hacktoberfest](https://hacktoberfest.di
 
 <blockquote class="twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">Hyped by all the open source work out there! I&#39;m feeling so much more motivated to contribute to the community than usual 🙌 <a href="https://twitter.com/hashtag/Hacktoberfest?src=hash&amp;ref_src=twsrc%5Etfw">#Hacktoberfest</a> <a href="https://twitter.com/hashtag/Swiftoberfest?src=hash&amp;ref_src=twsrc%5Etfw">#Swiftoberfest</a> <a href="https://t.co/HXoYOmi6YG">https://t.co/HXoYOmi6YG</a>
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1180587299970502658?ref_src=twsrc%5Etfw">October 5, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1180587299970502658?ref_src=twsrc%5Etfw">October 5, 2019</a>
 </blockquote>
 
 I discovered the iOS repository for the Critical Mass, called [Critical Maps](https://github.com/criticalmaps/criticalmaps-ios). It has about 80 stars in GitHub which is a very good number for an app. It was fun to contribute to the project and to receive feedback from the other contributers. One of the main contributers invited me to join their organization. Now, I can also review pull requests and merge them and discuss in their slack channel which was a pretty big deal for me, because there were a lot people I didn't know. I love that they are so open for new contributers, it's so fun to work with others in open source and I'm looking forward to work with them.
@@ -137,7 +137,7 @@ In Advent Of Code you have to solve two challenges every day. To solve these lit
 
 <blockquote class=" twitter-tweet" data-dnt="true">
     <p lang="en" dir="ltr">Today’s <a href="https://twitter.com/hashtag/adventOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#adventOfCode</a> made me forget to eat breakfast before going to work 😅 ... but I liked the puzzle!
-    </p>&mdash; diehimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1201772766988517379?ref_src=twsrc%5Etfw">December 3, 2019</a>
+    </p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1201772766988517379?ref_src=twsrc%5Etfw">December 3, 2019</a>
 </blockquote>
 
 Day after day the challenges got more complex and it took way more time to solve them... Day ten was the first day, where I couldn't complete both puzzles on the same day. It was the start of losing interest.
