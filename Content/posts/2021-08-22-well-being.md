@@ -43,7 +43,7 @@ I _always_ have the **"do not disturb" mode** on my work computer activated and 
 
 I love having at least **one conference-free day per week**. On those days I feel very productive and get so much done! If you are not as lucky as I am to have a day without meetings, you can try blocking out a few hours in your work calendar for focus time. During this time you can work on something without interruption. This is visible to everyone, and if someone wants to schedule a meeting during this time, they will see that you are not available. 
 
-To avoid being interrupted, I usually **close   apps that might interrupt** me. I close Slack. I close my emails. I activate "Do Not Disturb" mode and reply to my messages when I’m done with my task. But I would inform my team about it during the daily standup, write a short message in the team channel or/and block the time in my calendar. It’s perfectly fine not to respond to everything immediately. Almost everything can wait until tomorrow or next week or after your holiday. You will be surprised that even some requests will be solved by themselves 😄.
+To avoid being interrupted, I usually **close apps that might interrupt** me. I close Slack. I close my emails. I activate "Do Not Disturb" mode and reply to my messages when I’m done with my task. But I would inform my team about it during the daily standup, write a short message in the team channel or/and block the time in my calendar. It’s perfectly fine not to respond to everything immediately. Almost everything can wait until tomorrow or next week or after your holiday. You will be surprised that even some requests will be solved by themselves 😄
 
 > **How’s it really going at the moment?**
 > Honestly, I sometimes end up in meetings on the non-meeting day, but that’s fine. I also do a lot of pair programming on those days, but I wouldn’t count that as a meeting. I really enjoy spending the day working in my sweatpants on the couch and don’t have the pressure of having to talk to someone when I don’t want to.
@@ -66,6 +66,6 @@ In the months I was unemployed, meditation helped me a lot. There was a lot of u
 
 ## Conclusion
 
-All these things help me feel better in everyday life. But I sometimes struggle to do them. Writing about them has reminded me to keep working on them every day until they become my new routine. So, take it easy, take a deep breath and take care of yourself.
+All these things help me feel better in everyday life. But I sometimes struggle to do them. Writing about them has reminded me to keep working on them every day until they become my new routine. So, take it easy, take a deep breath and take care of yourself. 🧡
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Things are hard right now for so many. At this point I’m trying to remind my team members in every team meeting and every 1:1: Take vacation. Take mental health days. Take CARE of yourselves. It doesn’t matter if the bug is fixed if YOU are broken.</p>&mdash; Sommer Panage (@Sommer) <a href="https://twitter.com/Sommer/status/1427442135343669253?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
