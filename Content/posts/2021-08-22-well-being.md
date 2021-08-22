@@ -1,11 +1,11 @@
 ---
 date: 2021-08-22 18:30
 description: About ten months ago, I started to feel unmotivated, stressed and annoyed very often. I quickly became emotional and thought about little things until late at night. I couldn't concentrate and was restless and driveless. At this point, I had been working from home for six months and felt like I could never switch off from work and every day felt like the other (thanks to social distancing and lockdowns). I realised I wasn't doing well and thought about how I could improve my work-life balance and set more boundaries to force myself to focus on things other than work again. I tried to remind myself that work isn’t the only thing that defines my worth.
-tags: mental-health
-image: images/2021-08-22-mental-well-being/preview.jpg
+tags: mental-health, working-from-home
+image: images/2021-08-22-well-being/preview.jpg
 ---
 
-# How I take care of my mental well being... or at least try to
+# How I take care of my well being... or at least try to
 
 About ten months ago, I started to feel unmotivated, stressed and annoyed very often. I quickly became emotional and thought about little things until late at night. I couldn't concentrate and was restless and driveless. At this point, I had been working from home for six months and felt like I could never switch off from work and every day felt like the other (thanks to social distancing and lockdowns). I realised I wasn't doing well and thought about how I could improve my work-life balance and set more boundaries to force myself to focus on things other than work again. I tried to remind myself that work isn’t the only thing that defines my worth.
 
