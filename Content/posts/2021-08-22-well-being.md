@@ -41,12 +41,12 @@ I _always_ have the **"do not disturb" mode** on my work computer activated and 
 > **How’s it really going at the moment?**
 > Great! I’ve actually been doing this for years and I’m so used to it that it confuses me from time to time that some people have their sound on and respond immediately to notifications.
 
-I love having at least **one conference-free day per week**. On those days I feel very productive and get so much done! If you are not as lucky as I am to have a day without meetings, you can try blocking out a few hours in your work calendar for focus time. During this time you can work on something without interruption. This is visible to everyone, and if someone wants to schedule a meeting during this time, they will see that you are not available. 
+I love having at least **one meeting-free day per week**. On those days I feel very productive and get so much done! If you are not as lucky as I am to have a day without meetings, you can try blocking out a few hours in your work calendar for focus time. During this time you can work on something without interruption. This is visible to everyone, and if someone wants to schedule a meeting during this time, they will see that you are not available. 
 
-To avoid being interrupted, I usually **close apps that might interrupt** me. I close Slack. I close my emails. I activate "Do Not Disturb" mode and reply to my messages when I’m done with my task. But I would inform my team about it during the daily standup, write a short message in the team channel or/and block the time in my calendar. It’s perfectly fine not to respond to everything immediately. Almost everything can wait until tomorrow or next week or after your holiday. You will be surprised that even some requests will be solved by themselves 😄
+To avoid being interrupted, I usually **close apps that might interrupt** me. I close Slack. I close my emails. I activate "Do Not Disturb" mode and reply to my messages when I’m done with my task. But I would inform my team about it during the daily standup, write a short message in the team channel and/or block the time in my calendar. It’s perfectly fine not to respond to everything immediately. Almost everything can wait until tomorrow or next week or after your holiday. You’ll be surprised that even some requests will be solved by themselves 😄
 
 > **How’s it really going at the moment?**
-> Honestly, I sometimes end up in meetings on the non-meeting day, but that’s fine. I also do a lot of pair programming on those days, but I wouldn’t count that as a meeting. I really enjoy spending the day working in my sweatpants on the couch and don’t have the pressure of having to talk to someone when I don’t want to.
+> Honestly, I sometimes end up in meetings on the meeting-free day, but that’s fine. I also do a lot of pair programming on those days, but I wouldn’t count that as a meeting. I really enjoy spending the day working in my sweatpants on the couch and don’t have the pressure of having to talk to someone when I don’t want to.
 
 ## Take Breaks and Move
 
