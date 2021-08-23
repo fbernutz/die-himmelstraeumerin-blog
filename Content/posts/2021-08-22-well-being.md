@@ -13,7 +13,7 @@ About ten months ago, I started to feel unmotivated, stressed and annoyed very o
 
 **Take it easy and care more about yourself.**
 
-Since then, a lot has changed in my life. I resigned in February, took some time off and finally started a new job two months ago. Before I started my new job, I had big plans and wanted to do everything better this time, but it turns out that I still struggle to take care of my wellbeing from time to time. I guess it just takes time to get used to my new routines, but the start has been made. I have found out what is good for me and what helps me to relieve stress and feel more focused. 
+Since then, a lot has changed in my life. I quit my job in February, took some time off and finally started a new job two months ago. Before I started my new job, I had big plans and wanted to do everything better this time, but it turns out that I still struggle to take care of my wellbeing from time to time. I guess it just takes time to get used to my new routines, but the start has been made. I have found out what is good for me and what helps me to relieve stress and feel more focused. 
 
 ## Get Enough Sleep
 
