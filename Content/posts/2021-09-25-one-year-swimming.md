@@ -1,5 +1,5 @@
 ---
-date: 2021-09-25 18:30
+date: 2021-09-25 12:30
 description: It's been a year now since I started learning to swim freestyle. At that time I couldn't even do two strokes before I started having panic attacks and needed a break to breathe.
 tags: learning, swimming
 image: images/2021-09-25-one-year-swimming/preview.jpg
