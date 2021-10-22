@@ -28,7 +28,7 @@ private extension Node where Context == HTML.BodyContext {
 		.a(
 			.class("site-name"),
 			.href("/"),
-			.text(context.site.name)
+			.text("#DieHimmels&shy;traeumerin")
 		)
 	}
 
