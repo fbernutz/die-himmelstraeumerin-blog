@@ -51,7 +51,7 @@ Creating this sketchnote was especially fun because I could look back at the fea
 
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/swift-evolution.jpg)
 - The History of Swift [on Wikipedia][wikipedia]
-- I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](www.hackingwithswift.com).
+- I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](https://www.hackingwithswift.com).
 
 <h2 id="structs-vs-classes">Structs vs Classes</h2>
 
