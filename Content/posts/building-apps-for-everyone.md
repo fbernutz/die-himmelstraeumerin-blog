@@ -60,7 +60,7 @@ Apple is really good in supporting users with accessibility features. But Androi
     <figcaption>Voice Over reads content aloud, like “The Hustle, 6.5 of 10, released on May 10, 2019”.</figcaption>
 </figure>
 
-Normally, the position and the spacing between elements like text and images connects the content, but visually impaired users can’t see this. The **content should be bundled semantically**, so it’s read aloud together and will be focused as one element.
+Normally, the position and the spacing between elements like text and images connects the content, but users with vision loss can’t see this. The **content should be bundled semantically**, so it’s read aloud together and will be focused as one element.
 
 ### Reading Support
 
