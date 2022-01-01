@@ -60,7 +60,7 @@ At some point I was yolo enough to just send out applications even though I didn
 My biggest reasons for joining Spotify were:
 
 - I’m a big fan of the Spotify app and use it every day myself
-- they cares deeply about topics like accessibility and inclusion
+- they care deeply about topics like accessibility and inclusion
 - the role is perfect for me: I’m working on the design system - very UI focused - to make it easy for others to build accessible UI components
 - many intelligent and amazing people work there, so I can learn a lot from them
 
