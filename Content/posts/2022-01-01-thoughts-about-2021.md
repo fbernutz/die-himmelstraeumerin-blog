@@ -19,7 +19,7 @@ In 2021 I...
     <figcaption>My 2021 in pictures.</figcaption>
 </figure>
 
-Can’t believe that another year is over. I want it to be a tradition to reflect about the last year. I wrote down my thoughts about [2019](https://fbernutz.github.io/posts/thoughts-about-2019/) and [2020](https://fbernutz.github.io/posts/thoughts-about-2020/) and it helped me to remind me of my challenges, learnings and what I enjoyed the most.
+Can’t believe another year is over. I want it to be a tradition to reflect about the last year. I wrote down my thoughts about [2019](https://fbernutz.github.io/posts/thoughts-about-2019/) and [2020](https://fbernutz.github.io/posts/thoughts-about-2020/) and it helped me to remind me of my challenges, learnings and what I enjoyed the most.
 
 2021 was definitely a year with lots of ups and downs for me! 
 
@@ -38,7 +38,7 @@ Jump to specific topics:
 
 <h2 id="quit-job">I quit my very first job and now... what?</h2>
 
-The year definitely started with a low for me. I couldn’t concentrate and was restless, driveless and emotional very quickly. I’ve quit my very first job with lots of emotions inside me. I’ve read somewhere that you’re more attached to your first job than others. I can say it wasn’t an easy decision but I needed a change. So, without having an alternative in sight, I quit my job.
+The year definitely started with a low for me. I couldn’t focus and was restless, driveless and emotional very quickly. I’ve quit my very first job with lots of emotions inside me. I’ve read somewhere that you’re more attached to your first job than others. I can say it wasn’t an easy decision but I needed a change. So, without having an alternative in sight, I quit my job.
 
 I needed time to get some distance and to be able to think clearly again. "What’s next?" was a question I was asking myself a lot. Should I continue developing iOS apps or try out something totally different? Maybe working as harvester? Selling ice cream? Doing some volunteer work? Helping others? **Working on something that really matters?** I tried to find something like that half-hearted, but nothing worked out. Perhaps because I didn’t really try hard enough.
 
@@ -46,7 +46,7 @@ But there was a way to combine my experience with something that really matters 
 
 Developing iOS apps is what I learned, what I’m experienced in and what brings me joy (normally) but I learned that **I need the focus on accessibility**. So I tested the accessibility on apps before I applied to the job. So many apps don’t even have basic accessibility support for Dynamic Type or Voice Over. You would get most of the features for free when you would use standard UI elements. But of course (😒) that’s not what most companys do. They want their own UI elements... and forget implementing accessibility features on top of the elements. When I talked about that in some interviews, I heard a lot of excuses. But when I look back, I’m glad that it didn’t work out. I’m tired of trying to change peoples mindsets. If they don’t know about accessibility in 2021, they possibly just don’t want to know about it. It seems like they don’t care. So I don’t care about working for them. I know that now.
 
-What surprised me that most companies prioritize to find out **how you write code** over how much you know about things that would help actual users to use their app. The kind of questions they ask are mostly about design patterns and architecture, which is fine when you’re interviewing for a non junior position, but in most interviews I wasn’t asked **any questions** about how I would build accessible apps.
+What surprised me is that most companies prioritize to find out **how you write code** over how much you know about things that would help actual users to use their app. The kind of questions they ask are mostly about design patterns and architecture, which is fine when you’re interviewing for a non junior position, but in most interviews I wasn’t asked **any questions** about how I would build accessible apps.
 
 You get asked about a lot of different topics in interviews which you don’t have to explain every day, so I sat down and re-learned some iOS basics. I created a few "easy to look up" sketchnotes about possible iOS interview topics. See the [twitter thread](https://twitter.com/felibe444/status/1371471736382832641?s=20) or the [blog post with more details](https://fbernutz.github.io/posts/summaries-ios-interview-topics/) about it. For one of my interviews I also did refreshers on algorithms, data structures, system design and behavioral interviews, but they’re not on my website (yet). Would someone be interested in these?
 
@@ -71,11 +71,11 @@ I did my very first interview about how I started with iOS development and more!
 
 <h2 id="cool-kids">How to be one of the cool kids</h2>
 
-End of March, I got my first longboard and started to learn how to ride it. This is one of the things which looks super easy when you watch a profi, but you need to stand on a board once to understand that you need a lot of time, practice and passion to get so good that it looks easy. It’s even a bit scary in the beginning... but it’s also super fun! And after a short time you get to see and feel the progress.
+End of March, I got my first longboard and started to learn how to ride it. This is one of the things which looks super easy when you watch a pro, but you need to stand on a board once to understand that you need a lot of time, practice and passion to get so good that it looks easy. It’s even a bit scary in the beginning... but it’s also super fun! And after a short time you get to see and feel the progress.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happiness ☀️🌳🛹 <a href="https://t.co/y5VDxDi7mH">pic.twitter.com/y5VDxDi7mH</a></p>&mdash; Feli #DieHimmelstraeumerin (@felibe444) <a href="https://twitter.com/felibe444/status/1391406829075406853?ref_src=twsrc%5Etfw">May 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-After a few weeks, I even started to learn some tricks and you need to be super brave to jump on or with the board! You have to outplay your mind and just do it, which sounds easy... but guess what... it’s not! I usually tried the tricks on grass first to build up some confidence (and trick my brain) before I tried them on asphalt. 
+After a few weeks, I even started to learn some tricks and you need to be super brave to jump on or with the board! You have to outplay your mind and just do it, which sounds easy... but guess what... it’s not! I usually tried the tricks on grass first to build up some confidence (and trick my brain) before I tried them on the street. 
 
 Looking forward to good weather to continue my journey on the board.
 
@@ -98,7 +98,7 @@ I’m really happy when people enjoy my sketchnotes and support me in what I’m
 
 <h2 id="mental-health">Let’s talk about mental health</h2>
 
-In August, I shared some of my routines which help me to take care of my mental health. Read [about my routines and about how it’s really going in my post](https://fbernutz.github.io/posts/2021-08-22-well-being/).
+In August, I shared some of my routines which help me to take care of my mental health. Read [about my routines and about how it’s really going](https://fbernutz.github.io/posts/2021-08-22-well-being/).
 
 For me the most important things are:
 
@@ -141,7 +141,7 @@ In general, I still like working from home! Since it’s now long term setup, I 
 
 It’s the most exciting thing to **talk to others from different countries with just a button tap**. During my virtual Intro Days at Spotify, I talked to people from New Delhi, Amsterdam, Stockholm, Paris and Tokyo. This still blows my mind how easy it is and I love it! 
 
-That **everything is now in English** was something I was a bit scared of in the beginning. I was constantly using a translators to double check if my messages were correct and I forgot the translation for a lot of words in live conversations. I was just not used to use my English skills. But this is now different after six months. Of course, practice is the key and I’m now more in the "I don’t care if it’s correct" mood because most of the people are non native speakers as well and they have the same issues sometimes. Usually you’ll understand each other even if it’s not 100% gramatically correct. So, I feel more light-hearted about this topic now. It already happened a LOT of times that I think in English or I don’t remember the German word for something or I’m randomly asking others what this German word would be in English, because I was just thinking about it. 😅 By the way, if you’re a non native speaker and have trouble in pair programming sessions to name signs like these `()[]{},.:*` correctly, here is a [service tweet](https://twitter.com/felibe444/status/1382611757462605824?s=20) for you. I constantly forget how you call these. But I guess in a year this won’t be an issues anymore, at all.
+That **everything is now in English** was something I was a bit scared of in the beginning. I was constantly using a translator to double check if my messages were correct and I forgot the translation for a lot of words in live conversations. I was just not used to use my English skills. But this is now different after six months. Of course, practice is the key and I’m now more in the "I don’t care if it’s correct" mood because most of the people are non native speakers as well and they have the same issues sometimes. Usually you’ll understand each other even if it’s not 100% gramatically correct. So, I feel more light-hearted about this topic now. It already happened a LOT of times that I think in English or I don’t remember the German word for something or I’m randomly asking others what this German word would be in English, because I was just thinking about it. 😅 By the way, if you’re a non native speaker and have trouble in pair programming sessions to name signs like these `()[]{},.:*` correctly, here is a [service tweet](https://twitter.com/felibe444/status/1382611757462605824?s=20) for you. I constantly forget how you call these. But I guess in a year this won’t be an issues anymore, at all.
 
 <h2 id="sport">I love sport</h2>
 
