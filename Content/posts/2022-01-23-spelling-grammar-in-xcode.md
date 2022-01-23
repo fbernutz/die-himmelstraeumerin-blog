@@ -28,7 +28,7 @@ It would be better not to introduce typos in the first place, right? **Someone s
 
 ## 🥳 Benefits
 
-- This is not limited to comments and **will also work in variable names**, even in camelCase syntax.
+- This is not limited to comments and **will also work in variable/function/type names**, even in camelCase syntax.
 - It’s especially **useful if your hardware keyboard has some issues** and keys are stuck while typing and you get repetitive characters without recognizing it.
 - It even works with multiple languages if the setting for it is activated (check it in `Preferences > Spelling`).
 - You and your colleagues don’t have to make others aware of typos anymore.
