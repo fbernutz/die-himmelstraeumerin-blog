@@ -94,7 +94,8 @@ I've learned a lot at Sketchnote Connect 2020! My first sketchnoting conference 
 
 <figure>
     <video controls autoplay>
-  <source src="../../images/ipad-and-apple-pencil/kraulkurs.mp4" type="video/mp4"></video>
+        <source src="../../images/ipad-and-apple-pencil/kraulkurs.mp4" type="video/mp4">
+    </video>
     <figcaption>I love the timelapse feature in Procreate. This is a timelapse of a sketchnote about swimming freestyle.</figcaption>
 </figure>
 
