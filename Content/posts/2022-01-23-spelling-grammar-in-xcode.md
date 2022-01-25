@@ -1,7 +1,7 @@
 ---
 date: 2022-01-23 13:22
 description: Typos in code can always happen, we’re all human. Most of us aren’t native speakers and write their code in English anyway. But typos in code can be annoying. Other developers will eventually stumble across them and can get distracted reading the code. At best, they will fix the typo, but it will be bit of work to make the change, commit the code etc. It would be better not to introduce typos in the first place, right? Someone should be alerting us to typos as we write the code! Well, Xcode can actually do that!
-tags: ios, xcode
+tags: iOS, xcode
 image: images/2022-01-23-spelling-grammar-in-xcode/preview.jpg
 ---
 # Typos in Xcode – Never Again!
