@@ -8,7 +8,7 @@ image: images/2022-01-01-thoughts-about-2021/preview.jpg
 
 In 2021 I...
 
-- learned [how to longboard](https://www.instagram.com/p/CNiJOZvFTzR/)
+- learned how to longboard
 - quit my first job and [joined Spotify](https://twitter.com/felibe444/status/1393598363388502017?s=20https://twitter.com/felibe444/status/1393598363388502017?s=20)
 - had my first [viral tweet](https://twitter.com/felibe444/status/1401975930822795268?s=20) with a sketchnote of WWDC keynote
 - climbed 135 routes, most of them outdoors

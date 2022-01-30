@@ -23,9 +23,7 @@ extension Node where Context == HTML.BodyContext {
 				.separator,
 				.linkToGithub,
 				.separator,
-				.linkToRSSFeed,
-				.separator,
-				.linkToInstagram
+				.linkToRSSFeed
 			)
 		)
 	}
@@ -62,14 +60,6 @@ private extension Node where Context == HTML.BodyContext {
 		.a(
 			.text("GitHub"),
 			.href("https://github.com/fbernutz"),
-			.target(.blank),
-			.rel(.noreferrer)
-	)
-
-	static let linkToInstagram: Self =
-		.a(
-			.text("Instagram"),
-			.href("https://www.instagram.com/diehimmelstraeumerin/"),
 			.target(.blank),
 			.rel(.noreferrer)
 	)
