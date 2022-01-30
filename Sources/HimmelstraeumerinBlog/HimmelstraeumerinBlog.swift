@@ -27,7 +27,7 @@ struct HimmelstraeumerinBlog: Website {
 	// Update these properties to configure your website:
 	var url = URL(string: "https://fbernutz.github.io")!
 	var name = "#DieHimmelstraeumerin"
-	var description = "iOS dev • sketchnoting • accessibility • pineapple on pizza • longboarding • she/her"
+	var description = "iOS dev • sketchnoting • accessibility • pineapple on pizza • sports • she/her"
 	var language: Language { .english }
 	var favicon: Favicon? { Favicon() }
 	var imagePath: Path? { "images/preview.jpg" }
