@@ -12,7 +12,7 @@ Over the years, I identified things which help me stay motivated and happy.
 - 😎 Images with alt texts
 - 💬 Asynchronous communication
 - ✨ Experiments with new technologies
-- 👋 Diversity in Teams
+- 👋 Diversity in teams
 - 🎨 Time for drawing, lettering and sketchnoting
 - 🧗‍♀️ Being outside, e.g. for climbing and playing football
 - 🌤 Blue sky with (some) clouds

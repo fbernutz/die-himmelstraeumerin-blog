@@ -25,7 +25,7 @@ Read through my [motivators][motivators], if you want to know what motivates me 
 <p class="timeperiod"><em>Jun 2021 – now</em></p>
 <p class="company"><a href="https://spotify.com">Spotify, remote</a></p>
 
-tbd
+Working on the Design System for the iOS client app.
 
 ### Software Developer
 
