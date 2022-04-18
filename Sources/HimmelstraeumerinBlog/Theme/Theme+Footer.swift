@@ -23,6 +23,10 @@ extension Node where Context == HTML.BodyContext {
 				.separator,
 				.linkToGithub,
 				.separator,
+				.linkToInstagram,
+				.separator,
+				.linkToBuyMeACoffee,
+				.separator,
 				.linkToRSSFeed
 			)
 		)
@@ -50,7 +54,7 @@ private extension Node where Context == HTML.BodyContext {
 
 	static let linkToTwitter: Self =
 		.a(
-			.text("Twitter"),
+			.text("Twitter 🐦"),
 			.href("https://twitter.com/felibe444"),
 			.target(.blank),
 			.rel(.noreferrer)
@@ -58,15 +62,31 @@ private extension Node where Context == HTML.BodyContext {
 
 	static let linkToGithub: Self =
 		.a(
-			.text("GitHub"),
+			.text("GitHub 👩‍💻"),
 			.href("https://github.com/fbernutz"),
+			.target(.blank),
+			.rel(.noreferrer)
+	)
+
+	static let linkToInstagram: Self =
+		.a(
+			.text("Instagram (🔒)"),
+			.href("https://www.instagram.com/diehimmelstraeumerin/"),
+			.target(.blank),
+			.rel(.noreferrer)
+	)
+
+	static let linkToBuyMeACoffee: Self =
+		.a(
+			.text("Buy me a hot chocolate ☕️"),
+			.href("https://www.buymeacoffee.com/felibe444"),
 			.target(.blank),
 			.rel(.noreferrer)
 	)
 
 	static let linkToRSSFeed: Self =
 		.a(
-			.text("RSS Feed"),
+			.text("RSS Feed 🗞"),
 			.href("https://fbernutz.github.io/feed.rss")
 	)
 }
