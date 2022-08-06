@@ -1,7 +1,7 @@
 ---
 date: 2021-03-18 17:30
 description: Sketchnote about Grand Central Dispatch, threads, concurrency, types of queues, Operation Queues and DispatchGroup.
-tags: gcd, iOS, interview-topics
+tags: gcd, iOS, interviewing
 image: images/sketchnotes/interview-topic-gcd-small.jpg
 contentCreator: Felizia Bernutz
 linkToContentCreator: https://twitter.com/felibe444

@@ -1,7 +1,7 @@
 ---
 date: 2021-03-15 17:00
 description: Sketchnote about the evolution of Swift displayed with a timeline and additional release notes.
-tags: swift, iOS, apple, swift-ui, interview-topics
+tags: swift, iOS, apple, swift-ui, interviewing
 image: images/sketchnotes/interview-topic-swift-evolution-small.jpg
 contentCreator: Felizia Bernutz
 linkToContentCreator: https://twitter.com/felibe444

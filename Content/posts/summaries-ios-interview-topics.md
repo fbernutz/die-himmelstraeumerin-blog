@@ -1,7 +1,7 @@
 ---
 date: 2021-03-15 15:30
 description: After my first technical interviews in years, I have found that it's always a good idea to refresh your knowledge and prepare for technical interview questions (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they'll help you too.
-tags: iOS, interview-topics
+tags: iOS, interviewing
 image: images/summaries-ios-interview-topics/preview.jpg
 ---
 
