@@ -1,7 +1,7 @@
 ---
 date: 2022-07-27 21:14
 description: Sketchnote about how to integrate SwiftUI into a UIKit app
-tags: wwcode22, iOS, swift, swift-ui, uikit
+tags: wwcode22, iOS, swift, swiftui, uikit
 image: images/sketchnotes/wwcode22-integrate-swiftui-into-uikit-app-small.jpg
 contentCreator: Natalia Panferova
 linkToContentCreator: https://twitter.com/natpanferova
