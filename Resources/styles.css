@@ -140,6 +140,7 @@ header nav li a.selected {
 h1 {
 	font-size: 300%;
 	margin-bottom: 20px;
+	overflow-wrap: anywhere;
 }
 
 h2 {
