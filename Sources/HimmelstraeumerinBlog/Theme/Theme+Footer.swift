@@ -21,6 +21,8 @@ extension Node where Context == HTML.BodyContext {
 			.p(
 				.linkToTwitter,
 				.separator,
+				.linkToMastodon,
+				.separator,
 				.linkToGithub,
 				.separator,
 				.linkToInstagram,
@@ -58,6 +60,14 @@ private extension Node where Context == HTML.BodyContext {
 			.href("https://twitter.com/felibe444"),
 			.target(.blank),
 			.rel(.noreferrer)
+	)
+	
+	static let linkToMastodon: Self =
+		.a(
+			.text("Mastodon 🐘"),
+			.href("https://iosdev.space/@feli"),
+			.target(.blank),
+			.attribute(named: "rel", value: "me noreferrer")
 	)
 
 	static let linkToGithub: Self =
