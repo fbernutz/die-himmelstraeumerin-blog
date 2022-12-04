@@ -21,7 +21,7 @@ I’m Feli, 29 years old and I live in Nuremberg, Germany, where I also grew up.
 After my A-levels in 2011, I was a bit clueless what I wanted to do. 🤔 I decided to do a **one year training to become a camera woman**, just because it was fun, I loved to be creative and wanted to learn more about creating movies. 🎥 Because finding a job in this area is really hard, I decided to study something afterwards. I did not really care what it was, but I wanted to do _something with media_. I finally decided to sign up for **Media Engineering** which was designed to be a mix between design, computer science and engineering. So I learned a bit of everything but nothing really well.
 
 After my **internship as a designer** in the 4th semester, it was clear to me, that design was nothing that I am really good in. 👩‍🎨 My job was mostly to make some data beautiful for presentations and I had no idea how to do that. I’m really good in evaluating designs and thinking about what is working good and what not, but **I just couldn’t come up with a design on my own**.
-s
+
 ## So, what now?
 
 At one point in my studies, we had to work on a project together with other students and my group decided to create an iOS app which I really enjoyed 📱 Swift was released just a year ago and we heard that it should be super easy to learn it. Nobody of us had a clue how to develop iOS apps but we figured it out and it kinda worked in the end. **I wanted to do more like this!** That was fun!s
