@@ -20,11 +20,11 @@ I’m Feli, 29 years old and I live in Nuremberg, Germany, where I also grew up.
 
 After my A-levels in 2011, I was a bit clueless what I wanted to do. 🤔 I decided to do a **one year training to become a camera woman**, just because it was fun, I loved to be creative and wanted to learn more about creating movies. 🎥 Because finding a job in this area is really hard, I decided to study something afterwards. I did not really care what it was, but I wanted to do _something with media_. I finally decided to sign up for **Media Engineering** which was designed to be a mix between design, computer science and engineering. So I learned a bit of everything but nothing really well.
 
-After my **internship as a designer** in the 4th semester, it was clear to me, that design was nothing that I am really good in. 👩‍🎨 My job was mostly to make some data beautiful for presentations and I had no clue how to do that. I’m really good in evaluating designs and thinking about what is working good and what not, but **I just couldn’t come up with a design on my own**.
-
+After my **internship as a designer** in the 4th semester, it was clear to me, that design was nothing that I am really good in. 👩‍🎨 My job was mostly to make some data beautiful for presentations and I had no idea how to do that. I’m really good in evaluating designs and thinking about what is working good and what not, but **I just couldn’t come up with a design on my own**.
+s
 ## So, what now?
 
-At one point in my studies, we had to work on a project together with other students and my group decided to create an iOS app which I really enjoyed 📱 Swift was released just a year ago and we heard that it should be super easy to learn it. Nobody of us had a clue how to develop iOS apps but we figured it out and it kinda worked in the end. **I wanted to do more like this!** That was fun!
+At one point in my studies, we had to work on a project together with other students and my group decided to create an iOS app which I really enjoyed 📱 Swift was released just a year ago and we heard that it should be super easy to learn it. Nobody of us had a clue how to develop iOS apps but we figured it out and it kinda worked in the end. **I wanted to do more like this!** That was fun!s
 
 I decided to look for a working student job in the area of **mobile development**. Why mobile development, you might ask? Well, almost everyone has a smartphone these days and I loved the direct feedback to work with UI and to use it on my phone. You can use mobile apps everywhere and not just on your local computer at home. This was really fascinating to me!
 
@@ -34,7 +34,7 @@ In 2015, **I got a job as iOS developer** at adorsys and learned how to develop 
 
 The job was fun, I learned a LOT, but I was often asking myself if it would’ve been better if I had studied computer science. I always felt behind everyone else in terms of knowledge and there were so many things I had never heard of before. 😟 I was the only female engineer (or one of very few) in my team most of the time I was working there. Don’t get me wrong, many of my colleagues are still really good friends even years later. But especially during lunch breaks when they discussed the latest tech trends and argued about tabs vs. spaces, I felt like I was not “nerdy” enough and that I don’t really belong here, because I wasn’t interested in the same topics as everyone else.
 
-I did not grow up with building my own websites or playing around with computers. I mean, we had a computer at home but I only used it to watch my older sister while she played games and later I used it to chat with friends but that’s it. I had no clue how a computer worked (and I still don’t know 😅) and that I could do more with it. I had no contact points with IT at all during my childhood. In school I was surprisingly good in computer science but I had no interest in it. At one point, there was literally no other girl in the class anymore that I felt so uncomfortable and decided to take the French class instead because I could be with my best friend. I was really bad in French and almost had to repeat the year because of my bad grades. But now back to 2016...
+I did not grow up with building my own websites or playing around with computers. I mean, we had a computer at home but I only used it to watch my older sister while she played games and later I used it to chat with friends but that’s it. I don't know how a computer worked (and I still don’t know 😅) and that I could do more with it. I had no contact points with IT at all during my childhood. In school I was surprisingly good in computer science but I had no interest in it. At one point, there was literally no other girl in the class anymore that I felt so uncomfortable and decided to take the French class instead because I could be with my best friend. I was really bad in French and almost had to repeat the year because of my bad grades. But now back to 2016...
 
 From time to time there were hackathons organized by colleagues and I always participated because I wanted to learn more and more. I was constantly trying to catch up with everyone else. But these events were often more than enough for me and I was not further interested in learning how to program roboters or how this new framework works. This made me question myself, why can I not be like everyone else here?
 
@@ -42,7 +42,7 @@ I always prefered to work with something visual instead of typing commands into 
 
 **There were so many situations where I had to fight my imposter syndrome.**
 
-It took me over a year to slowly recognize that I don’t have to talk about tech during my lunch breaks. I started to get more confident and I noticed that **I shouldn’t change in order to fit in**. And this actually worked quite well and I found my niche where I can focus on user experience and accessibility. I also found the right colleagues that talked about (at least for me) more fun stuff during lunch breaks. 😅
+It took me over a year to slowly realize that I don’t have to talk about tech during my lunch breaks. I started to get more confident and I noticed that **I shouldn’t change and try to fit in**. And this actually worked quite well for me and I found my niche where I can focus on user experience and accessibility. I also found the right colleagues that talked about (at least for me) more fun stuff during lunch breaks. 😅
 
 A few years later, I was ready for a change and quit my job. After a break, I decided to reach for the stars. If it scares you, you should go for it, right? It’s about finding the balance between new challenges and feeling comfortable in what you’re doing. After some time, it surprisingly worked out and I signed a contract with Spotify in early 2021 where I now work on one of the design systems. This work is focussed on building UI that is accessible and easy to use and also contains a lot of support work where I help other developers which is super fun to me.
 
@@ -58,7 +58,7 @@ A few years later, I was ready for a change and quit my job. After a break, I de
 
 1. 🤗 Find a community where you feel welcomed:
 - Go to meetups and talk to other people.
-- Follow a diverse group of people on social networks like twitter.
+- Follow a diverse group of people on social networks like Twitter.
 - Go to conferences if there’s budget for it or apply for diversity tickets.
 - In the end, stick to the community where you can live your true self.
 
@@ -72,4 +72,4 @@ A few years later, I was ready for a change and quit my job. After a break, I de
 
 ---
 
-You can find me on [twitter](https://twitter.com/felibe444) or [mastodon](https://iosdev.space/@feli) and always be free to write me a DM when you have questions or need help. 🧡
+You can find me on [Twitter](https://twitter.com/felibe444) or [Mastodon](https://iosdev.space/@feli) and always feel free to write me a DM when you have questions or need help. 🧡
