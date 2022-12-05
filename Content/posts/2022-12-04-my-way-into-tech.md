@@ -24,7 +24,7 @@ After my **internship as a designer** in the 4th semester, it was clear to me, t
 
 ## So, what now?
 
-At one point in my studies, we had to work on a project together with other students and my group decided to create an iOS app which I really enjoyed 📱 Swift was released just a year ago and we heard that it should be super easy to learn it. Nobody of us had a clue how to develop iOS apps but we figured it out and it kinda worked in the end. **I wanted to do more like this!** That was fun!s
+At one point in my studies, we had to work on a project together with other students and my group decided to create an iOS app which I really enjoyed 📱 Swift was released just a year ago and we heard that it should be super easy to learn it. Nobody of us had a clue how to develop iOS apps but we figured it out and it kinda worked in the end. **I wanted to do more like this!** That was fun!
 
 I decided to look for a working student job in the area of **mobile development**. Why mobile development, you might ask? Well, almost everyone has a smartphone these days and I loved the direct feedback to work with UI and to use it on my phone. You can use mobile apps everywhere and not just on your local computer at home. This was really fascinating to me!
 
