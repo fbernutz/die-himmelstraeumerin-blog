@@ -9,7 +9,10 @@ image: images/2021-08-22-well-being/preview.jpg
 
 About ten months ago, I started to feel unmotivated, stressed and annoyed very often. I quickly became emotional and thought about little things until late at night. I couldn’t concentrate and was restless and driveless. At this point, I had been working from home for six months and felt like I could never switch off from work and every day felt like the other (thanks to social distancing and lockdowns). I realised I wasn’t doing well and thought about how I could improve my work-life balance and set more boundaries to force myself to focus on things other than work again. I tried to remind myself that work isn’t the only thing that defines my worth.
 
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/QHRSBoG32I">pic.twitter.com/QHRSBoG32I</a></p>&mdash; lizandmollie (@lizandmollie) <a href="https://twitter.com/lizandmollie/status/1379973872452165635?ref_src=twsrc%5Etfw">April 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<figure style="max-width: 548px">
+    <img src="../../images/2021-08-22-well-being/tweet-liz-and-mollie.jpg" alt="Tweet from lizandmollie: Two illustrated venn diagrams, the first titled 'What I believed' that shows two circles that are very overlapped, labeled 'My worth' and 'My work.' The second is titled, 'The truth' and shows two circles that are farther apart, also labeled, 'My worth' and 'My work.'" />
+    <figcaption>Illustration about My Worth vs. My Work. Source: <a href="https://twitter.com/lizandmollie/status/1379973872452165635?s=20&t=6ZwEiFWiyoPIS1PXbkIV8Q">Tweet from @lizandmollie</a></figcaption>
+</figure>
 
 **Take it easy and care more about yourself.**
 
@@ -68,4 +71,4 @@ In the months I was unemployed, meditation helped me a lot. There was a lot of u
 
 All these things help me feel better in everyday life. But I sometimes struggle to do them. Writing about them has reminded me to keep working on them every day until they become my new routine. So, take it easy, take a deep breath and take care of yourself. 🧡
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Things are hard right now for so many. At this point I’m trying to remind my team members in every team meeting and every 1:1: Take vacation. Take mental health days. Take CARE of yourselves. It doesn’t matter if the bug is fixed if YOU are broken.</p>&mdash; Sommer Panage (@Sommer) <a href="https://twitter.com/Sommer/status/1427442135343669253?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Things are hard right now for so many. At this point I’m trying to remind my team members in every team meeting and every 1:1: Take vacation. Take mental health days. Take CARE of yourselves. It doesn’t matter if the bug is fixed if YOU are broken. &mdash; Sommer Panage (<a href="https://twitter.com/Sommer">@Sommer</a>), August 17, 2021

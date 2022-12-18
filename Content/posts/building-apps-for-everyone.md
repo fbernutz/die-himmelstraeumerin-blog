@@ -79,20 +79,19 @@ You can also select text to be read aloud for you with a “Speak” button. Thi
 
 [Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/) converts the text size to a larger (or smaller) size. It’s a systemwide setting, so every third-party app should support it.
 
-<figure>
-    <img src="../../images/building-apps-for-everyone/text-size.jpg" alt="A screenshot of the popover which appears when you select text and where you can activate "Speak" to read out aloud the selected text." />
-    <figcaption>One quarter of <a href="https://pdfviewer.io/">PDF Viewer Pro</a> users don’t use the default system font size. <a href="https://twitter.com/steipete/status/1053253245810958336">https://twitter.com/steipete/status/1053253245810958336</a></figcaption>
+<figure style="max-width: 548px">
+    <img src="../../images/building-apps-for-everyone/text-size.jpg" alt="A screenshot of the popover which appears when you select text and where you can activate 'Speak' to read out aloud the selected text." />
+    <figcaption>One quarter of <a href="https://pdfviewer.io/">PDF Viewer Pro</a> users don’t use the default system font size. Source: <a href="https://twitter.com/steipete/status/1053253245810958336">Tweet from @steipete</a></figcaption>
 </figure>
 
 These are some statistics about which font size users of PDF Viewer Pro use. It’s interesting to see how many people don’t use the default system font size (L) in iOS — nearly **one quarter**.
 
 While these statistics can be a good validation whether to support dynamic type or not, it should be supported because it’s simply **the right thing** to do.
 
-<blockquote class="twitter-tweet" data-dnt="true">
-    <p lang="en" dir="ltr">While these stats are a good validation, not sure I need them to support accessibility features.<br><br>Support dynamic type because it’s the right thing to do. People who use accessibility settings expect them to be consistent every where, the app sticks out if it doesn’t support them <a href="https://t.co/XqLa3UDApn">https://t.co/XqLa3UDApn</a></p>
-    &mdash; Vidit Bhargava (@viditb) <a href="https://twitter.com/viditb/status/1102927989669543938?ref_src=twsrc%5Etfw">March 5, 2019</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<figure style="max-width: 548px">
+    <img src="../../images/building-apps-for-everyone/tweet-accessibility-features.jpg" alt="Tweet from Vidit Bhargava: While these stats are a good validation, not sure I need them to support accessibility features. Support dynamic type because it’s the right thing to do. People who use accessibility settings expect them to be consistent every where, the app sticks out if it doesn’t support them" />
+    <figcaption>Tweet about why you should support accessibility features. Source: <a href="https://twitter.com/viditb/status/1102927989669543938?s=20&t=kbwVD9FRTRs333FkABuX8w">Tweet from @viditb</a></figcaption>
+</figure>
 
 ## Further Tools
 
