@@ -25,24 +25,28 @@ extension Theme where Site == HimmelstraeumerinBlog {
 					.wrapper(
 						.div(
 							.class("recents"),
-							.h1("Recent Sketchnotes"),
-							try .itemList(
-								for: Array(
-									context.allItems(
-										sortedBy: \.date,
-										order: .descending
-									).filter { $0.sectionID == .sketchnotes }
-										.prefix(3)
+							.section(
+								.h1("Recent Sketchnotes"),
+								try .itemList(
+									for: Array(
+										context.allItems(
+											sortedBy: \.date,
+											order: .descending
+										).filter { $0.sectionID == .sketchnotes }
+											.prefix(3)
+									)
 								)
 							),
-							.h1("Recent Posts"),
-							try .itemList(
-								for: Array(
-									context.allItems(
-										sortedBy: \.date,
-										order: .descending
-									).filter { $0.sectionID == .posts }
-										.prefix(3)
+							.section(
+								.h1("Recent Posts"),
+								try .itemList(
+									for: Array(
+										context.allItems(
+											sortedBy: \.date,
+											order: .descending
+										).filter { $0.sectionID == .posts }
+											.prefix(3)
+									)
 								)
 							)
 						)
@@ -64,21 +68,25 @@ extension Theme where Site == HimmelstraeumerinBlog {
 			switch section.id {
 			case .posts:
 				sectionContent = .wrapper(
-					.h1(.text(section.title)),
-					try! .itemList(
-						for: items
+					.section(
+						.h1(.text(section.title)),
+						try! .itemList(
+							for: items
+						)
 					)
 				)
 			case .sketchnotes: 
 				sectionContent = .wrapper(
-					.h1(.text(section.title)),
-					.a(
-						.class("browse-all"),
-						.text("Browse all tags"),
-						.href(context.site.tagListPath)
-					),
-					try! .itemList(
-						for: items
+					.section(
+						.h1(.text(section.title)),
+						.a(
+							.class("browse-all"),
+							.text("Browse all tags"),
+							.href(context.site.tagListPath)
+						),
+						try! .itemList(
+							for: items
+						)
 					)
 				)
 			case .iOS:
@@ -90,15 +98,19 @@ extension Theme where Site == HimmelstraeumerinBlog {
 				).filter { $0.tags.contains("iOS") }
 
 				sectionContent = .wrapper(
-					.h1(.text(section.title)),
-					try! .itemList(
-						for: iOSPosts
+					.section(
+						.h1(.text(section.title)),
+						try! .itemList(
+							for: iOSPosts
+						)
 					)
 				)
 			case .about:
 				sectionContent = .wrapper(
-					.article(
-						section.content.body.node
+					.section(
+						.article(
+							section.content.body.node
+						)
 					)
 				)
 			}
@@ -122,7 +134,9 @@ extension Theme where Site == HimmelstraeumerinBlog {
 					.class("item-page"),
 					.header(for: context, selectedSection: item.sectionID),
 					.wrapper(
-						.itemDetail(for: item, on: context.site)
+						.section(
+							.itemDetail(for: item, on: context.site)
+						)
 					),
 					.footer(for: context.site)
 				)
@@ -150,18 +164,20 @@ extension Theme where Site == HimmelstraeumerinBlog {
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
-						.h1("Browse all tags"),
-						.ul(
-							.class("all-tags"),
-							.forEach(page.tags.sorted()) { tag in
-								.li(
-									.class("tag"),
-									.a(
-										.href(context.site.path(for: tag)),
-										.text(tag.string)
+						.section(
+							.h1("Browse all tags"),
+							.ul(
+								.class("all-tags"),
+								.forEach(page.tags.sorted()) { tag in
+									.li(
+										.class("tag"),
+										.a(
+											.href(context.site.path(for: tag)),
+											.text(tag.string)
+										)
 									)
-								)
-							}
+								}
+							)
 						)
 					),
 					.footer(for: context.site)
@@ -176,23 +192,25 @@ extension Theme where Site == HimmelstraeumerinBlog {
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
-						.h1(
-							"Tagged with ",
-							.span(
-								.class("tag"),
-								.text(page.tag.string)
-							)
-						),
-						.a(
-							.class("browse-all"),
-							.text("Browse all tags"),
-							.href(context.site.tagListPath)
-						),
-						try .itemList(
-							for: context.items(
-								taggedWith: page.tag,
-								sortedBy: \.date,
-								order: .descending
+						.section(
+							.h1(
+								"Tagged with ",
+								.span(
+									.class("tag"),
+									.text(page.tag.string)
+								)
+							),
+							.a(
+								.class("browse-all"),
+								.text("Browse all tags"),
+								.href(context.site.tagListPath)
+							),
+							try .itemList(
+								for: context.items(
+									taggedWith: page.tag,
+									sortedBy: \.date,
+									order: .descending
+								)
 							)
 						)
 					),
