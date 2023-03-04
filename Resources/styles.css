@@ -145,9 +145,9 @@ header nav li a.selected {
 }
 
 .skip-to-content-link:focus {
-    width: auto;
-    height: auto;
-    clip: auto;
+	width: auto;
+	height: auto;
+	clip: auto;
 }
 
 /* TEXT */
