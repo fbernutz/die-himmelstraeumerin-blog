@@ -14,12 +14,12 @@ extension Node where Context == HTML.BodyContext {
 		selectedSection: HimmelstraeumerinBlog.SectionID?
 	) -> Node {
 		.header(
+			.a(
+				.class("skip-to-content-link"),
+				.href("#main"),
+				.text("Skip to main content")
+			),
 			.div(
-				.p(.a(
-					.class("skip-to-content-link"),
-					.href("#main"),
-					.text("Skip to main content")
-				)),
 				.class("wrapper"),
 				.siteName(for: context),
 				.siteDescription(for: context),

@@ -136,15 +136,18 @@ header nav li a.selected {
 }
 
 .skip-to-content-link {
-	position: absolute !important;
+	position: absolute;
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
 	clip: rect(1px, 1px, 1px, 1px);
+	color: white;
 }
 
 .skip-to-content-link:focus {
-	position: unset !important;
+    width: auto;
+    height: auto;
+    clip: auto;
 }
 
 /* TEXT */
