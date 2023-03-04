@@ -14,7 +14,8 @@ extension Node where Context == HTML.BodyContext {
 		selectedSection: HimmelstraeumerinBlog.SectionID?
 	) -> Node {
 		.header(
-			.wrapper(
+			.div(
+				.class("wrapper"),
 				.siteName(for: context),
 				.siteDescription(for: context),
 				.navigation(for: context, selectedSection: selectedSection)

@@ -23,7 +23,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 				.body(
 					.header(for: context, selectedSection: nil),
 					.wrapper(
-						.main(
+						.div(
 							.class("recents"),
 							.h1("Recent Sketchnotes"),
 							try .itemList(
