@@ -15,6 +15,11 @@ extension Node where Context == HTML.BodyContext {
 	) -> Node {
 		.header(
 			.div(
+				.p(.a(
+					.class("skip-to-content-link"),
+					.href("#main"),
+					.text("Skip to main content")
+				)),
 				.class("wrapper"),
 				.siteName(for: context),
 				.siteDescription(for: context),

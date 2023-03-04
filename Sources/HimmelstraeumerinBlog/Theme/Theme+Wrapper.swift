@@ -12,6 +12,7 @@ extension Node where Context == HTML.BodyContext {
 	static func wrapper(_ nodes: Node...) -> Node {
 		.main(
 			.class("wrapper"),
+			.id("main"),
 			.group(nodes)
 		)
 	}
