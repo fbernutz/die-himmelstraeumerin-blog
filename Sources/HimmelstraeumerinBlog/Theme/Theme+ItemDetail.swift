@@ -56,12 +56,15 @@ private extension Node where Context == HTML.BodyContext {
 	}
 
 	static func sketchnoteDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
-		return .div(
-			.class("content sketchnote-detail"),
-			.contentBody(item.body),
-			.metaData(for: item),
-			.sketchnoteOriginal(for: item)
-		)
+		return .unwrap(item.metadata.sketchnoteMetadata) { sketchnote in 
+			.div(
+				.class("content sketchnote-detail"),
+				.h1(.text(sketchnote.heading)),
+				.metaData(for: item),
+				.sketchnoteOriginal(for: item),
+				.contentBody(item.body)
+			)
+		}
 	}
 
 	static func sketchnoteOriginal(for item: Item<HimmelstraeumerinBlog>) -> Self {
@@ -84,12 +87,12 @@ private extension Node where Context == HTML.BodyContext {
 		let contentByDescription = "Content by"
 		return .div(
 			.class("metadata"),
-			.unwrap(item.metadata.contentCreator) { contentCreator in
-				.if(item.metadata.linkToContentCreator != nil,
+			.unwrap(item.metadata.sketchnoteMetadata?.contentCreator) { contentCreator in
+				.if(item.metadata.sketchnoteMetadata?.linkToContentCreator != nil,
 					.p(
 						.text(contentByDescription),
 						.a(
-							.href(item.metadata.linkToContentCreator ?? ""),
+							.href(item.metadata.sketchnoteMetadata?.linkToContentCreator ?? ""),
 							.text(contentCreator),
 							.target(.blank),
 							.rel(.noreferrer)

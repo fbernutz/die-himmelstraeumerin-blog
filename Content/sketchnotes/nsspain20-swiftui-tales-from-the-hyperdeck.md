@@ -3,8 +3,7 @@ date: 2020-11-20 17:06
 description: Sketchnote about SwiftUI Tales from the Hyperdeck at NSSpain 2020
 tags: nsspain, nsspain-20, iOS, swiftui, online-conference
 image: images/sketchnotes/nsspain20-swiftui-tales-from-the-hyperdeck-small.jpg
-contentCreator: Benedikt Terhechte
-linkToContentCreator: https://twitter.com/terhechte
+sketchnoteMetadata.contentCreator: Benedikt Terhechte
+sketchnoteMetadata.linkToContentCreator: https://twitter.com/terhechte
+sketchnoteMetadata.heading: NSSpain 2020: SwiftUI Tales from the Hyperdeck
 ---
-
-# NSSpain 2020: SwiftUI Tales from the Hyperdeck

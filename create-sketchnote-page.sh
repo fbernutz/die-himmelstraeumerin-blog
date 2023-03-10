@@ -21,14 +21,15 @@ for image in Resources/images/sketchnotes/*; do
 	else
 		# fill with template content
 		echo "---" >> $path
-		echo "date:" >> $path
+		echo "date: YYYY-MM-DD HH:MM" >> $path
 		echo "description:" >> $path
 		echo "tags:" >> $path
 		echo "image: images/sketchnotes/${imageName%.jpg}$thumbnailSuffix" >> $path
-		echo "contentCreator:" >> $path
-		echo "linkToContentCreator:" >> $path
+		echo "sketchnoteMetadata.contentCreator:" >> $path
+		echo "sketchnoteMetadata.linkToContentCreator:" >> $path
+		echo "sketchnoteMetadata.heading:" >> $path
 		echo "---" >> $path
 		echo "" >> $path
-		echo "# <Conference>: <Title>" >> $path
+		echo "## Detailed image description of the sketchnote" >> $path
 	fi
 done

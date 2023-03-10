@@ -3,7 +3,8 @@ date: 2019-06-09 17:03
 description: Sketchnote about accessibility custom actions from WWDC 2019
 tags: apple, wwdc, wwdc-19, accessibility, iOS
 image: images/sketchnotes/wwdc19-accessibility-custom-actions-small.jpg
-contentCreator: Dan Golden
+sketchnoteMetadata.contentCreator: Dan Golden
+sketchnoteMetadata.heading: WWDC 2019: Accessibility Custom Actions 
 ---
 
-# WWDC 2019: Accessibility Custom Actions ([#250](https://developer.apple.com/wwdc19/250))
+Watch [Session #250](https://developer.apple.com/wwdc19/250) for more details.
