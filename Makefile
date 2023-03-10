@@ -14,3 +14,6 @@ convert-png:
 
 sketchnote-page:
 	./create-sketchnote-page.sh
+
+post:
+	./create-blog-post.sh
