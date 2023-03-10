@@ -15,19 +15,23 @@ extension Node where Context == HTML.BodyContext {
 			 .iOS:
 			return .article(
 				.blogPostDetail(item),
-				.div(
-					.class("tags"),
-					.span("Tagged with: "),
-					.tagList(for: item, on: site)
+				.if(item.tags.count > 0,
+					.div(
+						.class("tags"),
+						.span("Tagged with: "),
+						.tagList(for: item, on: site)
+					)
 				)
 			)
 		case .sketchnotes:
 			return .article(
 				.sketchnoteDetail(item),
-				.div(
-					.class("tags"),
-					.span("Tagged with: "),
-					.tagList(for: item, on: site)
+				.if(item.tags.count > 0,
+					.div(
+						.class("tags"),
+						.span("Tagged with: "),
+						.tagList(for: item, on: site)
+					)
 				)
 			)
 		case .about:
@@ -112,9 +116,11 @@ private extension Node where Context == HTML.BodyContext {
 					.rel(.noreferrer)
 				)
 			),
-			.p(
-				.text("Created on \(item.date.formatted)")
-			)
+			.unwrap(item.date.formatted) { date in
+				.p(
+					.text("Created on \(date)")
+				)
+			}
 		)
 	}
 
