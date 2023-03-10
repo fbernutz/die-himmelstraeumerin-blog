@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19, swift
 image: images/sketchnotes/uikonf19-swift5-strings-interpolation-small.jpg
 sketchnoteMetadata.contentCreator: Erica Sadun
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/ericasadun
-sketchnoteMetadata.heading: UIKonf 2019: Swift 5 "String Interpolation"
+title: UIKonf 2019: Swift 5 "String Interpolation"
 ---

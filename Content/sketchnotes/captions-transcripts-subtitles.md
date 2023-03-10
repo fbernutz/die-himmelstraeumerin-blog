@@ -5,7 +5,7 @@ tags: accessibility, captions
 image: images/sketchnotes/captions-transcripts-subtitles-small.jpg
 sketchnoteMetadata.contentCreator: web.dev
 sketchnoteMetadata.linkToContentCreator: https://web.dev/learn/accessibility/video-audio/
-sketchnoteMetadata.heading: Captions, Transcripts, Audio Descriptions, Sign Language Interpretation
+title: Captions, Transcripts, Audio Descriptions, Sign Language Interpretation
 ---
 
 ## Detailed image description of the sketchnote

@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19, architecture
 image: images/sketchnotes/uikonf19-consistency-principle-small.jpg
 sketchnoteMetadata.contentCreator: Julie Yaunches
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/julieyaunches
-sketchnoteMetadata.heading: UIKonf 2019: Consistency Principle
+title: UIKonf 2019: Consistency Principle
 ---

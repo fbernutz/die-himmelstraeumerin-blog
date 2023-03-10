@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19, architecture
 image: images/sketchnotes/uikonf19-clues-approach-to-backend-driven-ui-small.jpg
 sketchnoteMetadata.contentCreator: Kate Castellano
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/KateCastellano
-sketchnoteMetadata.heading: UIKonf 2019: Clue's Approach to Backend Driven UIs
+title: UIKonf 2019: Clue's Approach to Backend Driven UIs
 ---

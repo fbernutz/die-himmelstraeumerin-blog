@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, instruments, performance, online-conference
 image: images/sketchnotes/nsspain20-5-stranger-things-you-can-do-with-timelane-small.jpg
 sketchnoteMetadata.contentCreator: Marin Todorov
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/icanzilb
-sketchnoteMetadata.heading: NSSpain 2020: 5 Stranger Things you can do with Timelane
+title: NSSpain 2020: 5 Stranger Things you can do with Timelane
 ---

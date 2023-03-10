@@ -5,5 +5,5 @@ tags: uikonf, uikonf-20, online-conference
 image: images/sketchnotes/uikonf20-cross-platform-collaboration-patterns-small.jpg
 sketchnoteMetadata.contentCreator: Miriam Busch
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/miphoni
-sketchnoteMetadata.heading: UIKonf 2020: Cross-platform Collaboration Patterns
+title: UIKonf 2020: Cross-platform Collaboration Patterns
 ---

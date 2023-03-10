@@ -5,5 +5,5 @@ tags: swiftheroes-21, online-conference, iOS, async-await
 image: images/sketchnotes/swiftheroes21-future-of-swift-a-sneak-peek-at-async-await-small.jpg
 sketchnoteMetadata.contentCreator: Vincent Pradeilles
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/v_pradeilles
-sketchnoteMetadata.heading: SwiftHeroes 2021: Future Of Swift - A Sneak Peek at Async/Await
+title: SwiftHeroes 2021: Future Of Swift - A Sneak Peek at Async/Await
 ---

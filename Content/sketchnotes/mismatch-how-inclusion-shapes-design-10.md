@@ -5,5 +5,5 @@ tags: inclusion, mismatch, book
 image: images/sketchnotes/mismatch-how-inclusion-shapes-design-10-small.jpg
 contentCreator: Kat Holmes
 linkToContentCreator: https://twitter.com/katholmes
-sketchnoteMetadata.heading: Mismatch: How Inclusion Shapes Design (10/10)
+title: Mismatch: How Inclusion Shapes Design (10/10)
 ---

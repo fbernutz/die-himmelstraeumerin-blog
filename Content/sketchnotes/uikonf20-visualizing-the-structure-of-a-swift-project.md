@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, swift, online-conference
 image: images/sketchnotes/uikonf20-visualizing-the-structure-of-a-swift-project-small.jpg
 sketchnoteMetadata.contentCreator: David Piper
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/HeyDaveTheDev
-sketchnoteMetadata.heading: UIKonf 2020: Visualizing the Structure of a Swift Project
+title: UIKonf 2020: Visualizing the Structure of a Swift Project
 ---

@@ -5,5 +5,5 @@ tags: iOS, accessibility, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-accessibility-for-ios-small.jpg
 sketchnoteMetadata.contentCreator: John Fox
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/djembe
-sketchnoteMetadata.heading: AppBuilders 2020: Accessibility for iOS
+title: AppBuilders 2020: Accessibility for iOS
 ---

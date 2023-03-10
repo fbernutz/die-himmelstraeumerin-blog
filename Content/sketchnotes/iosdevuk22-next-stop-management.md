@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, management, career
 image: images/sketchnotes/iosdevuk22-next-stop-management-small.jpg
 sketchnoteMetadata.contentCreator: Leah Vogel
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/leah_m_vogel
-sketchnoteMetadata.heading: iOSDevUK 2022: Next Step Management?
+title: iOSDevUK 2022: Next Step Management?
 ---

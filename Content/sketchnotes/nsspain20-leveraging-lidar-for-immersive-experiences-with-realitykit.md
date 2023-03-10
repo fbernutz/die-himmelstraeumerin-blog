@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, ar-kit, reality-kit, lidar, online-conference
 image: images/sketchnotes/nsspain20-leveraging-lidar-for-immersive-experiences-with-realitykit-small.jpg
 sketchnoteMetadata.contentCreator: Ethan Saadia
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/EthanSaadia
-sketchnoteMetadata.heading: NSSpain 2020: Leveraging LiDAR for immersive experiences with RealityKit
+title: NSSpain 2020: Leveraging LiDAR for immersive experiences with RealityKit
 ---

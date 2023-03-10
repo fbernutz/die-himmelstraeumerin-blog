@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, textkit
 image: images/sketchnotes/iosdevuk22-lexical-ios-small.jpg
 sketchnoteMetadata.contentCreator: Amy Worrall
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/amyruthworrall
-sketchnoteMetadata.heading: iOSDevUK 2022: Lexical iOS: From ContentEditable to TextKit
+title: iOSDevUK 2022: Lexical iOS: From ContentEditable to TextKit
 ---

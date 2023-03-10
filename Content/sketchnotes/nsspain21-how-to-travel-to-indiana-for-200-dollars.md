@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference
 image: images/sketchnotes/nsspain21-how-to-travel-to-indiana-for-200-dollars-small.jpg
 sketchnoteMetadata.contentCreator: Leo Picado
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/leopyc
-sketchnoteMetadata.heading: NSSpain 2021: How to travel to Indiana for $200?
+title: NSSpain 2021: How to travel to Indiana for $200?
 ---

@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19
 image: images/sketchnotes/uikonf19-from-heroic-leaders-to-high-performing-teams-small.jpg
 sketchnoteMetadata.contentCreator: Füsun Wehrmann
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/fuesunw
-sketchnoteMetadata.heading: UIKonf 2019: From Heroic Leaders to High Performing Teams
+title: UIKonf 2019: From Heroic Leaders to High Performing Teams
 ---

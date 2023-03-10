@@ -5,7 +5,7 @@ tags: apple, wwdc, wwdc-20, iOS, online-conference
 image: images/sketchnotes/wwdc20-modern-cell-configuration-small.jpg
 sketchnoteMetadata.contentCreator: Tyler Fox
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/smileyborg
-sketchnoteMetadata.heading: WWDC 2020: Modern Cell Configuration
+title: WWDC 2020: Modern Cell Configuration
 ---
 
 Watch [Session #10027](https://developer.apple.com/videos/play/wwdc2020/10027/) for more details.

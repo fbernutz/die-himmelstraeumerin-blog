@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, core-nfc, online-conference
 image: images/sketchnotes/nsspain20-using-core-nfc-to-scan-and-verify-identity-documents-small.jpg
 sketchnoteMetadata.contentCreator: Maxim Tsvetkov
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/777maxxx777
-sketchnoteMetadata.heading: NSSpain 2020: Using Core NFC to scan and verify identity documents
+title: NSSpain 2020: Using Core NFC to scan and verify identity documents
 ---

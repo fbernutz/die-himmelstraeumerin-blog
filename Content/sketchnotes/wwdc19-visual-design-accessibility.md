@@ -5,7 +5,7 @@ tags: apple, wwdc, wwdc-19, accessibility, iOS
 image: images/sketchnotes/wwdc19-visual-design-accessibility-small.jpg
 sketchnoteMetadata.contentCreator: Sommer Panage
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/Sommer
-sketchnoteMetadata.heading: WWDC 2019: Visual Design Accessibility
+title: WWDC 2019: Visual Design Accessibility
 ---
 
 Watch [Session #244](https://developer.apple.com/wwdc19/244) for more details.

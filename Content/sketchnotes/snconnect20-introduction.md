@@ -4,5 +4,5 @@ description: Sketchnote about Introduction to Sketchnoting Connect 2020 by Maria
 tags: snconnect-20, online-conference
 image: images/sketchnotes/snconnect20-introduction-small.jpg
 sketchnoteMetadata.contentCreator: Marianne Rady and Mike Rohde
-sketchnoteMetadata.heading: Sketchnoting Connect 2020: Introduction
+title: Sketchnoting Connect 2020: Introduction
 ---

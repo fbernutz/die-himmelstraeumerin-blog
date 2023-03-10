@@ -5,5 +5,5 @@ tags: uikonf, uikonf-20, online-conference
 image: images/sketchnotes/uikonf20-data-trusts-what-why-how-small.jpg
 sketchnoteMetadata.contentCreator: Anouk Ruhaak
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/AnoukRuhaak
-sketchnoteMetadata.heading: UIKonf 2020: Data Trusts: What, Why, How?
+title: UIKonf 2020: Data Trusts: What, Why, How?
 ---

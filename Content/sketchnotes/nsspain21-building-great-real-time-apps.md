@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference
 image: images/sketchnotes/nsspain21-building-great-real-time-apps-small.jpg
 sketchnoteMetadata.contentCreator: Alex Curran
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/amlcurran
-sketchnoteMetadata.heading: NSSpain 2021: Building great real-time apps
+title: NSSpain 2021: Building great real-time apps
 ---

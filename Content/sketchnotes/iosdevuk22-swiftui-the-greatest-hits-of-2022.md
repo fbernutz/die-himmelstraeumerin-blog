@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, swiftui
 image: images/sketchnotes/iosdevuk22-swiftui-the-greatest-hits-of-2022-small.jpg
 sketchnoteMetadata.contentCreator: Malin Sundberg
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/malinsundberg
-sketchnoteMetadata.heading: iOSDevUK 2022: SwiftUI – The Greatest Hits of 2022
+title: iOSDevUK 2022: SwiftUI – The Greatest Hits of 2022
 ---

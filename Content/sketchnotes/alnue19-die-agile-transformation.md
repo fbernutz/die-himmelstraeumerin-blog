@@ -4,5 +4,5 @@ description: Sketchnote about agile leadership "Die agile Transformation der Hau
 tags: agile, alnue-19
 image: images/sketchnotes/alnue19-die-agile-transformation-small.jpg
 sketchnoteMetadata.contentCreator: Steffen Jakob and Michael Baur
-sketchnoteMetadata.heading: Agile Leadership Nürnberg 2019: Die agile Transformation der Haufe-Lexware Group
+title: Agile Leadership Nürnberg 2019: Die agile Transformation der Haufe-Lexware Group
 ---

@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, component-library, online-conference
 image: images/sketchnotes/nsspain20-making-a-component-library-small.jpg
 sketchnoteMetadata.contentCreator: Roy Marmelstein
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/marmelroy
-sketchnoteMetadata.heading: NSSpain 2020: Making a Component Library
+title: NSSpain 2020: Making a Component Library
 ---

@@ -4,5 +4,5 @@ description: Sketchnote about a discussion about 3rd party tools and frameworks 
 tags: swiftheroes-21, online-conference, iOS, framework, open-source, round-table, panel
 image: images/sketchnotes/swiftheroes21-3rd-party-tools-and-frameworks-small.jpg
 sketchnoteMetadata.contentCreator: @merowing_, @anioutkajarkova, @v_pradeilles, @rockbruno_, @leah_m_vogel, @_aantonioni, @inkedengineer, @puntoste
-sketchnoteMetadata.heading: SwiftHeroes 2021: 3rd Party Tools and Frameworks you use in your apps and why
+title: SwiftHeroes 2021: 3rd Party Tools and Frameworks you use in your apps and why
 ---

@@ -5,5 +5,5 @@ tags: android, devfest-19
 image: images/sketchnotes/devfest19-light-or-dark-small.jpg
 sketchnoteMetadata.contentCreator: Oluwasegun Famisa
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/segunfamisa
-sketchnoteMetadata.heading: DevFest 2019: Light or dark?
+title: DevFest 2019: Light or dark?
 ---

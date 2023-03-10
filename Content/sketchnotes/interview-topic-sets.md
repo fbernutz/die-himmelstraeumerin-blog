@@ -5,7 +5,7 @@ tags: set, iOS, swift, interviewing
 image: images/sketchnotes/interview-topic-sets-small.jpg
 sketchnoteMetadata.contentCreator: Felizia Bernutz
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/felibe444
-sketchnoteMetadata.heading: iOS Interview Topic: How to use Sets
+title: iOS Interview Topic: How to use Sets
 ---
 
 👉 Read more about this in ["Sketchnote Summaries of possible iOS Interview Topics"](https://fbernutz.github.io/posts/summaries-ios-interview-topics/)

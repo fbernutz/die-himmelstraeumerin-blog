@@ -5,7 +5,7 @@ tags: swift, iOS, apple, swiftui, interviewing
 image: images/sketchnotes/interview-topic-swift-evolution-small.jpg
 sketchnoteMetadata.contentCreator: Felizia Bernutz
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/felibe444
-sketchnoteMetadata.heading: iOS Interview Topic: Swift Evolution
+title: iOS Interview Topic: Swift Evolution
 ---
 
 👉 Read more about this in ["Sketchnote Summaries of possible iOS Interview Topics"](https://fbernutz.github.io/posts/summaries-ios-interview-topics/)

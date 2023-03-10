@@ -5,5 +5,5 @@ tags: career, shenit, learning, developer-advocacy
 image: images/sketchnotes/she-n-it-what-is-devrel-devadvocacy-devx-small.jpg
 sketchnoteMetadata.contentCreator: Stefan Blos
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/stefanjblos
-sketchnoteMetadata.heading: She'n IT: What the avocado is DevRel, DevAdvocacy, DevX?
+title: She'n IT: What the avocado is DevRel, DevAdvocacy, DevX?
 ---

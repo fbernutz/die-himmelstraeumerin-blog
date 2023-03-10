@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, tools, online-conference
 image: images/sketchnotes/nsspain20-appcode-under-the-hood-small.jpg
 sketchnoteMetadata.contentCreator: Aydar Mukhametzyanov
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/aydarmukh
-sketchnoteMetadata.heading: NSSpain 2020: AppCode under the hood
+title: NSSpain 2020: AppCode under the hood
 ---

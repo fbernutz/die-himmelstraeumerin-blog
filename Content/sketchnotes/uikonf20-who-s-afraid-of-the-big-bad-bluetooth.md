@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, bluetooth, online-conference
 image: images/sketchnotes/uikonf20-who-s-afraid-of-the-big-bad-bluetooth-small.jpg
 sketchnoteMetadata.contentCreator: Leah Vogel
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/leah_m_vogel
-sketchnoteMetadata.heading: UIKonf 2020: Who’s Afraid of the Big Bad Bluetooth?
+title: UIKonf 2020: Who’s Afraid of the Big Bad Bluetooth?
 ---

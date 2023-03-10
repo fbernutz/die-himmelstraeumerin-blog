@@ -5,5 +5,5 @@ tags: uitesting, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-uitesting-over-the-years-small.jpg
 sketchnoteMetadata.contentCreator: Peter Steinberger
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/steipete
-sketchnoteMetadata.heading: AppBuilders 2020: UI Testing over the years
+title: AppBuilders 2020: UI Testing over the years
 ---

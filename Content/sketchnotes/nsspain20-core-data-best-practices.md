@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, core-data, online-conference
 image: images/sketchnotes/nsspain20-core-data-best-practices-small.jpg
 sketchnoteMetadata.contentCreator: Antoine van der Lee
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/twannl
-sketchnoteMetadata.heading: NSSpain 2020: Core Data Best Practices
+title: NSSpain 2020: Core Data Best Practices
 ---

@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, swiftui, swift-packages
 image: images/sketchnotes/iosdevuk22-preview-and-package-oriented-programming-small.jpg
 sketchnoteMetadata.contentCreator: Daniel Steinberg
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/dimsumthinking
-sketchnoteMetadata.heading: iOSDevUK 2022: Preview and Package Oriented Programming
+title: iOSDevUK 2022: Preview and Package Oriented Programming
 ---

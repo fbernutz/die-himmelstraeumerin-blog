@@ -62,11 +62,6 @@ private extension Node where Context == HTML.BodyContext {
 				infoMessage: "🖼💥 Missing imagePath on: \(item.title)"
 			)
 		}
-		guard let heading = item.metadata.sketchnoteMetadata?.heading else {
-			throw PublishingError(
-				infoMessage: "💬💥 Missing heading on: \(item.title)"
-			)
-		}
 
 		return .article(
 			.class("sketchnote-item"),
@@ -79,7 +74,7 @@ private extension Node where Context == HTML.BodyContext {
 				),
 				.p(
 					.class("sketchnote-title"),
-					.text(heading)
+					.text(item.title)
 				)
 			)
 		)

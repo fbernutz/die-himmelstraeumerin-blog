@@ -5,5 +5,5 @@ tags: declarative-ui, flutter, swiftui, jetpack-compose, devfest-19, android, ko
 image: images/sketchnotes/devfest19-understanding-declarative-ui-small.jpg
 sketchnoteMetadata.contentCreator: Pascal Welsch
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/passsy
-sketchnoteMetadata.heading: DevFest 2019: Understanding Declarative UI
+title: DevFest 2019: Understanding Declarative UI
 ---

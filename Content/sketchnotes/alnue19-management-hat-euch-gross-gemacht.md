@@ -4,5 +4,5 @@ description: Sketchnote about agile leadership "Management hat euch groß gemach
 tags: agile, alnue-19
 image: images/sketchnotes/alnue19-management-hat-euch-gross-gemacht-small.jpg
 sketchnoteMetadata.contentCreator: Thomas Schwitzer & Stefan Neubauer
-sketchnoteMetadata.heading: Agile Leadership Nürnberg 2019: Management hat euch groß gemacht - Was bringt euch weiter?
+title: Agile Leadership Nürnberg 2019: Management hat euch groß gemacht - Was bringt euch weiter?
 ---

@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference, tools
 image: images/sketchnotes/nsspain21-creating-great-prs-small.jpg
 sketchnoteMetadata.contentCreator: Philippe Casgrain
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/philippec
-sketchnoteMetadata.heading: NSSpain 2021: Creating great PRs
+title: NSSpain 2021: Creating great PRs
 ---

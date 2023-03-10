@@ -5,5 +5,5 @@ tags: swiftui, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-custom-swiftui-components-small.jpg
 sketchnoteMetadata.contentCreator: Chris Eidhof
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/chriseidhof
-sketchnoteMetadata.heading: AppBuilders 2020: Custom UI Components in SwiftUI
+title: AppBuilders 2020: Custom UI Components in SwiftUI
 ---

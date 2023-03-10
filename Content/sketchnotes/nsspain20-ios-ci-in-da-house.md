@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, CI, online-conference
 image: images/sketchnotes/nsspain20-ios-ci-in-da-house-small.jpg
 sketchnoteMetadata.contentCreator: Vladislav Alekseev
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/beefon
-sketchnoteMetadata.heading: NSSpain 2020: iOS CI in da house
+title: NSSpain 2020: iOS CI in da house
 ---

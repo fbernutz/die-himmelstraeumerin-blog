@@ -5,5 +5,5 @@ tags: uikonf, uikonf-20, swift, unicode, online-conference
 image: images/sketchnotes/uikonf20-rich-text-core-text-small.jpg
 sketchnoteMetadata.contentCreator: Rob Napier
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/cocoaphony
-sketchnoteMetadata.heading: UIKonf 2020: Rich Text, Core Text
+title: UIKonf 2020: Rich Text, Core Text
 ---

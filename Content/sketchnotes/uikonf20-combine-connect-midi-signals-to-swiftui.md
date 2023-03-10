@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, swiftui, online-conference
 image: images/sketchnotes/uikonf20-combine-connect-midi-signals-to-swiftui-small.jpg
 sketchnoteMetadata.contentCreator: Matěj Kašpar Jirásek
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/mkj_is
-sketchnoteMetadata.heading: UIKonf 2020: Combine: Connect MIDI signals to SwiftUI
+title: UIKonf 2020: Combine: Connect MIDI signals to SwiftUI
 ---

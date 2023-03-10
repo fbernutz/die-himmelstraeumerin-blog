@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22
 image: images/sketchnotes/iosdevuk22-nhs-covid-19-app-small.jpg
 sketchnoteMetadata.contentCreator: Mo Ramezanpoor
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/mohsenr
-sketchnoteMetadata.heading: iOSDevUK 2022: NHS COVID-19 App – Delivering a Resilient App at Speed
+title: iOSDevUK 2022: NHS COVID-19 App – Delivering a Resilient App at Speed
 ---

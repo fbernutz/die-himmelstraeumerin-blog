@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference, architecture, swift
 image: images/sketchnotes/nsspain21-modernizing-away-from-technical-dept-small.jpg
 sketchnoteMetadata.contentCreator: Ever Uribe
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/earthtoever
-sketchnoteMetadata.heading: NSSpain 2021: Modernizing away from technical dept
+title: NSSpain 2021: Modernizing away from technical dept
 ---

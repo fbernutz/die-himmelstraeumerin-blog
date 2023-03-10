@@ -5,5 +5,5 @@ tags: iOS, accessibility, appbuilders-20, online-conference, inclusion
 image: images/sketchnotes/appbuilders20-apps-for-all-small.jpg
 sketchnoteMetadata.contentCreator: Matthew Bischoff
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/mb
-sketchnoteMetadata.heading: AppBuilders 2020: Apps for All: Making Software Accessible
+title: AppBuilders 2020: Apps for All: Making Software Accessible
 ---

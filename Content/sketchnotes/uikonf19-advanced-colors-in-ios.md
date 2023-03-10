@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19
 image: images/sketchnotes/uikonf19-advanced-colors-in-ios-small.jpg
 sketchnoteMetadata.contentCreator: Neha Kulkarni
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/NehaPundlik
-sketchnoteMetadata.heading: UIKonf 2019: Advanced Colors in iOS
+title: UIKonf 2019: Advanced Colors in iOS
 ---

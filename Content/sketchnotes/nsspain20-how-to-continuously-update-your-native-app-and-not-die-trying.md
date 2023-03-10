@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, release, app-store, online-conference
 image: images/sketchnotes/nsspain20-how-to-continuously-update-your-native-app-and-not-die-trying-small.jpg
 sketchnoteMetadata.contentCreator: Antonio Escudero
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/antoescu
-sketchnoteMetadata.heading: NSSpain 2020: How to continuously update your native app and not die trying
+title: NSSpain 2020: How to continuously update your native app and not die trying
 ---

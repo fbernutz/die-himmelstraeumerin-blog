@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference, framework
 image: images/sketchnotes/nsspain21-atomic-development-small.jpg
 sketchnoteMetadata.contentCreator: An Tran
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/antranapp
-sketchnoteMetadata.heading: NSSpain 2021: Atomic Development
+title: NSSpain 2021: Atomic Development
 ---

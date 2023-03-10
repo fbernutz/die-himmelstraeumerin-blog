@@ -5,5 +5,5 @@ tags: appbuilders-20, open-source, online-conference
 image: images/sketchnotes/appbuilders20-small-team-big-opensource-small.jpg
 sketchnoteMetadata.contentCreator: Rodrigo Arsuaga
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/RodrigoArsuaga
-sketchnoteMetadata.heading: AppBuilders 2020: Small Team - Big Open Source
+title: AppBuilders 2020: Small Team - Big Open Source
 ---

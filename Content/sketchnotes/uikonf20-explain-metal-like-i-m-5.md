@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, metal, online-conference
 image: images/sketchnotes/uikonf20-explain-metal-like-i-m-5-small.jpg
 sketchnoteMetadata.contentCreator: Andrey Volodin
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/s1ddok
-sketchnoteMetadata.heading: UIKonf 2020: Explain Metal like I’m 5
+title: UIKonf 2020: Explain Metal like I’m 5
 ---

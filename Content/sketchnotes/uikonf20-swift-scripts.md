@@ -5,5 +5,5 @@ tags: uikonf, uikonf-20, swift, cli, online-conference
 image: images/sketchnotes/uikonf20-swift-scripts-small.jpg
 sketchnoteMetadata.contentCreator: Federico Zanetello
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/zntfdr
-sketchnoteMetadata.heading: UIKonf 2020: Swift Scripts: Zero to Hero
+title: UIKonf 2020: Swift Scripts: Zero to Hero
 ---

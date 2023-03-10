@@ -5,5 +5,5 @@ tags: swiftheroes-21, online-conference, iOS, architecture, scale
 image: images/sketchnotes/swiftheroes21-preparing-for-growth-small.jpg
 sketchnoteMetadata.contentCreator: Bruno Rocha
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/rockbruno_
-sketchnoteMetadata.heading: SwiftHeroes 2021: Preparing for Growth - Architecting Giant Apps for Scalability and Build Speed
+title: SwiftHeroes 2021: Preparing for Growth - Architecting Giant Apps for Scalability and Build Speed
 ---

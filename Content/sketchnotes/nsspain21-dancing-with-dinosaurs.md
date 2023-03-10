@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference, swift, objective-c
 image: images/sketchnotes/nsspain21-dancing-with-dinosaurs-small.jpg
 sketchnoteMetadata.contentCreator: Bas Thomas Broek
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/basthomas
-sketchnoteMetadata.heading: NSSpain 2021: Dancing with Dinosaurs – Objective C and Swift Interop
+title: NSSpain 2021: Dancing with Dinosaurs – Objective C and Swift Interop
 ---

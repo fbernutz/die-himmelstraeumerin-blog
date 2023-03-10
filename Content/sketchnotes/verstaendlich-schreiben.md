@@ -5,5 +5,5 @@ tags: writing
 image: images/sketchnotes/verstaendlich-schreiben-small.jpg
 sketchnoteMetadata.contentCreator: Sven Winkler
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/svnwnk
-sketchnoteMetadata.heading: Verständlich Schreiben
+title: Verständlich Schreiben
 ---

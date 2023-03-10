@@ -5,5 +5,5 @@ tags: iOS, accessibility
 image: images/sketchnotes/cocoaheadsnl21-developing-ios-apps-with-accessibility-mindset-small.jpg
 sketchnoteMetadata.contentCreator: Dani Devesa
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/dadederk
-sketchnoteMetadata.heading: CocoaHeadsNL 2021: Developing iOS apps with an accessibility mindset
+title: CocoaHeadsNL 2021: Developing iOS apps with an accessibility mindset
 ---

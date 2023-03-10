@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, swift-server, swift, online-conference
 image: images/sketchnotes/uikonf20-why-is-swift-so-much-better-on-server-small.jpg
 sketchnoteMetadata.contentCreator: Gwynne Raskind
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/_AngeloidBeta
-sketchnoteMetadata.heading: UIKonf 2020: Why Is Swift So Much Better On Server?
+title: UIKonf 2020: Why Is Swift So Much Better On Server?
 ---

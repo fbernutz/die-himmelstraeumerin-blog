@@ -4,5 +4,5 @@ description: Sketchnote about the secret society of happiness and console.log(br
 tags: dachfest-19
 image: images/sketchnotes/dachfest18-01-small.jpg
 sketchnoteMetadata.contentCreator: Sasha Romijn and Armagon Amcalar
-sketchnoteMetadata.heading: Dachfest 2018: The Secret Society of Happiness and console.log(brain) - 01
+title: Dachfest 2018: The Secret Society of Happiness and console.log(brain) - 01
 ---

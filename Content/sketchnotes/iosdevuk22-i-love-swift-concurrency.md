@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, swift, concurrency, async-await
 image: images/sketchnotes/iosdevuk22-i-love-swift-concurrency-small.jpg
 sketchnoteMetadata.contentCreator: Tunde Adegoroye
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/tundsdev
-sketchnoteMetadata.heading: iOSDevUK 2022: I ❤️ Swift Concurrency
+title: iOSDevUK 2022: I ❤️ Swift Concurrency
 ---

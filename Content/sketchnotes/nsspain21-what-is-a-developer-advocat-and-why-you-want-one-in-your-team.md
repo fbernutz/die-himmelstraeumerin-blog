@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference, developer-advocacy
 image: images/sketchnotes/nsspain21-what-is-a-developer-advocat-and-why-you-want-one-in-your-team-small.jpg
 sketchnoteMetadata.contentCreator: Diego Freniche
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/dfreniche
-sketchnoteMetadata.heading: NSSpain 2021: What is a Developer Advocate and why you want one in your team?
+title: NSSpain 2021: What is a Developer Advocate and why you want one in your team?
 ---

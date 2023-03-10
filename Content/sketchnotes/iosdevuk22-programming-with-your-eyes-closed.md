@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, xcode, accessibility
 image: images/sketchnotes/iosdevuk22-programming-with-your-eyes-closed-small.jpg
 sketchnoteMetadata.contentCreator: Adin Cebic
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/adincebic
-sketchnoteMetadata.heading: iOSDevUK 2022: Programming With Your Eyes Closed
+title: iOSDevUK 2022: Programming With Your Eyes Closed
 ---

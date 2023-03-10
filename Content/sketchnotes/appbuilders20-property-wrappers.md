@@ -5,5 +5,5 @@ tags: swift, property-wrappers, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-property-wrappers-small.jpg
 sketchnoteMetadata.contentCreator: Vincent Pradeilles
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/v_pradeilles
-sketchnoteMetadata.heading: AppBuilders 2020: Property Wrappers or How Swift Decided to Become Java
+title: AppBuilders 2020: Property Wrappers or How Swift Decided to Become Java
 ---

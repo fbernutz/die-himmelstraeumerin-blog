@@ -26,7 +26,6 @@ struct HimmelstraeumerinBlog: Website {
 	struct SketchnoteMetadata: WebsiteItemMetadata {
 		let contentCreator: String?
 		let linkToContentCreator: String?
-		let heading: String
 	}
 
 	// Update these properties to configure your website:

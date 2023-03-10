@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19, accessibility, inclusion
 image: images/sketchnotes/uikonf19-inclusive-accessible-app-development-small.jpg
 sketchnoteMetadata.contentCreator: Kaya Thomas
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/kthomas901
-sketchnoteMetadata.heading: UIKonf 2019: Inclusive test Accessible App-Development
+title: UIKonf 2019: Inclusive test Accessible App-Development
 ---

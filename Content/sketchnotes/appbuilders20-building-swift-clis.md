@@ -5,5 +5,5 @@ tags: swift, cli, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-building-swift-clis-small.jpg
 sketchnoteMetadata.contentCreator: Marek Fořt
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/marekfort
-sketchnoteMetadata.heading: AppBuilders 2020: Building Swift CLIs
+title: AppBuilders 2020: Building Swift CLIs
 ---

@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, debugging, instruments
 image: images/sketchnotes/iosdevuk22-remember-me-small.jpg
 sketchnoteMetadata.contentCreator: Luke Parham
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/lukeparham
-sketchnoteMetadata.heading: iOSDevUK 2022: Remember Me – A Guide to Memory Debugging
+title: iOSDevUK 2022: Remember Me – A Guide to Memory Debugging
 ---

@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, typescript, swift, online-conference
 image: images/sketchnotes/nsspain20-typescript-for-the-swift-developer-small.jpg
 sketchnoteMetadata.contentCreator: Orta Therox
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/orta
-sketchnoteMetadata.heading: NSSpain 2020: Typescript for the Swift Developer
+title: NSSpain 2020: Typescript for the Swift Developer
 ---

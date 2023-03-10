@@ -5,5 +5,5 @@ tags: change
 image: images/sketchnotes/heldenreise-small.jpg
 sketchnoteMetadata.contentCreator: Ying Joe Zhou
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/1step_further
-sketchnoteMetadata.heading: Heldenreise
+title: Heldenreise
 ---

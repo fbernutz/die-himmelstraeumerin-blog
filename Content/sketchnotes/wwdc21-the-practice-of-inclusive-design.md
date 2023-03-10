@@ -4,7 +4,7 @@ description: Sketchnote about 'The practice of inclusive design' at WWDC21 with 
 tags: apple, wwdc, wwdc-21, online-conference, inclusion
 image: images/sketchnotes/wwdc21-the-practice-of-inclusive-design-small.jpg
 sketchnoteMetadata.contentCreator: Linda Dong and Sam Iglesias
-sketchnoteMetadata.heading: WWDC 2021: The practice of inclusive design
+title: WWDC 2021: The practice of inclusive design
 ---
 
 Watch [Session #10275](https://developer.apple.com/videos/play/wwdc2021/10275/) for more details.

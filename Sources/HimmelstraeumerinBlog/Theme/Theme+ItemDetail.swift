@@ -63,7 +63,7 @@ private extension Node where Context == HTML.BodyContext {
 		return .unwrap(item.metadata.sketchnoteMetadata) { sketchnote in 
 			.div(
 				.class("content sketchnote-detail"),
-				.h1(.text(sketchnote.heading)),
+				.h1(.text(item.title)),
 				.metaData(for: item),
 				.sketchnoteOriginal(for: item),
 				.contentBody(item.body)

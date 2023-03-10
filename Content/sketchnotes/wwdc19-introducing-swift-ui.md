@@ -4,7 +4,7 @@ description: Sketchnote about introducing Swift UI from WWDC 2019
 tags: apple, wwdc, wwdc-19, iOS, swiftui
 image: images/sketchnotes/wwdc19-introducing-swift-ui-small.jpg
 sketchnoteMetadata.contentCreator: Jacob Xiao and Kyle Macomber 
-sketchnoteMetadata.heading: WWDC 2019: Introducing Swift UI
+title: WWDC 2019: Introducing Swift UI
 ---
 
 Watch [Session #204](https://developer.apple.com/wwdc19/204) for more details.

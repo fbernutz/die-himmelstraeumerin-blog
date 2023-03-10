@@ -5,5 +5,5 @@ tags: nsspain, nsspain-21, iOS, online-conference
 image: images/sketchnotes/nsspain21-communication-skills-small.jpg
 sketchnoteMetadata.contentCreator: Belén Molina del Campo
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/bmolinadelcampo
-sketchnoteMetadata.heading: NSSpain 2021: Communication Skills – channeling your inner scuba diver
+title: NSSpain 2021: Communication Skills – channeling your inner scuba diver
 ---

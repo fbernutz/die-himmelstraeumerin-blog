@@ -5,5 +5,5 @@ tags: swift, metal, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-realtime-video-processing-small.jpg
 sketchnoteMetadata.contentCreator: Ben Sandofsky
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/sandofsky
-sketchnoteMetadata.heading: AppBuilders 2020: Building a realtime video processor with Swift and Metal
+title: AppBuilders 2020: Building a realtime video processor with Swift and Metal
 ---

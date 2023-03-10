@@ -5,7 +5,7 @@ tags: auto-layout, iOS, interviewing, UI
 image: images/sketchnotes/interview-topic-autolayout-small.jpg
 sketchnoteMetadata.contentCreator: Felizia Bernutz
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/felibe444
-sketchnoteMetadata.heading: iOS Interview Topic: Auto Layout and Constraints
+title: iOS Interview Topic: Auto Layout and Constraints
 ---
 
 👉 Read more about this in ["Sketchnote Summaries of possible iOS Interview Topics"](https://fbernutz.github.io/posts/summaries-ios-interview-topics/)

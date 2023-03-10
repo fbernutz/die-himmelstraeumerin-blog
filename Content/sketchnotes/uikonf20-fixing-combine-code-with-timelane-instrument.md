@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, combine, instruments, performance, online-conferen
 image: images/sketchnotes/uikonf20-fixing-combine-code-with-timelane-instrument-small.jpg
 sketchnoteMetadata.contentCreator: Marin Todorov
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/icanzilb
-sketchnoteMetadata.heading: UIKonf 2020: Fixing your Combine code with the Timelane Instrument
+title: UIKonf 2020: Fixing your Combine code with the Timelane Instrument
 ---

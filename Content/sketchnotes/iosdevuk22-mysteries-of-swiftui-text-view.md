@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, swiftui
 image: images/sketchnotes/iosdevuk22-mysteries-of-swiftui-text-view-small.jpg
 sketchnoteMetadata.contentCreator: Natalia Panferova
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/natpanferova
-sketchnoteMetadata.heading: iOSDevUK 2022: Mysteries of SwiftUI TextView
+title: iOSDevUK 2022: Mysteries of SwiftUI TextView
 ---

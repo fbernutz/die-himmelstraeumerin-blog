@@ -5,5 +5,5 @@ tags: wwcode22, iOS, swift, swiftui, uikit
 image: images/sketchnotes/wwcode22-integrate-swiftui-into-uikit-app-small.jpg
 sketchnoteMetadata.contentCreator: Natalia Panferova
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/natpanferova
-sketchnoteMetadata.heading: WomenWhoCode Mobile Summit 2022: Integrate SwiftUI Into a UIKit App
+title: WomenWhoCode Mobile Summit 2022: Integrate SwiftUI Into a UIKit App
 ---

@@ -5,5 +5,5 @@ tags: javascript, devfest-19
 image: images/sketchnotes/devfest19-how-javascript-influenced-our-lives-small.jpg
 sketchnoteMetadata.contentCreator: Tarik Huber
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/TarikHuber
-sketchnoteMetadata.heading: DevFest 2019: How Javascript influenced our lives
+title: DevFest 2019: How Javascript influenced our lives
 ---

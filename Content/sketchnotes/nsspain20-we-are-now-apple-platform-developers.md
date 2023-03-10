@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, swiftui, online-conference
 image: images/sketchnotes/nsspain20-we-are-now-apple-platform-developers-small.jpg
 sketchnoteMetadata.contentCreator: Malin Sundberg
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/malinsundberg
-sketchnoteMetadata.heading: NSSpain 2020: We're now Apple Platform Developers
+title: NSSpain 2020: We're now Apple Platform Developers
 ---

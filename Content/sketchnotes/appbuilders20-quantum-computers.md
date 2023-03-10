@@ -4,5 +4,5 @@ description: Sketchnote about building quantum computers from AppBuilders 2020 (
 tags: quantum-computers, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-quantum-computers-small.jpg
 sketchnoteMetadata.contentCreator: Sebastian Weidt
-sketchnoteMetadata.heading: AppBuilders 2020: Building Quantum Computers that empower society to solve the world's biggest problems
+title: AppBuilders 2020: Building Quantum Computers that empower society to solve the world's biggest problems
 ---

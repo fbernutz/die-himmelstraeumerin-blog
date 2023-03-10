@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, publish, swift, website
 image: images/sketchnotes/iosdevuk22-swift-your-personal-website-using-publish-small.jpg
 sketchnoteMetadata.contentCreator: Danijela Vrzan
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/dvrzan
-sketchnoteMetadata.heading: iOSDevUK 2022: Swift Your Personal Website Using Publish
+title: iOSDevUK 2022: Swift Your Personal Website Using Publish
 ---

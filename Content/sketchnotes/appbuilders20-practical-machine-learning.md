@@ -5,5 +5,5 @@ tags: machine-learning, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-practical-machine-learning-small.jpg
 sketchnoteMetadata.contentCreator: Paris Buttfield-Addison
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/parisba
-sketchnoteMetadata.heading: AppBuilders 2020: Practical Machine Learning for iOS Apps
+title: AppBuilders 2020: Practical Machine Learning for iOS Apps
 ---

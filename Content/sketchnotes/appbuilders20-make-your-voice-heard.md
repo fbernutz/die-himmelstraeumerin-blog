@@ -5,5 +5,5 @@ tags: swift, appbuilders-20, online-conference
 image: images/sketchnotes/appbuilders20-make-your-voice-heard-small.jpg
 sketchnoteMetadata.contentCreator: Erica Sadun
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/ericasadun
-sketchnoteMetadata.heading: AppBuilders 2020: Making Your Voice Heard
+title: AppBuilders 2020: Making Your Voice Heard
 ---

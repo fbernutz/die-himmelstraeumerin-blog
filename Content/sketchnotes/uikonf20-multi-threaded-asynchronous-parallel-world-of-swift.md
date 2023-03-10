@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-20, swift, online-conference, architecture
 image: images/sketchnotes/uikonf20-multi-threaded-asynchronous-parallel-world-of-swift-small.jpg
 sketchnoteMetadata.contentCreator: Leo Dion
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/leogdion
-sketchnoteMetadata.heading: UIKonf 2020: The Multi-Threaded Asynchronous Parallel World of Swift
+title: UIKonf 2020: The Multi-Threaded Asynchronous Parallel World of Swift
 ---

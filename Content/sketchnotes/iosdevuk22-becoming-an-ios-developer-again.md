@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, management, career
 image: images/sketchnotes/iosdevuk22-becoming-an-ios-developer-again-small.jpg
 sketchnoteMetadata.contentCreator: Michał Waśniewski
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/mwasniewski
-sketchnoteMetadata.heading: iOSDevUK 2022: Becoming an iOS Developer Again
+title: iOSDevUK 2022: Becoming an iOS Developer Again
 ---

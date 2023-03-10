@@ -5,5 +5,5 @@ tags: iOS, iosdevuk, iosdevuk-22, ipad-playground, swiftui
 image: images/sketchnotes/iosdevuk22-spark-your-creativity-small.jpg
 sketchnoteMetadata.contentCreator: Anna Beltrami
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/acbdev
-sketchnoteMetadata.heading: iOSDevUK 2022: Spark Your Creativity – The Power of iPad Playgrounds
+title: iOSDevUK 2022: Spark Your Creativity – The Power of iPad Playgrounds
 ---

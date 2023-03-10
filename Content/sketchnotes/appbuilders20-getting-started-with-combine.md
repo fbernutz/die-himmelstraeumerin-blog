@@ -5,5 +5,5 @@ tags: combine, appbuilders-20, online-conference, architecture
 image: images/sketchnotes/appbuilders20-getting-started-with-combine-small.jpg
 sketchnoteMetadata.contentCreator: Shai Mishali
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/freak4pc
-sketchnoteMetadata.heading: AppBuilders 2020: Getting Started with Combine
+title: AppBuilders 2020: Getting Started with Combine
 ---

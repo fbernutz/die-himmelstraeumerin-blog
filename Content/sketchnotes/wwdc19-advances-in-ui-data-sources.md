@@ -5,7 +5,7 @@ tags: apple, wwdc, wwdc-19, iOS, architecture
 image: images/sketchnotes/wwdc19-advances-in-ui-data-sources-small.jpg
 sketchnoteMetadata.contentCreator: Steve Breen
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/__breeno
-sketchnoteMetadata.heading: WWDC 2019: Advances in UI Data Sources
+title: WWDC 2019: Advances in UI Data Sources
 ---
 
 Watch [Session #220](https://developer.apple.com/wwdc19/220) for more details.

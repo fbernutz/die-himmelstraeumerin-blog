@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19
 image: images/sketchnotes/uikonf19-muse-prototype-challenges-small.jpg
 sketchnoteMetadata.contentCreator: Julia Roggatz
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/juliaroggatz
-sketchnoteMetadata.heading: UIKonf 2019: Muse Prototype Challenges
+title: UIKonf 2019: Muse Prototype Challenges
 ---

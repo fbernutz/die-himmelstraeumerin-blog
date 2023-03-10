@@ -5,5 +5,5 @@ tags: iOS, uikonf, uikonf-19, architecture
 image: images/sketchnotes/uikonf19-promises-in-ios-small.jpg
 sketchnoteMetadata.contentCreator: Anne Cahalan
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/northofnormal
-sketchnoteMetadata.heading: UIKonf 2019: Promises in iOS
+title: UIKonf 2019: Promises in iOS
 ---

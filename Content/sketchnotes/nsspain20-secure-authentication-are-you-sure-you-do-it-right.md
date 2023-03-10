@@ -5,5 +5,5 @@ tags: nsspain, nsspain-20, iOS, security, online-conference
 image: images/sketchnotes/nsspain20-secure-authentication-are-you-sure-you-do-it-right-small.jpg
 sketchnoteMetadata.contentCreator: Julia Potapenko
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/julepka
-sketchnoteMetadata.heading: NSSpain 2020: Secure Authentication - Are you sure you do it right?
+title: NSSpain 2020: Secure Authentication - Are you sure you do it right?
 ---

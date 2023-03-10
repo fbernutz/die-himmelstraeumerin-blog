@@ -5,5 +5,5 @@ tags: swiftheroes-21, online-conference, iOS, swiftui
 image: images/sketchnotes/swiftheroes21-evolving-existing-projects-with-swiftui-small.jpg
 sketchnoteMetadata.contentCreator: Peter Steinberger
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/steipete
-sketchnoteMetadata.heading: SwiftHeroes 2021: Evolving Existing Projects with SwiftUI
+title: SwiftHeroes 2021: Evolving Existing Projects with SwiftUI
 ---

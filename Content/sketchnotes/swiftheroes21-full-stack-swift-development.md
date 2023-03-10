@@ -5,5 +5,5 @@ tags: swiftheroes-21, online-conference, swift, swift-server
 image: images/sketchnotes/swiftheroes21-full-stack-swift-development-small.jpg
 sketchnoteMetadata.contentCreator: Kilo Loco
 sketchnoteMetadata.linkToContentCreator: https://twitter.com/Kilo_Loco
-sketchnoteMetadata.heading: SwiftHeroes 2021: Full Stack Swift Development
+title: SwiftHeroes 2021: Full Stack Swift Development
 ---
