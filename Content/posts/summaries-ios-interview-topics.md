@@ -1,13 +1,13 @@
 ---
 date: 2021-03-15 15:30
-description: After my first technical interviews in years, I have found that it's always a good idea to refresh your knowledge and prepare for technical interview questions (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they'll help you too.
+description: After my first technical interviews in years, I have found that it’s always a good idea to refresh your knowledge and prepare for technical interview questions (who would’ve thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they’ll help you too.
 tags: iOS, interviewing
 image: images/summaries-ios-interview-topics/preview.jpg
 ---
 
 # Sketchnote Summaries of possible iOS Interview Topics
 
-After my first technical interviews in years, I have found that it's always a good idea to refresh your knowledge and prepare for technical interview questions (who would've thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they'll help you too.
+After my first technical interviews in years, I have found that it’s always a good idea to refresh your knowledge and prepare for technical interview questions (who would’ve thought) 😅 Although I knew what the questions were about, I found it difficult to talk about details and explain topics spontaneously. To be less freaked out when an interviewer asks me about capture lists or memory management in Swift, I wanted to make some sketchnotes on possible interview topics. They would be perfect as a summary. And if they help me, maybe they’ll help you too.
 
 <figure>
     <img src="../../images/summaries-ios-interview-topics/preview.jpg" alt="iPad which displays a Sketchnote in ProCreate with some hand written notes next to it." />
@@ -31,17 +31,17 @@ After my first technical interviews in years, I have found that it's always a go
 - SwiftUI Data Flow
 - Memory Management with ARC
 
-_Disclaimer: The list of topics isn't exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions) or at [Hacking With Swift](https://www.hackingwithswift.com/interview-questions))_
+_Disclaimer: The list of topics isn’t exhaustive. I have no idea what your interviewers will ask you about in your interviews. But this is an overview about the most common topics. (More iOS Interview Questions at [GitHub by raywenderlich.com](https://github.com/raywenderlich/ios-interview/tree/master/iOS%20Specific%20Questions) or at [Hacking With Swift](https://www.hackingwithswift.com/interview-questions))_
 
-Now, I'll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. But I won't have time to create sketchnotes for every single topic.
+Now, I’ll walk you through the sketchnotes I have created as part of my preparation and add some additional links to them for your further studies. There will be more sketchnotes in the next days/weeks. But I won’t have time to create sketchnotes for every single topic.
 
 <h2 id="swift-evolution">Swift Evolution</h2>
 
 _(added on 15th of March 2021)_
 
-Let's start with the evolution of Swift. I started with iOS development shortly before the release of Swift 2 – it was in 2015.
+Let’s start with the evolution of Swift. I started with iOS development shortly before the release of Swift 2 – it was in 2015.
 
-Creating this sketchnote was especially fun because I could look back at the features which were added step by step. I had almost forgotten that there was a time when Swift had no `guard` statement or `try and catch`. I don't miss it 😉
+Creating this sketchnote was especially fun because I could look back at the features which were added step by step. I had almost forgotten that there was a time when Swift had no `guard` statement or `try and catch`. I don’t miss it 😉
 
 <a href="../../images/summaries-ios-interview-topics/swift-evolution.jpg" target="_blank">
     <img src="../../images/summaries-ios-interview-topics/swift-evolution-medium.jpg" alt="Sketchnote about the evolution of Swift displayed with a timeline and additional release notes." />
@@ -51,7 +51,7 @@ Creating this sketchnote was especially fun because I could look back at the fea
 
 - 🔎 See [this sketchnote in full resolution](https://fbernutz.github.io/images/summaries-ios-interview-topics/swift-evolution.jpg)
 - The History of Swift [on Wikipedia][wikipedia]
-- I can recommend all "What's new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](https://www.hackingwithswift.com).
+- I can recommend all "What’s new in Swift..." articles by [Paul Hudson](https://twitter.com/twostraws) where the most important changes for each Swift version are explained. You can find them on [Hacking With Swift](https://www.hackingwithswift.com).
 
 <h2 id="structs-vs-classes">Structs vs Classes</h2>
 
@@ -59,7 +59,7 @@ _(added on 16th of March 2021)_
 
 "Structs vs Classes" is a real classic in interviews. 
 
-It was a bit difficult to focus on the most important things here. I have two more pages of notes about capture lists and memory management in Swift. Maybe I add both topics to the list and make own sketchnotes for them or I can combine the topics with another topic. Let's see. 
+It was a bit difficult to focus on the most important things here. I have two more pages of notes about capture lists and memory management in Swift. Maybe I add both topics to the list and make own sketchnotes for them or I can combine the topics with another topic. Let’s see. 
 
 So, this sketchnote contains (in my opinion) the most important differences between Structs and Classes in Swift, with some additional thoughts and a small chart about when (and why) to use an Enum, a Struct or a Class.
 
@@ -80,7 +80,7 @@ So, this sketchnote contains (in my opinion) the most important differences betw
 
 _(added on 17th of March 2021)_
 
-I know Sets can be really powerful, but I always forget how the set operations are called and what they mean. That's the reason why "How to use Sets" was a topic from which I always wanted to make a sketchnote to have a quick reference.
+I know Sets can be really powerful, but I always forget how the set operations are called and what they mean. That’s the reason why "How to use Sets" was a topic from which I always wanted to make a sketchnote to have a quick reference.
 
 <a href="../../images/summaries-ios-interview-topics/sets.jpg" target="_blank">
     <img src="../../images/summaries-ios-interview-topics/sets-medium.jpg" alt="Sketchnote about how to use Sets in Swift. It contains set operations, membership and differences to an Array. Sets are unordered, only contain unique values, must be hashable and have an efficient lookup in large collections." />
@@ -97,9 +97,9 @@ I know Sets can be really powerful, but I always forget how the set operations a
 
 _(added on 18th of March 2021)_
 
-Puuuh, creating this sketchnote was really time-consuming and exhausting. There's a lot going on in it, but I tried to make containers to group content and connect it with arrows when needed. It's just a huge topic, or rather it's a lot of topics that have to do with each other! 
+Puuuh, creating this sketchnote was really time-consuming and exhausting. There’s a lot going on in it, but I tried to make containers to group content and connect it with arrows when needed. It’s just a huge topic, or rather it’s a lot of topics that have to do with each other! 
 
-Do you know the difference between threads and queues? Well, to be honest, it wasn't clear to me before I made the sketchnote. So, I'm glad I learned something new!
+Do you know the difference between threads and queues? Well, to be honest, it wasn’t clear to me before I made the sketchnote. So, I’m glad I learned something new!
 
 <a href="../../images/summaries-ios-interview-topics/gcd.jpg" target="_blank">
     <img src="../../images/summaries-ios-interview-topics/gcd-medium.jpg" alt="Sketchnote about Grand Central Dispatch, threads, concurrency, types of queues, Operation Queues and DispatchGroup." />
@@ -137,7 +137,7 @@ Generics are an _abstract_ way to solve code duplication. I think the "abstracti
 
 _(added on 6th of April 2021)_
 
-How do you build your UI? Layout-in-code vs Storyboards is one of the most controversial topics in iOS development. This sketchnote contains a summary of how to use Auto Layout, constraints and equations, some debugging tips, what's intrinsic content size and Content Hugging vs Content Compression Resistence Priority. And of course it also contains some arguments for the disussion Layout-in-code vs Storyboards.
+How do you build your UI? Layout-in-code vs Storyboards is one of the most controversial topics in iOS development. This sketchnote contains a summary of how to use Auto Layout, constraints and equations, some debugging tips, what’s intrinsic content size and Content Hugging vs Content Compression Resistence Priority. And of course it also contains some arguments for the disussion Layout-in-code vs Storyboards.
 
 <a href="../../images/summaries-ios-interview-topics/autolayout.jpg" target="_blank">
     <img src="../../images/summaries-ios-interview-topics/autolayout-medium.jpg" alt="Sketchnote about Auto Layout, constraints and equations, some debugging tips, what's intrinsic content size and Content Hugging vs Content Compression Resistence Priority, arguments for Layout-in-code vs Storyboards discussions." />

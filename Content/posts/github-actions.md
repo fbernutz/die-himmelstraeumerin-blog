@@ -53,7 +53,7 @@ It will create a new file for you `.github/workflows/<name>.yml` with a editor. 
 
 <img src="../../images/github-actions/github-actions-editor.jpg" alt="A screenshot of the GitHub Actions editor." />
 
-This editor is helpful (sometimes), because it checks for valid syntax, but it can also be a pain. When you want to add a new line between existing code there are some autocompletion actions and it adds some syntax for you. I'm always suprised when this happens.
+This editor is helpful (sometimes), because it checks for valid syntax, but it can also be a pain. When you want to add a new line between existing code there are some autocompletion actions and it adds some syntax for you. I’m always suprised when this happens.
 
 The following code snippet shows what you have to define when you want to have the same functionality from the Travis setup.
 
@@ -104,7 +104,7 @@ jobs:
       run: bundle exec fastlane snapshot_test
 ```
 
-Sadly there is nothing like a `install` phase (yet?), which I know from Travis or Gitlab CI. So, there is some duplicated code in here for installing the dependencies for each job. But there is a solution for it. You can create a "Install Dependency" job and the other jobs then wait for this to finish but I didn't try it out yet. I found this in the [GitHub Community Forum](https://github.community/t5/GitHub-Actions/the-same-dependency-in-all-workflows-jobs/td-p/37266) where I discovered some useful hints and tips.
+Sadly there is nothing like a `install` phase (yet?), which I know from Travis or Gitlab CI. So, there is some duplicated code in here for installing the dependencies for each job. But there is a solution for it. You can create a "Install Dependency" job and the other jobs then wait for this to finish but I didn’t try it out yet. I found this in the [GitHub Community Forum](https://github.community/t5/GitHub-Actions/the-same-dependency-in-all-workflows-jobs/td-p/37266) where I discovered some useful hints and tips.
 
 #### 2. Delete `.travis.yml`
 
@@ -114,17 +114,17 @@ And when you have added the jobs in the new file, you can delete your `.travis.y
 
 #### All jobs are visible
 
-When you add a new pull request for the migration, you'll see, that all jobs are directly displayed in the pull request.
+When you add a new pull request for the migration, you’ll see, that all jobs are directly displayed in the pull request.
 
 <img src="../../images/github-actions/checks.jpg" alt="Two screenshots, one where you can only see one check (from Travis CI) and one where you can see three checks which ran with GitHub Actions." /> 
 
 #### Speed
 
-When using Travis CI, the jobs had to be in queue for some time before they started, like 5 to 10 minutes. This seems to happen instantly with GitHub Actions, I didn't wait for 30 seconds to see that the jobs have already started. So, instead of waiting ~12 minutes for all jobs to finish with Travis CI, I now wait ~4 minutes. This is such a huge difference!
+When using Travis CI, the jobs had to be in queue for some time before they started, like 5 to 10 minutes. This seems to happen instantly with GitHub Actions, I didn’t wait for 30 seconds to see that the jobs have already started. So, instead of waiting ~12 minutes for all jobs to finish with Travis CI, I now wait ~4 minutes. This is such a huge difference!
 
 #### Marketplace
 
-There is a ton of community work available to use. You can browse through the [marketplace](https://github.com/marketplace?type=actions) and you can imagine to automate everything, you could ever think of. Maybe I'm exaggerating, but this was my first impression.
+There is a ton of community work available to use. You can browse through the [marketplace](https://github.com/marketplace?type=actions) and you can imagine to automate everything, you could ever think of. Maybe I’m exaggerating, but this was my first impression.
 
 There is a repository called "[Awesome Actions](https://github.com/sdras/awesome-actions)" where some (obviously) awesome actions are collected.
 
@@ -152,7 +152,7 @@ Found in the [GitHub Community Forum](https://github.community/t5/GitHub-Actions
 
 ### Pin Xcode Version
 
-It's also possible to pin the Xcode version. Add the following code above `jobs`.
+It’s also possible to pin the Xcode version. Add the following code above `jobs`.
 
 ```
 env:
@@ -163,7 +163,7 @@ Found in the [GitHub Community Forum](https://github.community/t5/GitHub-Actions
 
 ### Pin macOS version
 
-Currently, it's only possible to use the `macos_latest` tag to specify that you need a Mac to run your jobs. The tag currently specifies to use `macOS 10.15`. When you have to use another macOS version, it's not possible to specify an explicit version. But maybe the solution for this is to use [self-hosted runners](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners) which sounds interesting, but also a bit overhead for these simple tasks which I need the CI for.
+Currently, it’s only possible to use the `macos_latest` tag to specify that you need a Mac to run your jobs. The tag currently specifies to use `macOS 10.15`. When you have to use another macOS version, it’s not possible to specify an explicit version. But maybe the solution for this is to use [self-hosted runners](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners) which sounds interesting, but also a bit overhead for these simple tasks which I need the CI for.
 
 ---
 
