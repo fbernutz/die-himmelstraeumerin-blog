@@ -20,7 +20,7 @@ It took me many hours of watching tutorials on proper technique and trying again
 </figure>
 
 Now that the outdoor pool season is over again, I went swimming yesterday for the first time in a year in the same indoor pool where I also had my swimming class last year.
-And you know what? The shorter 25-metres lane helps me so much to just get a liiiiittle break to breathe, so I almost crawled ONE kilometre in half an hour!
+And you know what? The shorter 25-metres lane helps me so much to just get a liiiiittle break to breathe, so I almost crawled ONE kilometer in half an hour!
 
 <img src="../../images/2021-09-25-one-year-swimming/freestyle.jpg" alt="Screenshot of swimming workout with 225m breaststroke and 925m freestyle." />
 
