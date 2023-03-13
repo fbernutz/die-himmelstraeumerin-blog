@@ -26,7 +26,7 @@ Important to know for developers:
 
 If you find a social media platform that doesn’t provide the option to add image descriptions to images, you can describe the image in the message itself as workaround. Please, report this as a bug to the developers. I find that accessibility is not a feature that can be added at a later time in the product development. If a feature is not accessible, it’s a bug that needs to be fixed as soon as possible.
 
-Okay, okay, enough lecturing. As you might or might not know, I love sketchnoting. It’s a brilliant technique for me to summarize content in a fun way, that makes it easy to stay engaged during a talk and also to make it convenient to look something up at a later time.
+As you might or might not know, I love sketchnoting. It’s a brilliant technique for me to summarize content in a fun way, that makes it easy to stay engaged during a talk and also to make it convenient to look something up at a later time.
 
 ## My Inner Struggle
 
@@ -83,10 +83,10 @@ Unfortunately, due to the structure of my sketchnotes, this usually ends up with
 
 From now on, when I post a sketchnote on social media, I can add a link to the detailed image description on my website.
 
-Phew, that sounds like a lot of work.... And to be honest, it is a lot of work. It won’t be possible for me to publish sketchnotes with the detailed image descriptions when I do sketchnotes live at conferences for example. But I can always add a link with the longer image description afterwards.
-
 ---
 
-Not only will this new approach calm my inner anxiety, but **it will also make my sketchnotes more accessible to everyone, and that is always worth the effort.** If I can do something for inclusion (and I know how to do it), I will definitely go the extra mile.
+Phew, that sounds like a lot of work.... And to be honest, it is. It won’t be possible for me to publish sketchnotes with the detailed image descriptions when I do sketchnotes live at conferences for example. But I can always add a link with the longer image description afterwards. 
+
+But this new approach has some nice side effects too. It will give me a chance to walk through the content another time and just by that it will make it easier for me to remember it. Additionally the approach will calm my inner anxiety, and **make my sketchnotes more accessible to everyone, and that is always worth the effort.** If I can do something for inclusion (and I know how to do it), I will definitely go the extra mile.
 
 Do you have ideas on how to improve this? Please, let me know! 💛
