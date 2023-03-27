@@ -27,7 +27,7 @@ for image in Resources/images/sketchnotes/*; do
 		echo "image: images/sketchnotes/${imageName%.jpg}$thumbnailSuffix" >> $path
 		echo "sketchnoteMetadata.contentCreator:" >> $path
 		echo "sketchnoteMetadata.linkToContentCreator:" >> $path
-		echo "sketchnoteMetadata.heading:" >> $path
+		echo "title:" >> $path
 		echo "---" >> $path
 		echo "" >> $path
 		echo "## Detailed image description of the sketchnote" >> $path
