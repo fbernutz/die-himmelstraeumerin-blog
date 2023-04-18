@@ -1,7 +1,7 @@
 ---
 date: 2023-04-18 17:53
 description: Last week, I gave my first external conference talk at MiXiT conference in Lyon, France! Yay! 🥳 Besides being quite nervous obviously, I had a great experience on stage!
-tags: conference, speaking, inclusion, diversity, iOS, career, women-in-tech
+tags: conference, speaking, inclusion, diversity, career, women-in-tech
 image: images/2023-04-18-mixit-talk/preview.jpg
 ---
 # MiXiT 2023: My First Conference as a Speaker
@@ -10,7 +10,7 @@ Last week, I gave my very first external [conference talk at MiXiT conference](h
 
 <figure>
     <img src="../../images/2023-04-18-mixit-talk/talk.jpg" alt="Me on a big stage at MiXiT with a lot of people sitting in the audience. The current slide in the background is reading 'Is IT the right place for me?'" />
-    <figcaption>Me talking about my way into IT in front of a full room with around 500 people.</figcaption>
+    <figcaption>Me talking about my way into IT in front of 500 people.</figcaption>
 </figure>
 
 Besides being quite nervous obviously, I had a great experience on stage! I think... Because I don’t really remember anything except going on stage and leaving the stage again 😅
@@ -24,13 +24,13 @@ Lyon alone is worth the trip. I really enjoyed walking around and exploring the 
 Thank you to all MiXiT organizers and participants for making this a lovely experience!
 
 <figure>
-    <img src="../../images/2023-04-18-mixit-talk/lyon.jpg" alt="Collection of six images. 1. Inside of the chapelle we had a conference party in. 2. An old building with a French flag on the roof. 3. Me holding a crêpe. 4. An empty avenue with trees on each side. 5. Interesting architecture inside the ’traboules’ which are unique to Lyon. 6. A view above Lyon with two rivers and a lot of houses." />
+    <img src="../../images/2023-04-18-mixit-talk/lyon.jpg" alt="Collection of six images. 1. Inside of the chapel we had a conference party in. 2. An old building with a French flag on the roof. 3. Me holding a crepe. 4. An empty avenue with trees on each side. 5. Interesting architecture inside the 'traboules' which are unique to Lyon. 6. A view above Lyon with two rivers and a lot of houses." />
     <figcaption>Impressions of Lyon and the MiXiT crêpes</figcaption>
 </figure>
 
 ## Talk Details
 
-I’ve uploaded my [slides on Speakerdeck](https://speakerdeck.com/fbernutz/why-is-being-different-actually-a-good-thing) if you want to take a look. My talk live streamed on twitch (see [recording on twitch](https://www.twitch.tv/videos/1796259396)). The recording will be available on vimeo soon too.
+I’ve uploaded my [slides on Speakerdeck](https://speakerdeck.com/fbernutz/why-is-being-different-actually-a-good-thing) if you want to take a look. My talk was live streamed on twitch (see [recording on twitch](https://www.twitch.tv/videos/1796259396)). The recording will be available on vimeo soon too.
 
 ### Resources
 
@@ -45,5 +45,5 @@ I’ve uploaded my [slides on Speakerdeck](https://speakerdeck.com/fbernutz/why-
 
 <figure>
     <img src="../../images/2023-04-18-mixit-talk/sketchnote.jpg" alt="Sketchnote from talk by Feli Bernutz: My story, I’ve never dreamed to work in IT but wanted to work with art / design. Job as iOS Developer. Am I at the right place? Don’t change to fit in! Inclusion is having a voice. Tips for inclusive environment: 1. Introduce yourself with your pronouns. 2. Make everyone’s voice heard. 3. Don’t act surprised when someone doesn’t know what you say, use it as opportunity. Embrace diversity: give feedback, talk about income, developer job is diverse, fight imposter syndrome, find community" />
-    <figcaption>Shoutout to Rémi Sarraillon for the awesome sketchnote of my talk!</figcaption>
+    <figcaption>Shout out to Rémi Sarraillon for the awesome sketchnote of my talk!</figcaption>
 </figure>
