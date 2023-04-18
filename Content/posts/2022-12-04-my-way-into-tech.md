@@ -1,7 +1,7 @@
 ---
 date: 2022-12-04 16:52
 description: A week ago, I wanted to speak at a local meetup called She ’n IT about my way into IT, but I had to cancel last minute because I was sick. 🤧 I will get another chance to talk about it in the future, but because I really love hearing other people’s stories, especially other stories from women in tech, I decided to write my story down in form of a blog post.
-tags: iOS, career, women-in-tech
+tags: iOS, career, women-in-tech, inclusion, diversity
 image: images/2022-12-04-my-way-into-tech/preview.jpg
 ---
 # My Way Into Tech
