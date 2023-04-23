@@ -6,6 +6,8 @@ image: images/2023-04-18-mixit-talk/preview.jpg
 ---
 # MiXiT 2023: My First Conference as a Speaker
 
+> You can now re-watch the [talk "Why is being different actually a good thing? – My Way Into Tech"](https://vimeo.com/819077754) on vimeo.
+
 Last week, I gave my very first external [conference talk at MiXiT conference](https://mixitconf.org/2023/why-is-being-different-actually-a-good-thing-my-way-into-tech) in Lyon, France! Yay! 🥳
 
 <figure>
@@ -30,7 +32,7 @@ Thank you to all MiXiT organizers and participants for making this a lovely expe
 
 ## Talk Details
 
-I’ve uploaded my [slides on Speakerdeck](https://speakerdeck.com/fbernutz/why-is-being-different-actually-a-good-thing) if you want to take a look. My talk was live streamed on twitch (see [recording on twitch](https://www.twitch.tv/videos/1796259396)). The recording will be available on vimeo soon too.
+I’ve uploaded my [slides on Speakerdeck](https://speakerdeck.com/fbernutz/why-is-being-different-actually-a-good-thing) if you want to take a look. My talk was live streamed on twitch (see [recording on twitch](https://www.twitch.tv/videos/1796259396)) and the recording is now also [available on vimeo](https://vimeo.com/819077754).
 
 ### Resources
 
