@@ -60,15 +60,13 @@ private extension Node where Context == HTML.BodyContext {
 	}
 
 	static func sketchnoteDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
-		return .unwrap(item.metadata.sketchnoteMetadata) { sketchnote in 
-			.div(
-				.class("content sketchnote-detail"),
-				.h1(.text(item.title)),
-				.metaData(for: item),
-				.sketchnoteOriginal(for: item),
-				.contentBody(item.body)
-			)
-		}
+		return .div(
+			.class("content sketchnote-detail"),
+			.h1(.text(item.title)),
+			.metaData(for: item),
+			.sketchnoteOriginal(for: item),
+			.contentBody(item.body)
+		)
 	}
 
 	static func sketchnoteOriginal(for item: Item<HimmelstraeumerinBlog>) -> Self {
