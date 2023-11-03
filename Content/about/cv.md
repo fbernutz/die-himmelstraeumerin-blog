@@ -1,6 +1,6 @@
 # Resume
 
-My name is **Felizia Bernutz**. I'm an iOS developer with focus on user experience and accessibility. I have a Bachelor of Engineering degree in Media Engineering and a solid understanding of software engineering. I also have a background in design and have worked with some design and prototyping tools. I have experience in giving workshops about sketchnoting remotely and in person.
+My name is **Felizia Bernutz**. I’m an iOS developer with focus on user experience and accessibility. I have a Bachelor of Engineering degree in Media Engineering and a solid understanding of software engineering. I also have a background in design and have worked with some design and prototyping tools. I have experience in giving workshops about sketchnoting remotely and in person.
 
 Read through my [motivators][motivators], if you want to know what motivates me and what makes me happy.
 
@@ -69,7 +69,7 @@ The Bachelor of Engineering degree in Media Engineering included learning about 
 - basic engineering subjects
 - foundation in design
 
-In my bachelor thesis, I've build an [iOS app to control HomeKit accessories][ba-thesis].
+In my bachelor thesis, I’ve build an [iOS app to control HomeKit accessories][ba-thesis].
 
 [isaqb-foundation-level]: https://www.isaqb.org/certifications/cpsa-certifications/cpsa-foundation-level/
 [ba-thesis]: https://github.com/fbernutz/smart-living-ios

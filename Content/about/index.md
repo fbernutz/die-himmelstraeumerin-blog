@@ -1,8 +1,8 @@
-# Hi! I'm Feli 👋
+# Hi! I’m Feli 👋
 
-I'm iOS developer from Nuremberg, Germany.
+I’m iOS developer from Nuremberg, Germany.
 
-My focus is building apps with **user experience and accessibility** in mind. In my free time, I enjoy being outside for climbing, running, and other kinds of sports. No any side projects at the moment.
+My focus is building apps with **user experience and accessibility** in mind. In my free time, I enjoy being outside for climbing, running, and other kinds of sports. I don’t have any technical side projects at the moment.
 
 Potentially interested in speaking at conferences about:
 
