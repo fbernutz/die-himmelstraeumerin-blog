@@ -1,9 +1,12 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
 	name: "HimmelstraeumerinBlog",
+	platforms: [
+		.macOS(.v12)
+	],
 	products: [
 		.executable(name: "HimmelstraeumerinBlog", targets: ["HimmelstraeumerinBlog"])
 	],
@@ -13,12 +16,12 @@ let package = Package(
 		.package(url: "https://github.com/alexito4/ReadingTimePublishPlugin", from: "0.1.0")
 	],
 	targets: [
-		.target(
+		.executableTarget(
 			name: "HimmelstraeumerinBlog",
 			dependencies: [
-				"Publish",
-				"SplashPublishPlugin",
-				"ReadingTimePublishPlugin"
+				.product(name: "Publish", package: "Publish"),
+				.product(name: "SplashPublishPlugin", package: "SplashPublishPlugin"),
+				.product(name: "ReadingTimePublishPlugin", package: "ReadingTimePublishPlugin")
 			]
 		)
 	]

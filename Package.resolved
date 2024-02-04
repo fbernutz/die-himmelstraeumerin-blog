@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "CollectionConcurrencyKit",
+        "repositoryURL": "https://github.com/johnsundell/collectionConcurrencyKit.git",
+        "state": {
+          "branch": null,
+          "revision": "b4f23e24b5a1bff301efc5e70871083ca029ff95",
+          "version": "0.2.0"
+        }
+      },
+      {
         "package": "Files",
         "repositoryURL": "https://github.com/johnsundell/files.git",
         "state": {
@@ -24,8 +33,8 @@
         "repositoryURL": "https://github.com/johnsundell/ink.git",
         "state": {
           "branch": null,
-          "revision": "77c3d8953374a9cf5418ef0bd7108524999de85a",
-          "version": "0.5.1"
+          "revision": "bcc9f219900a62c4210e6db726035d7f03ae757b",
+          "version": "0.6.0"
         }
       },
       {
@@ -33,8 +42,8 @@
         "repositoryURL": "https://github.com/johnsundell/plot.git",
         "state": {
           "branch": null,
-          "revision": "c27f6857deeb4c4623db294172a8ec572790a9be",
-          "version": "0.10.0"
+          "revision": "271926b4413fe868739d99f5eadcf2bd6cd62fb8",
+          "version": "0.14.0"
         }
       },
       {
@@ -42,8 +51,8 @@
         "repositoryURL": "https://github.com/johnsundell/publish.git",
         "state": {
           "branch": null,
-          "revision": "1402af3cbe18df03fb6df701fdcf51471f98d0ff",
-          "version": "0.8.0"
+          "revision": "1c8ad00d39c985cb5d497153241a2f1b654e0d40",
+          "version": "0.9.0"
         }
       },
       {
@@ -51,8 +60,8 @@
         "repositoryURL": "https://github.com/alexito4/ReadingTimePublishPlugin",
         "state": {
           "branch": null,
-          "revision": "7b917d0ee13184c2f0f8afca503dbbdcad6cda21",
-          "version": "0.2.0"
+          "revision": "0a0bf141a5b626c2444601cf0ed7b2bfcfdabcdf",
+          "version": "0.3.0"
         }
       },
       {
@@ -78,8 +87,8 @@
         "repositoryURL": "https://github.com/johnsundell/splashpublishplugin",
         "state": {
           "branch": null,
-          "revision": "34bb50bd83b2a40c63afc35f090c76619dc149ce",
-          "version": "0.1.0"
+          "revision": "4fe79070f51e288bc8ba31934a3018cbe099d5f7",
+          "version": "0.2.0"
         }
       },
       {
