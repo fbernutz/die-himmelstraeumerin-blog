@@ -7,12 +7,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: macOS-11
+    runs-on: macOS-12
 
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      
+
     - uses: actions/cache@v4.0.0
       with:
         path: |
@@ -25,17 +25,17 @@ jobs:
     - name: Setup JohnSundell/Publish
       run: |
         cd ${HOME}
-        export PUBLISH_VERSION="0.8.0"
+        export PUBLISH_VERSION="0.9.0"
         git clone https://github.com/JohnSundell/Publish.git
         cd ./Publish && git checkout ${PUBLISH_VERSION}
         mv ~/Publish_build .build || true
         swift build -c release
         cp -r .build ~/Publish_build || true
         echo "${HOME}/Publish/.build/release" >> ${GITHUB_PATH}
-        
+
     - name: Generate Output
       run: publish-cli generate
-        
+
     - name: Deploy Content
       uses: peaceiris/actions-gh-pages@v3.9.3
       with:
