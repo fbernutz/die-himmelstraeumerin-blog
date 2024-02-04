@@ -1,5 +1,5 @@
 ---
-date: 2024-02-04 21:49
+date: 2024-02-04 10:49
 description: It’s February 4th, 2024, and it took me multiple weeks to write this post... 🙈 In 2023, I didn’t share my thoughts on 2022 because I was sick and felt extremly tired at the end of the year. A few months later, I regretted not taking the time to reflect. At the end of 2023, I was sick again (like every 5th person in Germany), and I felt unmotivated for various reasons. But a bit delayed, I’ll share my thoughts about 2023 now!
 tags: recap
 image: images/sketchnotes/2024-02-04-thoughts-about-2023/preview.jpg
