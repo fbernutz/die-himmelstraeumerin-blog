@@ -174,7 +174,7 @@ h4 {
 	margin: 20px 0 10px 0;
 }
 
-p {
+p, details {
 	font-size: 120%;
 	line-height: 1.8em;
 	margin-bottom: 4px;
@@ -364,13 +364,17 @@ a {
 
 /* ARTICLE */
 
-article p {
+article p, article details {
 	margin-bottom: 1em;
 }
 
 article p.release-date {
 	font-size: 100%;
 	color: var(--body-text-color-secondary);
+}
+
+article summary {
+	font-size: 100%;
 }
 
 article hr {
@@ -418,7 +422,7 @@ article blockquote {
 }
 
 article blockquote p {
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 
 article figure {
