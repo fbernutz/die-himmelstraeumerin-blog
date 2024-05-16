@@ -19,7 +19,7 @@ echo "---" >> $path
 echo "date: ${TIME}" >> $path
 echo "description:" >> $path
 echo "tags:" >> $path
-echo "image: images/sketchnotes/${fileName}/preview.jpg" >> $path
+echo "image: images/${fileName}/preview.jpg" >> $path
 echo "---" >> $path
 echo "" >> $path
 echo "# ${title} Title" >> $path
