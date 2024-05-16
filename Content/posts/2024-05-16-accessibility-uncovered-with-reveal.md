@@ -2,7 +2,7 @@
 date: 2024-05-16 18:36
 description: Today is Global Accessibility Awareness Day, a perfect time to reflect on how we can make our iOS apps more inclusive. Imagine trying to use an app where you can’t read the text, interact with buttons, or navigate at all. Sounds unnecessarily frustrating, right? That’s still sadly the reality for many people who are dependent on assistive technologies in their life. But as developers, we have the power to ensure our apps are accessible and usable for everyone.
 tags: iOS, accessibility
-image: images/sketchnotes/2024-05-16-accessibility-uncovered-with-reveal/preview.jpg
+image: images/2024-05-16-accessibility-uncovered-with-reveal/preview.jpg
 ---
 
 # Accessibility Uncovered: Boosting iOS Apps with Reveal
