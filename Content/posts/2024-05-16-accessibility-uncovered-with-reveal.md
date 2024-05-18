@@ -43,7 +43,7 @@ The insights workspace is especially helpful when you feel lost and don’t know
 
 <figure>
     <img src="../../images/2024-05-16-accessibility-uncovered-with-reveal/insights-workspace.png" alt="Screenshot of Reveal app. On the left side, there’s a list with identified improvements. In the middle, there are more details and links to documentation. On the right side, the part of the screen is highlighted that is affected by the issue." />
-    <figcaption>Insights Workspace in Reveal app showing a message about accessibility best practices.</figcaption>
+    <figcaption>Insights Workspace in Reveal app showing a message about human interface guidelines.</figcaption>
 </figure>
 
 ### 2. Accessibility Workspace
@@ -52,7 +52,7 @@ One of my favorite and most often used features is the accessibility workspace. 
 
 <figure>
     <img src="../../images/2024-05-16-accessibility-uncovered-with-reveal/accessibility-workspace.png" alt="Screenshot of Reveal app. On the left side, there’s a list with accessibility elements. In the middle, the app screen is shown with rectangles for each accessibility element. On the right side, there are more accessibility properties for the selected element." />
-    <figcaption>Accessibility workspace in Reveal app showing the home page for VoiceOver.</figcaption>
+    <figcaption>Accessibility workspace in Reveal app showing the movie detail page for VoiceOver.</figcaption>
 </figure>
 
 #### When to use it?
