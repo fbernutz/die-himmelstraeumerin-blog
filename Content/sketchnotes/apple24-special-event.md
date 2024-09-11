@@ -66,7 +66,7 @@ title: Apple Special Event 2024
 
 ### iPhone 16 Pro
 
-- Grade 5 Titanium in 4 coors
+- Grade 5 Titanium in 4 colors
 - A18 Pro 
 - Qi2 support
 - 48MP Fusion camera
