@@ -105,7 +105,7 @@ extension Theme where Site == HimmelstraeumerinBlog {
 						)
 					)
 				)
-			case .about:
+			case .speaking, .about:
 				sectionContent = .wrapper(
 					.section(
 						.article(

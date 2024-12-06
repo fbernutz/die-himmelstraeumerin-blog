@@ -15,6 +15,7 @@ struct HimmelstraeumerinBlog: Website {
 		case posts
 		case iOS = "ios"
 		case sketchnotes
+		case speaking
 		case about
 	}
 

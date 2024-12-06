@@ -34,6 +34,10 @@ extension Node where Context == HTML.BodyContext {
 					)
 				)
 			)
+		case .speaking:
+			return .article(
+				.speakingDetail(item)
+			)
 		case .about:
 			return .article(
 				.cvDetail(item)
@@ -119,6 +123,13 @@ private extension Node where Context == HTML.BodyContext {
 					.text("Created on \(date)")
 				)
 			}
+		)
+	}
+
+	static func speakingDetail(_ item: Item<HimmelstraeumerinBlog>) -> Self {
+		.div(
+			.class("content"),
+			.contentBody(item.body)
 		)
 	}
 
