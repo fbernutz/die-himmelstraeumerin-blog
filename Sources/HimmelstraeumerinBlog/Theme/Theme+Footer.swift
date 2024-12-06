@@ -19,9 +19,11 @@ extension Node where Context == HTML.BodyContext {
 				.text(".")
 			),
 			.p(
-				.linkToTwitter,
-				.separator,
 				.linkToMastodon,
+				.separator,
+				.linkToBsky,
+				.separator,
+				.linkToTwitter,
 				.separator,
 				.linkToGithub,
 				.separator,
@@ -70,6 +72,14 @@ private extension Node where Context == HTML.BodyContext {
 			.attribute(named: "rel", value: "me noreferrer")
 	)
 
+	static let linkToBsky: Self =
+		.a(
+			.text("Bluesky 🦋"),
+			.href("https://bsky.app/profile/felibe444.bsky.social"),
+			.target(.blank),
+			.rel(.noreferrer)
+	)
+
 	static let linkToGithub: Self =
 		.a(
 			.text("GitHub 👩‍💻"),
@@ -80,8 +90,8 @@ private extension Node where Context == HTML.BodyContext {
 
 	static let linkToInstagram: Self =
 		.a(
-			.text("Instagram (🔒)"),
-			.href("https://www.instagram.com/diehimmelstraeumerin/"),
+			.text("Instagram 📷"),
+			.href("https://www.instagram.com/felibe444/"),
 			.target(.blank),
 			.rel(.noreferrer)
 	)
