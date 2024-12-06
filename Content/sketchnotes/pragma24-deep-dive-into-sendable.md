@@ -1,7 +1,7 @@
 ---
 date: 2024-10-30 15:30
 description: Sketchnote of a talk at Pragma Conference 2024 about sendable.
-tags: pragma, iOS, sendable, swift
+tags: conference, pragma-24, iOS, sendable, swift
 image: images/sketchnotes/pragma24-deep-dive-into-sendable-small.jpg
 sketchnoteMetadata.contentCreator: Tim Condon
 sketchnoteMetadata.linkToContentCreator: https://bsky.app/profile/0xtim.bsky.social

@@ -1,7 +1,7 @@
 ---
 date: 2024-10-29 10:34
 description: Sketchnote of a talk at Pragma Conference 2024 about SwiftUI Animation.
-tags: pragma, iOS, swiftui, animations
+tags: conference, pragma-24, iOS, swiftui, animations
 image: images/sketchnotes/pragma24-swiftui-animation-under-the-hood-small.jpg
 sketchnoteMetadata.contentCreator: Chris Eidhof
 sketchnoteMetadata.linkToContentCreator: https://bsky.app/profile/eidhof.nl

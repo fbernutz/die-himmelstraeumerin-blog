@@ -1,7 +1,7 @@
 ---
 date: 2024-10-29 16:35
 description: Sketchnote of a talk at Pragma Conference 2024 about sentiment analysis.
-tags: pragma, iOS, sentiment-analysis
+tags: conference, pragma-24, iOS, sentiment-analysis
 image: images/sketchnotes/pragma24-getting-sentimental-small.jpg
 sketchnoteMetadata.contentCreator: Anna Beltrami
 sketchnoteMetadata.linkToContentCreator: https://bsky.app/profile/acbdev.bsky.social

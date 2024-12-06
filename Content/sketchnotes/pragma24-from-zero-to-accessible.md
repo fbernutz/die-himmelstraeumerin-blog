@@ -1,7 +1,7 @@
 ---
 date: 2024-10-29 12:23
 description: Sketchnote of a talk at Pragma Conference 2024 about accessibility.
-tags: pragma, iOS, accessibility
+tags: conference, pragma-24, iOS, accessibility
 image: images/sketchnotes/pragma24-from-zero-to-accessible-small.jpg
 sketchnoteMetadata.contentCreator: Robin Kanatzar
 sketchnoteMetadata.linkToContentCreator: https://bsky.app/profile/robinkanatzar.bsky.social
