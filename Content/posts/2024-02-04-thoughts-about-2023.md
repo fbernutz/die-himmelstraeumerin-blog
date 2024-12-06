@@ -37,7 +37,7 @@ I loved how traveling by train or bus made me more aware of the distance, forcin
 
 One downside of train travel is the high cost of tickets. I can’t understand why train travel is more expensive than flights. It should be the other way around for many reasons...
 
-Most of the time, I traveled alone. I learned a lot about my boundaries, how much stress, changes in plans and uncertainty I can bare and which decisions I want to take and which I don’t. Being a picky eater, navigating foreign menus without understanding the language was a challenge. But I wasn’t starving during my trips, it just took me a lot of energy, especially since I get easily "hangry". 🤣
+Most of the time, I traveled alone. I learned a lot about my boundaries, how much stress, changes in plans and uncertainty I can bare and which decisions I want to take and which I don’t. Being a picky eater, navigating foreign menus without understanding the language was a challenge. But I wasn’t starving during my trips, it just took me a lot of energy, especially since I get easily “hangry”. 🤣
 
 At the end of my trip to Spain, I found myself stranded in the middle of the night at a bus station because Flixbus left ealier than planned without notifying me. So I was not speaking the language, unfamiliar with the culture, and uncertain about whether it’s safe as a woman alone at night. I just wanted to be finally home again. I was so glad I could call my partner and he would patiently listen to me both crying and complaining, and in the end organize a hotel and an alternative way back home.
 

@@ -6,7 +6,7 @@ image: images/2023-04-18-mixit-talk/preview.jpg
 ---
 # MiXiT 2023: My First Conference as a Speaker
 
-> You can now re-watch the [talk "Why is being different actually a good thing? – My Way Into Tech"](https://vimeo.com/819077754) on vimeo.
+> You can now re-watch the [talk “Why is being different actually a good thing? – My Way Into Tech”](https://vimeo.com/819077754) on vimeo.
 
 Last week, I gave my very first external [conference talk at MiXiT conference](https://mixitconf.org/2023/why-is-being-different-actually-a-good-thing-my-way-into-tech) in Lyon, France! Yay! 🥳
 

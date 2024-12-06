@@ -1,6 +1,6 @@
 ---
 date: 2023-03-10 21:31
-description: I’ve always silently struggled with the conflict of trying to make the content that I create as accessible as possible and on the other side I create these completely inaccessible sketchnotes because they’re made of images and not text. I used to add image descriptions to the sketchnotes, but the descriptions were quite short and very non-descriptive. Usually it just was something like "Sketchnote about X, Y, Z" and that’s it. But I want to do better!
+description: I’ve always silently struggled with the conflict of trying to make the content that I create as accessible as possible and on the other side I create these completely inaccessible sketchnotes because they’re made of images and not text. I used to add image descriptions to the sketchnotes, but the descriptions were quite short and very non-descriptive. Usually it just was something like “Sketchnote about X, Y, Z” and that’s it. But I want to do better!
 tags: accessibility, sketchnoting, image-descriptions
 image: images/2023-03-10-detailed-image-descriptions/preview.jpg
 ---
@@ -30,7 +30,7 @@ As you might or might not know, I love sketchnoting. It’s a brilliant techniqu
 
 ## My Inner Struggle
 
-**I’ve always silently struggled with the conflict** of trying to make the content that I create as accessible as possible and on the other side I create these completely inaccessible sketchnotes because they’re made of images and not text. I used to add image descriptions to the sketchnotes, but the descriptions were quite short and very non-descriptive. Usually it just was something like "Sketchnote about X, Y, Z" and that’s it.
+**I’ve always silently struggled with the conflict** of trying to make the content that I create as accessible as possible and on the other side I create these completely inaccessible sketchnotes because they’re made of images and not text. I used to add image descriptions to the sketchnotes, but the descriptions were quite short and very non-descriptive. Usually it just was something like “Sketchnote about X, Y, Z” and that’s it.
 
 <figure>
     <img src="../../images/2023-03-10-detailed-image-descriptions/twitter-alt-badge-preview.png" alt="Screenshot from a past tweet of a sketchnote from Anna. There’s a pop up open with the alt text of the sketchnote, reading: Sketchnote of iOSDevUK talk by Anna Beltrami about the power of iPad playgrounds" />

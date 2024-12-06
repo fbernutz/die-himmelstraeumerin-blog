@@ -9,9 +9,9 @@ image: images/2024-05-16-accessibility-uncovered-with-reveal/preview.jpg
 
 Today is **Global Accessibility Awareness Day**, a perfect time to reflect on how we can make our iOS apps more inclusive. Imagine trying to use an app where you can’t read the text, interact with buttons, or navigate at all. Sounds unnecessarily frustrating, right? That’s still sadly the reality for many people who are dependent on assistive technologies in their life. But as developers, we have the power to ensure our apps are accessible and usable for everyone.
 
-But let's be real—spotting accessibility issues can feel tricky and overwhelming. That's where the **[Reveal app](https://revealapp.com/#accessibility) by Itty Bitty Apps** comes to the rescue! 🦸‍♂️🦸‍♀️ It's my secret weapon for uncovering accessibility bugs that can slip through the cracks.
+But let’s be real—spotting accessibility issues can feel tricky and overwhelming. That’s where the **[Reveal app](https://revealapp.com/#accessibility) by Itty Bitty Apps** comes to the rescue! 🦸‍♂️🦸‍♀️ It’s my secret weapon for uncovering accessibility bugs that can slip through the cracks.
 
-In this post, I’ll share how Reveal makes my life easier by helping to test and identify accessibility issues in iOS apps. It's like having X-ray vision for your app’s UI! Let’s dive in and see how the tool can help you make your apps better for everyone. 🚀
+In this post, I’ll share how Reveal makes my life easier by helping to test and identify accessibility issues in iOS apps. It’s like having X-ray vision for your app’s UI! Let’s dive in and see how the tool can help you make your apps better for everyone. 🚀
 
 ## Setting up Reveal App Locally
 
@@ -23,14 +23,14 @@ In this post, I’ll share how Reveal makes my life easier by helping to test an
 
 ## Unveiling the Magic of Reveal App
 
-Alright, let's get into the good stuff. ✨ Here are some of the features of Reveal:
+Alright, let’s get into the good stuff. ✨ Here are some of the features of Reveal:
 
 ### 1. Insights Workspace
 
 The insights workspace is a [recent addition to Reveal](https://revealapp.com/news/introducing-insights-and-new-pricing/#introducing-insights) (added October 2023). You can audit your app for best practices and guidelines with more than 130 rules that pinpoint areas of improvement. The rules include the following categories:
 
 * [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
-* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) A, AA and AAA – Web Content Accessibility Guidelines how to make the digital world more accessible. As example, one of the criteria is that [colors should not be used as the only way to convey content or distinguish visual elements](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color). There's a [quick reference guide](https://guia-wcag.com/en/) for an easier overview of the criteria.
+* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) A, AA and AAA – Web Content Accessibility Guidelines how to make the digital world more accessible. As example, one of the criteria is that [colors should not be used as the only way to convey content or distinguish visual elements](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color). There’s a [quick reference guide](https://guia-wcag.com/en/) for an easier overview of the criteria.
 * Accessibility Best Practices
 * UIKit Best Practices, like broken constraints
 * Color Contrast
