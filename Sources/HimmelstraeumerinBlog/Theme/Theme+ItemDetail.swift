@@ -112,7 +112,7 @@ private extension Node where Context == HTML.BodyContext {
 			.p(
 				.text("Sketch by"),
 				.a(
-					.href("https://twitter.com/felibe444"),
+					.href("https://bsky.app/profile/felibe444.bsky.social"),
 					.text("@felibe444"),
 					.target(.blank),
 					.rel(.noreferrer)
