@@ -34,6 +34,6 @@ Resources:
 
 Swift:
 - Improper usage of Structs, like nesting types is expensive, reference types in structs, mutability in Structs
-- Unused code: unnessesary dynamic dispatch, only add protocols to structs if needed
+- Unused code: unnecessary dynamic dispatch, only add protocols to structs if needed
 
 - Start Simple
