@@ -1,7 +1,7 @@
 ---
 date: 2024-06-11 18:32
 description: Sketchnote of WWDC 2024 State of the union with details about news in iOS 18, iPadOS 18, watchOS 11, Swift, SwiftUI, APIs and frameworks
-tags: apple, wwdc, wwdc-24, iOS, online-conference, swift, iPadOS, watchOS, macOS, ai, apple-intelligence
+tags: apple, wwdc, wwdc-24, iOS, online-conference, swift, iPadOS, watchOS, macOS, AI, apple-intelligence
 image: images/sketchnotes/wwdc24-state-of-the-union-small.jpg
 title: WWDC 2024: Platforms State of the Union
 ---

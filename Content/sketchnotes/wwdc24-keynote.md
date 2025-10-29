@@ -1,7 +1,7 @@
 ---
 date: 2024-06-10 20:46
 description: Sketchnote of WWDC Keynote 2024 with announcements of iOS 18, iPadOS 18, macOS and Apple Intelligence
-tags: apple, wwdc, wwdc-24, iOS, online-conference, swift, iPadOS, watchOS, macOS, ai, apple-intelligence
+tags: apple, wwdc, wwdc-24, iOS, online-conference, swift, iPadOS, watchOS, macOS, AI, apple-intelligence
 image: images/sketchnotes/wwdc24-keynote-small.jpg
 title: WWDC 2024: Keynote
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2025-09-03 15:02
 description: Sketchnote about workplace happiness from Shift Island 2025
-tags: swiftisland, swiftisland25, workplace
+tags: swiftisland, swiftisland-25, workplace
 image: images/sketchnotes/swiftisland25-workplace-happiness-small.jpg
 sketchnoteMetadata.contentCreator: Fennande van der Meulen
 sketchnoteMetadata.linkToContentCreator: https://www.linkedin.com/in/fennande/

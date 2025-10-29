@@ -1,7 +1,7 @@
 ---
 date: 2025-09-04 14:38
 description: Sketchnote about how to bring a game like blackbox to the vision pro from Shift Island 2025
-tags: swiftisland, swiftisland25, design
+tags: swiftisland, swiftisland-25, design
 image: images/sketchnotes/swiftisland25-blackbox-evolved-small.jpg
 sketchnoteMetadata.contentCreator: Ryan McLeod
 sketchnoteMetadata.linkToContentCreator: https://mastodon.social/@warpling
