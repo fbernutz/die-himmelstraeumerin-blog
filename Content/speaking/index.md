@@ -10,7 +10,7 @@ I love to talk about things I’m passionate about, like accessibility, design s
 - 11/2020: 30-minute remote edition at [NSSpain][nsspain20]
 
 <figure style="max-width: 600px">
-    <img src="../../images/speaking/sketchnoting-workshop.jpg" alt="" />
+    <img src="../../images/speaking/sketchnoting-workshop.jpg" alt="A collage with impressions of the sketchnoting workshop at SwiftLeeds. Including Feli sitting in front of a monitor with a group of people participating and details of sketchnotes created during the workshop." />
     <figcaption>Giving sketchnoting workshops at SwiftLeeds 2025.</figcaption>
 </figure>
 
