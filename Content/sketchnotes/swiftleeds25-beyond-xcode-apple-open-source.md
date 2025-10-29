@@ -1,7 +1,7 @@
 ---
 date: 2025-10-07 15:09
 description: Sketchnote for a talk titled "Beyond Xcode: exploring Apple’s open-source offerings" from SwiftLeeds 2025, featuring various topics related to Swift development. Highlights include Google Protobuf, Swift Numerics, Swift Markdown, Swift Binary Parsing, and more
-tags: swiftleeds, swiftleeds-25, apple, swift, open-source, conference
+tags: swiftleeds, swiftleeds-25, apple, swift, open-source, conference, swift-packages
 image: images/sketchnotes/swiftleeds25-beyond-xcode-apple-open-source-small.jpg
 sketchnoteMetadata.contentCreator: Eric Bariaux
 sketchnoteMetadata.linkToContentCreator: https://mastodon.social/@ebariaux
