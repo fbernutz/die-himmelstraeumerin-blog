@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-15
+    runs-on: macos-latest
 
     steps:
     - name: Checkout
@@ -37,7 +37,7 @@ jobs:
       run: publish-cli generate
 
     - name: Deploy Content
-      uses: peaceiris/actions-gh-pages@v4.0.0
+      uses: peaceiris/actions-gh-pages@v4.1.0
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         external_repository: fbernutz/fbernutz.github.io
